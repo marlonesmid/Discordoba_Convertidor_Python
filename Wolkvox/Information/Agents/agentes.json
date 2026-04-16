@@ -1,0 +1,340 @@
+{
+    "code": "200",
+    "error": null,
+    "msg": "37 records were found",
+    "data": [
+        {
+            "agent_id": "12580",
+            "agent_name": "Marcela Giraldo",
+            "agent_dni": "43741169",
+            "agent_status": "Logout",
+            "last_use": "2026-02-12 15:02:00",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12582",
+            "agent_name": "Laura Portillo",
+            "agent_dni": "1143165625",
+            "agent_status": "Ready",
+            "last_use": "2026-03-11 08:07:33",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12585",
+            "agent_name": "Lina Mayorga",
+            "agent_dni": "1022982409",
+            "agent_status": "Logout",
+            "last_use": "2026-03-10 08:03:45",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12588",
+            "agent_name": "Brenda Restrepo",
+            "agent_dni": "1031121568",
+            "agent_status": "Ready",
+            "last_use": "2026-03-11 08:21:15",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12592",
+            "agent_name": "Madela Gutiérrez",
+            "agent_dni": "1143250489",
+            "agent_status": "AUX",
+            "last_use": "2026-03-11 10:51:13",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12593",
+            "agent_name": "Paula Gonzalez",
+            "agent_dni": "43877181",
+            "agent_status": "AUX",
+            "last_use": "2026-03-11 12:27:29",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12597",
+            "agent_name": "Luisa Gómez",
+            "agent_dni": "1216719616",
+            "agent_status": "Logout",
+            "last_use": "2026-03-11 12:33:26",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12601",
+            "agent_name": "Joanna Molina",
+            "agent_dni": "1047336655",
+            "agent_status": "Ready",
+            "last_use": "2026-03-11 08:19:13",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12610",
+            "agent_name": "Jimena Montealegre",
+            "agent_dni": "1144172466",
+            "agent_status": "Logout",
+            "last_use": "2026-03-10 08:31:23",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12615",
+            "agent_name": "Anderson Pulido",
+            "agent_dni": "1010170695",
+            "agent_status": "Logout",
+            "last_use": "2026-02-25 10:07:49",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12618",
+            "agent_name": "Jacqueline Murcia",
+            "agent_dni": "52861950",
+            "agent_status": "Ready",
+            "last_use": "2026-03-11 08:55:24",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12620",
+            "agent_name": "Tatiana Villamil",
+            "agent_dni": "1013122250",
+            "agent_status": "Ready",
+            "last_use": "2026-03-11 12:42:04",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12626",
+            "agent_name": "Arelis Sanchez",
+            "agent_dni": "",
+            "agent_status": "Logout",
+            "last_use": "2026-02-05 17:57:47",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12672",
+            "agent_name": "Prueba",
+            "agent_dni": "1024504557",
+            "agent_status": "Logout",
+            "last_use": "2025-12-31 10:50:50",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12797",
+            "agent_name": "Laura Berrios",
+            "agent_dni": "1020448478",
+            "agent_status": "Logout",
+            "last_use": "2026-02-25 00:00:00",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12804",
+            "agent_name": "Camila Ramirez",
+            "agent_dni": "1010137342",
+            "agent_status": "Ready",
+            "last_use": "2026-03-11 10:29:59",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12811",
+            "agent_name": "Myriam Rodriguez",
+            "agent_dni": "37394269",
+            "agent_status": "Logout",
+            "last_use": "2026-02-25 00:00:00",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12815",
+            "agent_name": "Yesica Suarez",
+            "agent_dni": "1066179565",
+            "agent_status": "Logout",
+            "last_use": "2026-02-25 00:00:00",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12816",
+            "agent_name": "Beatriz Usma",
+            "agent_dni": "43748999",
+            "agent_status": "Logout",
+            "last_use": "2026-02-25 00:00:00",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12817",
+            "agent_name": "Paola Ramirez",
+            "agent_dni": "38888128",
+            "agent_status": "Logout",
+            "last_use": "2026-02-25 00:00:00",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12818",
+            "agent_name": "Lyda Galan",
+            "agent_dni": "46375186",
+            "agent_status": "Logout",
+            "last_use": "2026-02-25 00:00:00",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12829",
+            "agent_name": "Estefania Ramos",
+            "agent_dni": "",
+            "agent_status": "Logout",
+            "last_use": "2026-02-25 00:00:00",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12833",
+            "agent_name": "Alexandra Chavarro",
+            "agent_dni": "",
+            "agent_status": "Logout",
+            "last_use": "2026-02-25 00:00:00",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12839",
+            "agent_name": "Ana Carola Silva",
+            "agent_dni": "",
+            "agent_status": "Logout",
+            "last_use": "2026-02-25 00:00:00",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12855",
+            "agent_name": "Carmenza Barandica",
+            "agent_dni": "",
+            "agent_status": "Logout",
+            "last_use": "2026-02-25 00:00:00",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12878",
+            "agent_name": "Stefania Sanchez",
+            "agent_dni": "",
+            "agent_status": "Logout",
+            "last_use": "2026-02-25 00:00:00",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12895",
+            "agent_name": "Adriana Monsalve",
+            "agent_dni": "",
+            "agent_status": "Logout",
+            "last_use": "2026-02-12 00:00:00",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12906",
+            "agent_name": "Sandra Rodriguez",
+            "agent_dni": "52055354",
+            "agent_status": "Ready",
+            "last_use": "2026-03-11 11:04:18",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12907",
+            "agent_name": "Valentina Mora",
+            "agent_dni": "1000328210",
+            "agent_status": "AUX",
+            "last_use": "2026-03-11 10:30:22",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12911",
+            "agent_name": "Andrea Hernández",
+            "agent_dni": "1016054809",
+            "agent_status": "Logout",
+            "last_use": "2026-03-06 08:20:08",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12915",
+            "agent_name": "Laura Castellanos",
+            "agent_dni": "1014738239",
+            "agent_status": "AUX",
+            "last_use": "2026-03-11 08:06:17",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12919",
+            "agent_name": "Lidiana Londoño",
+            "agent_dni": "43727745",
+            "agent_status": "Ready",
+            "last_use": "2026-03-11 08:21:46",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12924",
+            "agent_name": "Derly Baracaldo",
+            "agent_dni": "1018482181",
+            "agent_status": "AUX",
+            "last_use": "2026-03-11 11:08:42",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12934",
+            "agent_name": "Tatiana Muñoz",
+            "agent_dni": "1107086149",
+            "agent_status": "Ready",
+            "last_use": "2026-03-11 12:36:54",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12978",
+            "agent_name": "Cristian Patiño",
+            "agent_dni": "1006238983",
+            "agent_status": "Logout",
+            "last_use": "2026-02-24 13:56:16",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12991",
+            "agent_name": "Marilu",
+            "agent_dni": "86000615",
+            "agent_status": "Logout",
+            "last_use": "2026-02-04 15:26:35",
+            "agent_sso": "",
+            "enabled": "yes"
+        },
+        {
+            "agent_id": "12996",
+            "agent_name": "Jazmín Hernández",
+            "agent_dni": "52427278",
+            "agent_status": "Ready",
+            "last_use": "2026-03-11 12:33:40",
+            "agent_sso": "",
+            "enabled": "yes"
+        }
+    ]
+}

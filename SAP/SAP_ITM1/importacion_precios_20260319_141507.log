@@ -1,0 +1,87 @@
+2026-03-19 14:15:07,644 - INFO - ================================================================================
+2026-03-19 14:15:07,645 - INFO - INICIANDO PROCESO DE IMPORTACIÓN DE PRECIOS
+2026-03-19 14:15:07,645 - INFO - ================================================================================
+2026-03-19 14:15:07,645 - INFO - Buscando archivo Excel...
+2026-03-19 14:15:07,645 - INFO - Directorio del script: C:\Convertidor\SAP\SAP_ITM1
+2026-03-19 14:15:07,646 - INFO - Archivos Excel encontrados: ITM1.xlsx
+2026-03-19 14:15:07,647 - INFO - Leyendo archivo: C:\Convertidor\SAP\SAP_ITM1\ITM1.xlsx
+2026-03-19 14:15:11,602 - INFO - Registros encontrados: 31293
+2026-03-19 14:15:11,602 - INFO - Columnas: PriceList, ItemCode, Price, Currency
+2026-03-19 14:15:11,602 - INFO - Conectando a SQL Server...
+2026-03-19 14:15:12,561 - INFO - ✓ Conexión establecida exitosamente
+2026-03-19 14:15:12,652 - INFO - Procesando 31293 registros de precios...
+2026-03-19 14:15:12,805 - ERROR - Fila 2 | PriceList: 1, ItemCode: EPPO1086/B IMLVITA LATTI | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:12,805 - ERROR - Fila 2 | PriceList: 1, ItemCode: EPPO1086/B IMLVITA LATTI | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:12,805 - ERROR -   Valores: PriceList=1, ItemCode=EPPO1086/B IMLVITA LATTI, Price=1,067.000, Currency=$
+2026-03-19 14:15:13,186 - ERROR - Fila 4 | PriceList: 1, ItemCode: EC2020BR80B | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:13,186 - ERROR - Fila 4 | PriceList: 1, ItemCode: EC2020BR80B | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:13,198 - ERROR -   Valores: PriceList=1, ItemCode=EC2020BR80B, Price=55,919.000, Currency=$
+2026-03-19 14:15:13,414 - ERROR - Fila 5 | PriceList: 1, ItemCode: CP6008X80 | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:13,414 - ERROR - Fila 5 | PriceList: 1, ItemCode: CP6008X80 | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:13,415 - ERROR -   Valores: PriceList=1, ItemCode=CP6008X80, Price=2,640.000, Currency=$
+2026-03-19 14:15:13,625 - ERROR - Fila 6 | PriceList: 2, ItemCode: EC2020BR80B | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:13,625 - ERROR - Fila 6 | PriceList: 2, ItemCode: EC2020BR80B | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:13,625 - ERROR -   Valores: PriceList=2, ItemCode=EC2020BR80B, Price=59,193.000, Currency=$
+2026-03-19 14:15:13,832 - ERROR - Fila 7 | PriceList: 3, ItemCode: EC2020BR80B | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:13,832 - ERROR - Fila 7 | PriceList: 3, ItemCode: EC2020BR80B | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:13,832 - ERROR -   Valores: PriceList=3, ItemCode=EC2020BR80B, Price=59,193.000, Currency=$
+2026-03-19 14:15:14,053 - ERROR - Fila 8 | PriceList: 4, ItemCode: EC2020BR80B | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:14,053 - ERROR - Fila 8 | PriceList: 4, ItemCode: EC2020BR80B | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:14,053 - ERROR -   Valores: PriceList=4, ItemCode=EC2020BR80B, Price=60,819.000, Currency=$
+2026-03-19 14:15:14,266 - ERROR - Fila 9 | PriceList: 7, ItemCode: EC2020BR80B | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:14,266 - ERROR - Fila 9 | PriceList: 7, ItemCode: EC2020BR80B | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:14,267 - ERROR -   Valores: PriceList=7, ItemCode=EC2020BR80B, Price=59,193.000, Currency=$
+2026-03-19 14:15:14,477 - ERROR - Fila 10 | PriceList: 10, ItemCode: EC2020BR80B | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:14,477 - ERROR - Fila 10 | PriceList: 10, ItemCode: EC2020BR80B | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:14,478 - ERROR -   Valores: PriceList=10, ItemCode=EC2020BR80B, Price=29,216.000, Currency=$
+2026-03-19 14:15:14,689 - ERROR - Fila 11 | PriceList: 1, ItemCode: EC5313BA99C | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:14,689 - ERROR - Fila 11 | PriceList: 1, ItemCode: EC5313BA99C | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:14,691 - ERROR -   Valores: PriceList=1, ItemCode=EC5313BA99C, Price=85,508.000, Currency=$
+2026-03-19 14:15:14,901 - ERROR - Fila 12 | PriceList: 2, ItemCode: EC5313BA99C | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:14,902 - ERROR - Fila 12 | PriceList: 2, ItemCode: EC5313BA99C | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:14,903 - ERROR -   Valores: PriceList=2, ItemCode=EC5313BA99C, Price=83,832.000, Currency=$
+2026-03-19 14:15:15,113 - ERROR - Fila 13 | PriceList: 3, ItemCode: EC5313BA99C | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:15,125 - ERROR - Fila 13 | PriceList: 3, ItemCode: EC5313BA99C | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:15,126 - ERROR -   Valores: PriceList=3, ItemCode=EC5313BA99C, Price=86,346.000, Currency=$
+2026-03-19 14:15:15,336 - ERROR - Fila 14 | PriceList: 4, ItemCode: EC5313BA99C | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:15,338 - ERROR - Fila 14 | PriceList: 4, ItemCode: EC5313BA99C | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:15,338 - ERROR -   Valores: PriceList=4, ItemCode=EC5313BA99C, Price=85,508.000, Currency=$
+2026-03-19 14:15:15,548 - ERROR - Fila 15 | PriceList: 7, ItemCode: EC5313BA99C | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:15,549 - ERROR - Fila 15 | PriceList: 7, ItemCode: EC5313BA99C | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:15,552 - ERROR -   Valores: PriceList=7, ItemCode=EC5313BA99C, Price=86,346.000, Currency=$
+2026-03-19 14:15:15,766 - ERROR - Fila 16 | PriceList: 1, ItemCode: EA4338BR4698P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:15,767 - ERROR - Fila 16 | PriceList: 1, ItemCode: EA4338BR4698P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:15,769 - ERROR -   Valores: PriceList=1, ItemCode=EA4338BR4698P, Price=2,758,399.000, Currency=$
+2026-03-19 14:15:15,981 - ERROR - Fila 17 | PriceList: 2, ItemCode: EA4338BR4698P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:15,982 - ERROR - Fila 17 | PriceList: 2, ItemCode: EA4338BR4698P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:15,982 - ERROR -   Valores: PriceList=2, ItemCode=EA4338BR4698P, Price=3,148,089.000, Currency=$
+2026-03-19 14:15:16,192 - ERROR - Fila 18 | PriceList: 2, ItemCode: CP6008X80 | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:16,193 - ERROR - Fila 18 | PriceList: 2, ItemCode: CP6008X80 | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:16,194 - ERROR -   Valores: PriceList=2, ItemCode=CP6008X80, Price=2,640.000, Currency=$
+2026-03-19 14:15:16,408 - ERROR - Fila 19 | PriceList: 3, ItemCode: CP6008X80 | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:16,408 - ERROR - Fila 19 | PriceList: 3, ItemCode: CP6008X80 | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:16,408 - ERROR -   Valores: PriceList=3, ItemCode=CP6008X80, Price=2,640.000, Currency=$
+2026-03-19 14:15:16,618 - ERROR - Fila 20 | PriceList: 4, ItemCode: CP6008X80 | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:16,619 - ERROR - Fila 20 | PriceList: 4, ItemCode: CP6008X80 | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:16,619 - ERROR -   Valores: PriceList=4, ItemCode=CP6008X80, Price=2,640.000, Currency=$
+2026-03-19 14:15:16,832 - ERROR - Fila 21 | PriceList: 3, ItemCode: EA4338BR4698P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:16,833 - ERROR - Fila 21 | PriceList: 3, ItemCode: EA4338BR4698P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:16,833 - ERROR -   Valores: PriceList=3, ItemCode=EA4338BR4698P, Price=3,148,089.000, Currency=$
+2026-03-19 14:15:17,043 - ERROR - Fila 22 | PriceList: 4, ItemCode: EA4338BR4698P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:17,044 - ERROR - Fila 22 | PriceList: 4, ItemCode: EA4338BR4698P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:17,044 - ERROR -   Valores: PriceList=4, ItemCode=EA4338BR4698P, Price=3,409,849.000, Currency=$
+2026-03-19 14:15:17,254 - ERROR - Fila 23 | PriceList: 5, ItemCode: EA4338BR4698P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:17,255 - ERROR - Fila 23 | PriceList: 5, ItemCode: EA4338BR4698P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:17,256 - ERROR -   Valores: PriceList=5, ItemCode=EA4338BR4698P, Price=856,715.898, Currency=$
+2026-03-19 14:15:17,469 - ERROR - Fila 24 | PriceList: 7, ItemCode: EA4338BR4698P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:17,469 - ERROR - Fila 24 | PriceList: 7, ItemCode: EA4338BR4698P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:17,471 - ERROR -   Valores: PriceList=7, ItemCode=EA4338BR4698P, Price=3,148,089.000, Currency=$
+2026-03-19 14:15:17,682 - ERROR - Fila 25 | PriceList: 1, ItemCode: EA4353BM4680P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:17,682 - ERROR - Fila 25 | PriceList: 1, ItemCode: EA4353BM4680P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:17,684 - ERROR -   Valores: PriceList=1, ItemCode=EA4353BM4680P, Price=3,964,679.000, Currency=$
+2026-03-19 14:15:17,894 - ERROR - Fila 26 | PriceList: 2, ItemCode: EA4353BM4680P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:17,895 - ERROR - Fila 26 | PriceList: 2, ItemCode: EA4353BM4680P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:17,895 - ERROR -   Valores: PriceList=2, ItemCode=EA4353BM4680P, Price=4,354,369.000, Currency=$
+2026-03-19 14:15:18,106 - ERROR - Fila 27 | PriceList: 3, ItemCode: EA4353BM4680P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:18,106 - ERROR - Fila 27 | PriceList: 3, ItemCode: EA4353BM4680P | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2026-03-19 14:15:18,107 - ERROR -   Valores: PriceList=3, ItemCode=EA4353BM4680P, Price=4,354,369.000, Currency=$

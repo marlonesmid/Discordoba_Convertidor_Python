@@ -1,0 +1,132 @@
+2026-02-12 20:45:09,070 - INFO - ================================================================================
+2026-02-12 20:45:09,070 - INFO - INICIANDO PROCESO DE IMPORTACIÓN
+2026-02-12 20:45:09,070 - INFO - ================================================================================
+2026-02-12 20:45:09,071 - INFO - Buscando archivo Excel...
+2026-02-12 20:45:09,071 - INFO - Directorio del script: C:\Convertidor\SAP OITM
+2026-02-12 20:45:09,071 - INFO - Archivos Excel encontrados: OITM.xlsx
+2026-02-12 20:45:09,072 - INFO - Leyendo archivo: C:\Convertidor\SAP OITM\OITM.xlsx
+2026-02-12 20:45:12,673 - INFO - Registros encontrados: 9906
+2026-02-12 20:45:12,678 - INFO - ✓ Columna DateUpdate omitida del Excel
+2026-02-12 20:45:12,679 - INFO - Conectando a SQL Server...
+2026-02-12 20:45:13,518 - INFO - ✓ Conexión establecida exitosamente
+2026-02-12 20:45:13,587 - INFO - Iniciando procesamiento de 9906 registros...
+2026-02-12 20:45:13,587 - INFO - Usando fecha/hora actual para DateUpdate: 2026-02-12 20:45:13.587002
+2026-02-12 20:45:37,003 - INFO - Progreso: 100/9906 (1.0%) - Insertados: 85, Actualizados: 15
+2026-02-12 20:46:02,136 - INFO - Progreso: 200/9906 (2.0%) - Insertados: 85, Actualizados: 115
+2026-02-12 20:46:27,045 - INFO - Progreso: 300/9906 (3.0%) - Insertados: 85, Actualizados: 215
+2026-02-12 20:46:51,368 - INFO - Progreso: 400/9906 (4.0%) - Insertados: 85, Actualizados: 315
+2026-02-12 20:47:15,688 - INFO - Progreso: 500/9906 (5.0%) - Insertados: 85, Actualizados: 415
+2026-02-12 20:47:40,614 - INFO - Progreso: 600/9906 (6.1%) - Insertados: 85, Actualizados: 515
+2026-02-12 20:48:05,723 - INFO - Progreso: 700/9906 (7.1%) - Insertados: 85, Actualizados: 615
+2026-02-12 20:48:30,123 - INFO - Progreso: 800/9906 (8.1%) - Insertados: 85, Actualizados: 715
+2026-02-12 20:48:54,802 - INFO - Progreso: 900/9906 (9.1%) - Insertados: 85, Actualizados: 815
+2026-02-12 20:49:19,676 - INFO - Progreso: 1000/9906 (10.1%) - Insertados: 85, Actualizados: 915
+2026-02-12 20:49:44,306 - INFO - Progreso: 1100/9906 (11.1%) - Insertados: 90, Actualizados: 1010
+2026-02-12 20:50:09,037 - INFO - Progreso: 1200/9906 (12.1%) - Insertados: 93, Actualizados: 1107
+2026-02-12 20:50:33,152 - INFO - Progreso: 1300/9906 (13.1%) - Insertados: 93, Actualizados: 1207
+2026-02-12 20:50:57,448 - INFO - Progreso: 1400/9906 (14.1%) - Insertados: 93, Actualizados: 1307
+2026-02-12 20:51:22,188 - INFO - Progreso: 1500/9906 (15.1%) - Insertados: 93, Actualizados: 1407
+2026-02-12 20:51:48,049 - INFO - Progreso: 1600/9906 (16.2%) - Insertados: 93, Actualizados: 1507
+2026-02-12 20:52:13,274 - INFO - Progreso: 1700/9906 (17.2%) - Insertados: 93, Actualizados: 1607
+2026-02-12 20:52:39,387 - INFO - Progreso: 1800/9906 (18.2%) - Insertados: 93, Actualizados: 1707
+2026-02-12 20:53:05,414 - INFO - Progreso: 1900/9906 (19.2%) - Insertados: 93, Actualizados: 1807
+2026-02-12 20:53:32,182 - INFO - Progreso: 2000/9906 (20.2%) - Insertados: 93, Actualizados: 1907
+2026-02-12 20:54:00,351 - INFO - Progreso: 2100/9906 (21.2%) - Insertados: 93, Actualizados: 2007
+2026-02-12 20:54:25,441 - INFO - Progreso: 2200/9906 (22.2%) - Insertados: 104, Actualizados: 2096
+2026-02-12 20:54:50,537 - INFO - Progreso: 2300/9906 (23.2%) - Insertados: 108, Actualizados: 2192
+2026-02-12 20:55:14,985 - INFO - Progreso: 2400/9906 (24.2%) - Insertados: 108, Actualizados: 2292
+2026-02-12 20:55:39,308 - INFO - Progreso: 2500/9906 (25.2%) - Insertados: 108, Actualizados: 2392
+2026-02-12 20:56:03,932 - INFO - Progreso: 2600/9906 (26.2%) - Insertados: 108, Actualizados: 2492
+2026-02-12 20:56:28,678 - INFO - Progreso: 2700/9906 (27.3%) - Insertados: 108, Actualizados: 2592
+2026-02-12 20:56:53,376 - INFO - Progreso: 2800/9906 (28.3%) - Insertados: 108, Actualizados: 2692
+2026-02-12 20:57:18,478 - INFO - Progreso: 2900/9906 (29.3%) - Insertados: 108, Actualizados: 2792
+2026-02-12 20:57:44,321 - INFO - Progreso: 3000/9906 (30.3%) - Insertados: 108, Actualizados: 2892
+2026-02-12 20:58:09,643 - INFO - Progreso: 3100/9906 (31.3%) - Insertados: 108, Actualizados: 2992
+2026-02-12 20:58:34,531 - INFO - Progreso: 3200/9906 (32.3%) - Insertados: 109, Actualizados: 3091
+2026-02-12 20:58:59,375 - INFO - Progreso: 3300/9906 (33.3%) - Insertados: 109, Actualizados: 3191
+2026-02-12 20:59:24,548 - INFO - Progreso: 3400/9906 (34.3%) - Insertados: 109, Actualizados: 3291
+2026-02-12 20:59:50,339 - INFO - Progreso: 3500/9906 (35.3%) - Insertados: 109, Actualizados: 3391
+2026-02-12 21:00:16,490 - INFO - Progreso: 3600/9906 (36.3%) - Insertados: 109, Actualizados: 3491
+2026-02-12 21:00:42,474 - INFO - Progreso: 3700/9906 (37.4%) - Insertados: 109, Actualizados: 3591
+2026-02-12 21:01:11,224 - INFO - Progreso: 3800/9906 (38.4%) - Insertados: 109, Actualizados: 3691
+2026-02-12 21:01:37,456 - INFO - Progreso: 3900/9906 (39.4%) - Insertados: 111, Actualizados: 3789
+2026-02-12 21:02:03,589 - INFO - Progreso: 4000/9906 (40.4%) - Insertados: 111, Actualizados: 3889
+2026-02-12 21:02:29,206 - INFO - Progreso: 4100/9906 (41.4%) - Insertados: 111, Actualizados: 3989
+2026-02-12 21:02:54,366 - INFO - Progreso: 4200/9906 (42.4%) - Insertados: 112, Actualizados: 4088
+2026-02-12 21:03:19,752 - INFO - Progreso: 4300/9906 (43.4%) - Insertados: 119, Actualizados: 4181
+2026-02-12 21:03:44,989 - INFO - Progreso: 4400/9906 (44.4%) - Insertados: 120, Actualizados: 4280
+2026-02-12 21:04:10,781 - INFO - Progreso: 4500/9906 (45.4%) - Insertados: 121, Actualizados: 4379
+2026-02-12 21:04:36,941 - INFO - Progreso: 4600/9906 (46.4%) - Insertados: 121, Actualizados: 4479
+2026-02-12 21:05:02,947 - INFO - Progreso: 4700/9906 (47.4%) - Insertados: 121, Actualizados: 4579
+2026-02-12 21:05:29,182 - INFO - Progreso: 4800/9906 (48.5%) - Insertados: 122, Actualizados: 4678
+2026-02-12 21:05:55,443 - INFO - Progreso: 4900/9906 (49.5%) - Insertados: 122, Actualizados: 4778
+2026-02-12 21:06:21,785 - INFO - Progreso: 5000/9906 (50.5%) - Insertados: 122, Actualizados: 4878
+2026-02-12 21:06:47,943 - INFO - Progreso: 5100/9906 (51.5%) - Insertados: 122, Actualizados: 4978
+2026-02-12 21:07:13,909 - INFO - Progreso: 5200/9906 (52.5%) - Insertados: 122, Actualizados: 5078
+2026-02-12 21:07:39,741 - INFO - Progreso: 5300/9906 (53.5%) - Insertados: 122, Actualizados: 5178
+2026-02-12 21:08:06,054 - INFO - Progreso: 5400/9906 (54.5%) - Insertados: 123, Actualizados: 5277
+2026-02-12 21:08:32,102 - INFO - Progreso: 5500/9906 (55.5%) - Insertados: 124, Actualizados: 5376
+2026-02-12 21:08:58,477 - INFO - Progreso: 5600/9906 (56.5%) - Insertados: 124, Actualizados: 5476
+2026-02-12 21:09:24,855 - INFO - Progreso: 5700/9906 (57.5%) - Insertados: 124, Actualizados: 5576
+2026-02-12 21:09:50,911 - INFO - Progreso: 5800/9906 (58.6%) - Insertados: 124, Actualizados: 5676
+2026-02-12 21:10:17,158 - INFO - Progreso: 5900/9906 (59.6%) - Insertados: 124, Actualizados: 5776
+2026-02-12 21:10:43,567 - INFO - Progreso: 6000/9906 (60.6%) - Insertados: 124, Actualizados: 5876
+2026-02-12 21:11:09,852 - INFO - Progreso: 6100/9906 (61.6%) - Insertados: 124, Actualizados: 5976
+2026-02-12 21:11:36,610 - INFO - Progreso: 6200/9906 (62.6%) - Insertados: 126, Actualizados: 6074
+2026-02-12 21:12:02,742 - INFO - Progreso: 6300/9906 (63.6%) - Insertados: 127, Actualizados: 6173
+2026-02-12 21:12:29,608 - INFO - Progreso: 6400/9906 (64.6%) - Insertados: 128, Actualizados: 6272
+2026-02-12 21:12:57,646 - INFO - Progreso: 6500/9906 (65.6%) - Insertados: 128, Actualizados: 6372
+2026-02-12 21:13:23,837 - INFO - Progreso: 6600/9906 (66.6%) - Insertados: 128, Actualizados: 6472
+2026-02-12 21:13:50,710 - INFO - Progreso: 6700/9906 (67.6%) - Insertados: 128, Actualizados: 6572
+2026-02-12 21:14:17,391 - INFO - Progreso: 6800/9906 (68.6%) - Insertados: 130, Actualizados: 6670
+2026-02-12 21:14:44,609 - INFO - Progreso: 6900/9906 (69.7%) - Insertados: 130, Actualizados: 6770
+2026-02-12 21:15:11,661 - INFO - Progreso: 7000/9906 (70.7%) - Insertados: 130, Actualizados: 6870
+2026-02-12 21:15:37,379 - INFO - Progreso: 7100/9906 (71.7%) - Insertados: 132, Actualizados: 6968
+2026-02-12 21:16:03,760 - INFO - Progreso: 7200/9906 (72.7%) - Insertados: 132, Actualizados: 7068
+2026-02-12 21:16:30,364 - INFO - Progreso: 7300/9906 (73.7%) - Insertados: 132, Actualizados: 7168
+2026-02-12 21:16:57,484 - INFO - Progreso: 7400/9906 (74.7%) - Insertados: 133, Actualizados: 7267
+2026-02-12 21:17:25,024 - INFO - Progreso: 7500/9906 (75.7%) - Insertados: 133, Actualizados: 7367
+2026-02-12 21:17:51,898 - INFO - Progreso: 7600/9906 (76.7%) - Insertados: 133, Actualizados: 7467
+2026-02-12 21:18:19,274 - INFO - Progreso: 7700/9906 (77.7%) - Insertados: 133, Actualizados: 7567
+2026-02-12 21:18:46,075 - INFO - Progreso: 7800/9906 (78.7%) - Insertados: 133, Actualizados: 7667
+2026-02-12 21:19:13,213 - INFO - Progreso: 7900/9906 (79.7%) - Insertados: 133, Actualizados: 7767
+2026-02-12 21:19:40,257 - INFO - Progreso: 8000/9906 (80.8%) - Insertados: 133, Actualizados: 7867
+2026-02-12 21:20:06,471 - INFO - Progreso: 8100/9906 (81.8%) - Insertados: 135, Actualizados: 7965
+2026-02-12 21:20:32,660 - INFO - Progreso: 8200/9906 (82.8%) - Insertados: 135, Actualizados: 8065
+2026-02-12 21:20:59,146 - INFO - Progreso: 8300/9906 (83.8%) - Insertados: 135, Actualizados: 8165
+2026-02-12 21:21:25,934 - INFO - Progreso: 8400/9906 (84.8%) - Insertados: 135, Actualizados: 8265
+2026-02-12 21:21:53,221 - INFO - Progreso: 8500/9906 (85.8%) - Insertados: 135, Actualizados: 8365
+2026-02-12 21:22:20,201 - INFO - Progreso: 8600/9906 (86.8%) - Insertados: 135, Actualizados: 8465
+2026-02-12 21:22:47,661 - INFO - Progreso: 8700/9906 (87.8%) - Insertados: 135, Actualizados: 8565
+2026-02-12 21:23:14,947 - INFO - Progreso: 8800/9906 (88.8%) - Insertados: 135, Actualizados: 8665
+2026-02-12 21:23:41,861 - INFO - Progreso: 8900/9906 (89.8%) - Insertados: 135, Actualizados: 8765
+2026-02-12 21:24:08,535 - INFO - Progreso: 9000/9906 (90.9%) - Insertados: 137, Actualizados: 8863
+2026-02-12 21:24:35,190 - INFO - Progreso: 9100/9906 (91.9%) - Insertados: 137, Actualizados: 8963
+2026-02-12 21:25:01,920 - INFO - Progreso: 9200/9906 (92.9%) - Insertados: 138, Actualizados: 9062
+2026-02-12 21:25:29,085 - INFO - Progreso: 9300/9906 (93.9%) - Insertados: 138, Actualizados: 9162
+2026-02-12 21:25:56,065 - INFO - Progreso: 9400/9906 (94.9%) - Insertados: 139, Actualizados: 9261
+2026-02-12 21:26:23,483 - INFO - Progreso: 9500/9906 (95.9%) - Insertados: 140, Actualizados: 9360
+2026-02-12 21:26:50,855 - INFO - Progreso: 9600/9906 (96.9%) - Insertados: 141, Actualizados: 9459
+2026-02-12 21:27:19,428 - INFO - Progreso: 9700/9906 (97.9%) - Insertados: 141, Actualizados: 9559
+2026-02-12 21:27:46,642 - INFO - Progreso: 9800/9906 (98.9%) - Insertados: 142, Actualizados: 9658
+2026-02-12 21:28:13,874 - INFO - Progreso: 9900/9906 (99.9%) - Insertados: 142, Actualizados: 9758
+2026-02-12 21:28:15,609 - INFO - 
+================================================================================
+2026-02-12 21:28:15,610 - INFO - RESUMEN DE IMPORTACIÓN
+2026-02-12 21:28:15,610 - INFO - ================================================================================
+2026-02-12 21:28:15,610 - INFO - Archivo procesado: OITM.xlsx
+2026-02-12 21:28:15,610 - INFO - Total registros en Excel: 9906
+2026-02-12 21:28:15,611 - INFO - Nuevos insertados: 142
+2026-02-12 21:28:15,611 - INFO - Actualizados: 9764
+2026-02-12 21:28:15,611 - INFO - Errores: 0
+2026-02-12 21:28:15,611 - INFO - Procesados exitosamente: 9906
+2026-02-12 21:28:15,612 - INFO - Tasa de éxito: 100.00%
+2026-02-12 21:28:15,612 - INFO - Tiempo total: 2586.54 segundos
+2026-02-12 21:28:15,612 - INFO - Velocidad: 3.83 registros/segundo
+2026-02-12 21:28:15,612 - INFO - 
+Archivos de log generados:
+2026-02-12 21:28:15,612 - INFO -   - Log general: importacion_20260212_204509.log
+2026-02-12 21:28:15,613 - INFO -   - Log de errores: errores_20260212_204509.log
+2026-02-12 21:28:15,613 - INFO - ================================================================================
+2026-02-12 21:28:15,613 - INFO - ✓ Proceso completado sin errores
+2026-02-12 21:28:15,745 - INFO - ✓ Conexión cerrada

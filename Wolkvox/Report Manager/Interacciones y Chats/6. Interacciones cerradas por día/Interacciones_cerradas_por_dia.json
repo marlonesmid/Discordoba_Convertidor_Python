@@ -1,0 +1,97 @@
+{
+    "code": "200",
+    "error": null,
+    "msg": "18 records were found",
+    "data": [
+        {
+            "date": "2026-01-16",
+            "interactions": "1",
+            "close_time": "838:59:59"
+        },
+        {
+            "date": "2026-01-27",
+            "interactions": "2",
+            "close_time": "838:15:00"
+        },
+        {
+            "date": "2026-02-23",
+            "interactions": "1",
+            "close_time": "214:47:05"
+        },
+        {
+            "date": "2026-02-25",
+            "interactions": "2",
+            "close_time": "155:46:12"
+        },
+        {
+            "date": "2026-02-26",
+            "interactions": "3",
+            "close_time": "120:34:51"
+        },
+        {
+            "date": "2026-02-27",
+            "interactions": "14",
+            "close_time": "91:39:33"
+        },
+        {
+            "date": "2026-02-28",
+            "interactions": "8",
+            "close_time": "73:06:41"
+        },
+        {
+            "date": "2026-03-01",
+            "interactions": "3",
+            "close_time": "41:40:00"
+        },
+        {
+            "date": "2026-03-02",
+            "interactions": "52",
+            "close_time": "24:48:38"
+        },
+        {
+            "date": "2026-03-03",
+            "interactions": "74",
+            "close_time": "09:20:16"
+        },
+        {
+            "date": "2026-03-04",
+            "interactions": "73",
+            "close_time": "15:18:14"
+        },
+        {
+            "date": "2026-03-05",
+            "interactions": "14",
+            "close_time": "42:43:58"
+        },
+        {
+            "date": "2026-03-06",
+            "interactions": "70",
+            "close_time": "67:48:57"
+        },
+        {
+            "date": "2026-03-07",
+            "interactions": "8",
+            "close_time": "95:58:46"
+        },
+        {
+            "date": "2026-03-08",
+            "interactions": "1",
+            "close_time": "72:20:11"
+        },
+        {
+            "date": "2026-03-09",
+            "interactions": "52",
+            "close_time": "48:23:58"
+        },
+        {
+            "date": "2026-03-10",
+            "interactions": "50",
+            "close_time": "26:16:59"
+        },
+        {
+            "date": "2026-03-11",
+            "interactions": "33",
+            "close_time": "04:26:33"
+        }
+    ]
+}

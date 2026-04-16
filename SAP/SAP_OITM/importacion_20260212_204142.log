@@ -1,0 +1,13 @@
+2026-02-12 20:41:42,282 - INFO - ================================================================================
+2026-02-12 20:41:42,283 - INFO - INICIANDO PROCESO DE IMPORTACIÓN
+2026-02-12 20:41:42,283 - INFO - ================================================================================
+2026-02-12 20:41:42,283 - INFO - Buscando archivo Excel...
+2026-02-12 20:41:42,283 - INFO - Directorio del script: C:\Convertidor\SAP OITM
+2026-02-12 20:41:42,283 - INFO - Archivos Excel encontrados: OITM.xlsx
+2026-02-12 20:41:42,285 - INFO - Leyendo archivo: C:\Convertidor\SAP OITM\OITM.xlsx
+2026-02-12 20:41:46,242 - INFO - Registros encontrados: 9906
+2026-02-12 20:41:46,248 - INFO - ✓ Columna DateUpdate omitida del Excel
+2026-02-12 20:41:46,249 - INFO - Conectando a SQL Server...
+2026-02-12 20:41:47,089 - INFO - ✓ Conexión establecida exitosamente
+2026-02-12 20:41:47,159 - INFO - Iniciando procesamiento de 9906 registros...
+2026-02-12 20:41:47,159 - INFO - Usando fecha/hora actual para DateUpdate: 2026-02-12 20:41:47.159238

@@ -1,0 +1,162 @@
+SELECT
+    "Orden",
+    "Signo"                                             AS "+/-",
+    "Concepto",
+    SUM(CASE WHEN "Mes" = 1  THEN "Monto" ELSE 0 END)  AS "Enero 2025",
+    SUM(CASE WHEN "Mes" = 2  THEN "Monto" ELSE 0 END)  AS "Febrero 2025",
+    SUM(CASE WHEN "Mes" = 3  THEN "Monto" ELSE 0 END)  AS "Marzo 2025",
+    SUM(CASE WHEN "Mes" = 4  THEN "Monto" ELSE 0 END)  AS "Abril 2025",
+    SUM(CASE WHEN "Mes" = 5  THEN "Monto" ELSE 0 END)  AS "Mayo 2025",
+    SUM(CASE WHEN "Mes" = 6  THEN "Monto" ELSE 0 END)  AS "Junio 2025",
+    SUM(CASE WHEN "Mes" = 7  THEN "Monto" ELSE 0 END)  AS "Julio 2025",
+    SUM(CASE WHEN "Mes" = 8  THEN "Monto" ELSE 0 END)  AS "Agosto 2025",
+    SUM(CASE WHEN "Mes" = 9  THEN "Monto" ELSE 0 END)  AS "Septiembre 2025",
+    SUM(CASE WHEN "Mes" = 10 THEN "Monto" ELSE 0 END)  AS "Octubre 2025",
+    SUM(CASE WHEN "Mes" = 11 THEN "Monto" ELSE 0 END)  AS "Noviembre 2025",
+    SUM(CASE WHEN "Mes" = 12 THEN "Monto" ELSE 0 END)  AS "Diciembre 2025",
+    SUM("Monto")                                        AS "Total 2025"
+FROM (
+
+    -- ── Fila 1: Valor Ingreso ────────────────────────────────
+    SELECT
+        1                       AS "Orden",
+        '+'                     AS "Signo",
+        'Valor Ingreso'         AS "Concepto",
+        MONTH(T0."RefDate")     AS "Mes",
+        T1."Debit"              AS "Monto"
+    FROM OJDT T0
+    INNER JOIN JDT1 T1
+        ON T0."TransId" = T1."TransId"
+    WHERE YEAR(T0."RefDate") = 2025
+      AND T0."TransType" = 24
+      AND T1."Debit" > 0
+
+    UNION ALL
+
+    -- ── Fila 2: Anulaciones y cancelaciones ──────────────────
+    SELECT
+        2                              AS "Orden",
+        '-'                            AS "Signo",
+        'Anulaciones y cancelaciones'  AS "Concepto",
+        MONTH(T0."CancelDate")         AS "Mes",
+        T2."Debit"                     AS "Monto"
+    FROM ORCT T0
+    INNER JOIN JDT1 T2
+        ON T0."DocEntry" = T2."CreatedBy"
+        AND T2."Debit" > 0
+    WHERE YEAR(T0."CancelDate") = 2025
+      AND T0."Canceled" = 'Y'
+
+    UNION ALL
+
+    -- ── Fila 3: Valor pagado cuenta contable 11050506 ────────
+    SELECT
+        3                                  AS "Orden",
+        '-'                                AS "Signo",
+        'Valor pagado cta. Faber Moncada'  AS "Concepto",
+        MONTH(T1."RefDate")                AS "Mes",
+        ABS(T1."Debit")                    AS "Monto"
+    FROM OJDT T0
+    INNER JOIN JDT1 T1
+        ON T0."TransId" = T1."TransId"
+    WHERE YEAR(T1."RefDate") = 2025
+      AND T1."Account"   = '11050506'
+      AND T1."Debit"     > 0
+      AND T0."TransType" = 24
+
+    UNION ALL
+
+    -- ── Fila 4: Descuentos comerciales ───────────────────────
+    SELECT
+        4                              AS "Orden",
+        '-'                            AS "Signo",
+        'Descuentos comerciales'       AS "Concepto",
+        MONTH(T1."RefDate")            AS "Mes",
+        ABS(T1."Debit")                AS "Monto"
+    FROM OJDT T0
+    INNER JOIN JDT1 T1
+        ON T0."TransId" = T1."TransId"
+    WHERE YEAR(T1."RefDate") = 2025
+      AND T1."Account"   = '53053501'
+      AND T1."Debit"     > 0
+      AND T0."TransType" = 24
+
+) BASE
+GROUP BY "Orden", "Signo", "Concepto"
+
+UNION ALL
+
+-- ── Fila 5: Total ─────────────────────────────────────────────
+SELECT
+    5              AS "Orden",
+    ''             AS "Signo",
+    'Total'        AS "Concepto",
+    SUM(CASE WHEN "Mes" = 1  THEN "Monto" ELSE 0 END),
+    SUM(CASE WHEN "Mes" = 2  THEN "Monto" ELSE 0 END),
+    SUM(CASE WHEN "Mes" = 3  THEN "Monto" ELSE 0 END),
+    SUM(CASE WHEN "Mes" = 4  THEN "Monto" ELSE 0 END),
+    SUM(CASE WHEN "Mes" = 5  THEN "Monto" ELSE 0 END),
+    SUM(CASE WHEN "Mes" = 6  THEN "Monto" ELSE 0 END),
+    SUM(CASE WHEN "Mes" = 7  THEN "Monto" ELSE 0 END),
+    SUM(CASE WHEN "Mes" = 8  THEN "Monto" ELSE 0 END),
+    SUM(CASE WHEN "Mes" = 9  THEN "Monto" ELSE 0 END),
+    SUM(CASE WHEN "Mes" = 10 THEN "Monto" ELSE 0 END),
+    SUM(CASE WHEN "Mes" = 11 THEN "Monto" ELSE 0 END),
+    SUM(CASE WHEN "Mes" = 12 THEN "Monto" ELSE 0 END),
+    SUM("Monto")
+FROM (
+    -- Ingreso
+    SELECT
+        MONTH(T0."RefDate")  AS "Mes",
+        T1."Debit"           AS "Monto"
+    FROM OJDT T0
+    INNER JOIN JDT1 T1
+        ON T0."TransId" = T1."TransId"
+    WHERE YEAR(T0."RefDate") = 2025
+      AND T0."TransType" = 24
+      AND T1."Debit" > 0
+
+    UNION ALL
+
+    -- Menos anulaciones
+    SELECT
+        MONTH(T0."CancelDate")  AS "Mes",
+        T2."Debit" * -1         AS "Monto"
+    FROM ORCT T0
+    INNER JOIN JDT1 T2
+        ON T0."DocEntry" = T2."CreatedBy"
+        AND T2."Debit" > 0
+    WHERE YEAR(T0."CancelDate") = 2025
+      AND T0."Canceled" = 'Y'
+
+    UNION ALL
+
+    -- Menos cuenta 11050506
+    SELECT
+        MONTH(T1."RefDate")  AS "Mes",
+        ABS(T1."Debit") * -1 AS "Monto"
+    FROM OJDT T0
+    INNER JOIN JDT1 T1
+        ON T0."TransId" = T1."TransId"
+    WHERE YEAR(T1."RefDate") = 2025
+      AND T1."Account"   = '11050506'
+      AND T1."Debit"     > 0
+      AND T0."TransType" = 24
+
+    UNION ALL
+
+    -- Menos descuentos comerciales
+    SELECT
+        MONTH(T1."RefDate")  AS "Mes",
+        ABS(T1."Debit") * -1 AS "Monto"
+    FROM OJDT T0
+    INNER JOIN JDT1 T1
+        ON T0."TransId" = T1."TransId"
+    WHERE YEAR(T1."RefDate") = 2025
+      AND T1."Account"   = '53053501'
+      AND T1."Debit"     > 0
+      AND T0."TransType" = 24
+
+) NETO
+
+ORDER BY "Orden"

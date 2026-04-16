@@ -1,0 +1,61 @@
+{
+    "code": "200",
+    "error": null,
+    "msg": "9 records were found",
+    "data": [
+        {
+            "interactions": "4",
+            "agent_name": "Jacqueline Murcia",
+            "cod_act": "001",
+            "description_cod_act": "001"
+        },
+        {
+            "interactions": "6",
+            "agent_name": "Jacqueline Murcia",
+            "cod_act": "003",
+            "description_cod_act": "003"
+        },
+        {
+            "interactions": "2",
+            "agent_name": "Jacqueline Murcia",
+            "cod_act": "009",
+            "description_cod_act": "009"
+        },
+        {
+            "interactions": "199",
+            "agent_name": "Jacqueline Murcia",
+            "cod_act": "034",
+            "description_cod_act": "034"
+        },
+        {
+            "interactions": "245",
+            "agent_name": "Jacqueline Murcia",
+            "cod_act": "036",
+            "description_cod_act": "036"
+        },
+        {
+            "interactions": "1",
+            "agent_name": "Joanna Molina",
+            "cod_act": "009",
+            "description_cod_act": "009"
+        },
+        {
+            "interactions": "1",
+            "agent_name": "Luisa GÃ³mez",
+            "cod_act": "016",
+            "description_cod_act": "016"
+        },
+        {
+            "interactions": "2",
+            "agent_name": "Madela GutiÃ©rrez",
+            "cod_act": "001",
+            "description_cod_act": "001"
+        },
+        {
+            "interactions": "1",
+            "agent_name": "Madela GutiÃ©rrez",
+            "cod_act": "008",
+            "description_cod_act": "008"
+        }
+    ]
+}

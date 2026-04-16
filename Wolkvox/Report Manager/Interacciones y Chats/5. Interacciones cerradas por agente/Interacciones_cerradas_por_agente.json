@@ -1,0 +1,27 @@
+{
+    "code": "200",
+    "error": null,
+    "msg": "4 records were found",
+    "data": [
+        {
+            "agent_name": "Madela Gutiérrez (12592)",
+            "interactions": "3",
+            "close_time": "52:09:41"
+        },
+        {
+            "agent_name": "Luisa Gómez (12597)",
+            "interactions": "1",
+            "close_time": "107:33:21"
+        },
+        {
+            "agent_name": "Joanna Molina (12601)",
+            "interactions": "1",
+            "close_time": "838:59:59"
+        },
+        {
+            "agent_name": "Jacqueline Murcia (12618)",
+            "interactions": "452",
+            "close_time": "38:49:17"
+        }
+    ]
+}

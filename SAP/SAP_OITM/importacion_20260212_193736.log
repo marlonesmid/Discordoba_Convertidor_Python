@@ -1,0 +1,358 @@
+2026-02-12 19:37:36,987 - INFO - ================================================================================
+2026-02-12 19:37:36,988 - INFO - INICIANDO PROCESO DE IMPORTACIÓN
+2026-02-12 19:37:36,988 - INFO - ================================================================================
+2026-02-12 19:37:36,989 - INFO - Buscando archivo Excel...
+2026-02-12 19:37:36,989 - INFO - Directorio del script: C:\Convertidor\SAP OITM
+2026-02-12 19:37:36,990 - INFO - Archivos Excel encontrados: OITM.xlsx
+2026-02-12 19:37:36,990 - INFO - Leyendo archivo: C:\Convertidor\SAP OITM\OITM.xlsx
+2026-02-12 19:37:41,064 - INFO - Registros encontrados: 9906
+2026-02-12 19:37:41,069 - INFO - ✓ Columna DateUpdate omitida del Excel
+2026-02-12 19:37:41,070 - INFO - Conectando a SQL Server...
+2026-02-12 19:37:41,938 - INFO - ✓ Conexión establecida exitosamente
+2026-02-12 19:37:42,006 - INFO - Iniciando procesamiento de 9906 registros...
+2026-02-12 19:37:42,008 - INFO - Usando fecha/hora actual para DateUpdate: 2026-02-12 19:37:42.008044
+2026-02-12 19:38:06,901 - INFO - Progreso: 100/9906 (1.0%) - Insertados: 0, Actualizados: 100
+2026-02-12 19:38:32,881 - INFO - Progreso: 200/9906 (2.0%) - Insertados: 0, Actualizados: 200
+2026-02-12 19:38:56,949 - ERROR - Fila 294 | ItemCode: Q/POLIDEXTROSA | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: 'Q/POLIDEXT'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:38:56,949 - ERROR - Fila 294 | ItemCode: Q/POLIDEXTROSA | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: 'Q/POLIDEXT'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:38:56,950 - ERROR -   Datos de la fila:
+2026-02-12 19:38:56,950 - ERROR -     ItemCode: Q/POLIDEXTROSA
+2026-02-12 19:38:56,952 - ERROR -     ItemName: POLIDEXTROSA (STA-LITE III) SCX25
+2026-02-12 19:38:56,953 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:38:56,953 - ERROR -     U_BO_AA: Q/POLIDEXTROSA
+2026-02-12 19:38:56,953 - ERROR -     U_BO_TP: nan
+2026-02-12 19:38:56,954 - ERROR -     U_BO_F: Químicos e Ingredientes
+2026-02-12 19:38:56,954 - ERROR -     U_BO_L: Ingredientes Funcionales
+2026-02-12 19:38:56,955 - ERROR -     U_BO_G: Ingredientes Funcionales
+2026-02-12 19:38:56,955 - ERROR -     U_BO_L2: nan
+2026-02-12 19:38:56,956 - ERROR -     U_BO_G2: nan
+2026-02-12 19:38:59,135 - INFO - Progreso: 300/9906 (3.0%) - Insertados: 0, Actualizados: 300
+2026-02-12 19:38:59,880 - ERROR - Fila 305 | ItemCode: MP/HOMO 40H92N | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@ô7™Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:38:59,881 - ERROR - Fila 305 | ItemCode: MP/HOMO 40H92N | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@ô7™Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:38:59,882 - ERROR -   Datos de la fila:
+2026-02-12 19:38:59,882 - ERROR -     ItemCode: MP/HOMO 40H92N
+2026-02-12 19:38:59,883 - ERROR -     ItemName: HOMOPOLIMERO 40H92N TARRINA
+2026-02-12 19:38:59,883 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:38:59,883 - ERROR -     U_BO_AA: HOMOPOLIMERO
+2026-02-12 19:38:59,884 - ERROR -     U_BO_TP: nan
+2026-02-12 19:38:59,884 - ERROR -     U_BO_F: Materia prima
+2026-02-12 19:38:59,884 - ERROR -     U_BO_L: Original
+2026-02-12 19:38:59,885 - ERROR -     U_BO_G: Homopolimero
+2026-02-12 19:38:59,886 - ERROR -     U_BO_L2: nan
+2026-02-12 19:38:59,887 - ERROR -     U_BO_G2: nan
+2026-02-12 19:39:00,701 - ERROR - Fila 308 | ItemCode: Q/POLISOR 80 K | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '€÷Å¢Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:39:00,701 - ERROR - Fila 308 | ItemCode: Q/POLISOR 80 K | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '€÷Å¢Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:39:00,702 - ERROR -   Datos de la fila:
+2026-02-12 19:39:00,702 - ERROR -     ItemCode: Q/POLISOR 80 K
+2026-02-12 19:39:00,703 - ERROR -     ItemName: POLISORBATO 80 K T200
+2026-02-12 19:39:00,703 - ERROR -     U_BO_ES: DES
+2026-02-12 19:39:00,704 - ERROR -     U_BO_AA: Q/POLISORBATO
+2026-02-12 19:39:00,704 - ERROR -     U_BO_TP: IM
+2026-02-12 19:39:00,704 - ERROR -     U_BO_F: Químicos e Ingredientes
+2026-02-12 19:39:00,704 - ERROR -     U_BO_L: Emulsificantes
+2026-02-12 19:39:00,704 - ERROR -     U_BO_G: Emulsificantes
+2026-02-12 19:39:00,706 - ERROR -     U_BO_L2: nan
+2026-02-12 19:39:00,706 - ERROR -     U_BO_G2: nan
+2026-02-12 19:39:04,081 - ERROR - Fila 321 | ItemCode: GARRAFA B20 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@”\x08¡Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:39:04,082 - ERROR - Fila 321 | ItemCode: GARRAFA B20 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@”\x08¡Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:39:04,083 - ERROR -   Datos de la fila:
+2026-02-12 19:39:04,083 - ERROR -     ItemCode: GARRAFA B20
+2026-02-12 19:39:04,084 - ERROR -     ItemName: GARRAFA PLASTICA NATURAL 20 LTS TAPA ROJA CINTILLO 750GR
+2026-02-12 19:39:04,084 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:39:04,085 - ERROR -     U_BO_AA: GARRAFA B20
+2026-02-12 19:39:04,085 - ERROR -     U_BO_TP: nan
+2026-02-12 19:39:04,086 - ERROR -     U_BO_F: Material de empaque
+2026-02-12 19:39:04,087 - ERROR -     U_BO_L: Plástico rígido
+2026-02-12 19:39:04,087 - ERROR -     U_BO_G: Garrafa
+2026-02-12 19:39:04,088 - ERROR -     U_BO_L2: nan
+2026-02-12 19:39:04,088 - ERROR -     U_BO_G2: nan
+2026-02-12 19:39:25,330 - INFO - Progreso: 400/9906 (4.0%) - Insertados: 0, Actualizados: 400
+2026-02-12 19:39:50,905 - INFO - Progreso: 500/9906 (5.0%) - Insertados: 0, Actualizados: 500
+2026-02-12 19:40:16,727 - INFO - Progreso: 600/9906 (6.1%) - Insertados: 0, Actualizados: 600
+2026-02-12 19:40:31,721 - ERROR - Fila 663 | ItemCode: EC/JUEGOPROBB3.5ml B | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '€×Ç¢Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:31,722 - ERROR - Fila 663 | ItemCode: EC/JUEGOPROBB3.5ml B | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '€×Ç¢Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:31,722 - ERROR -   Datos de la fila:
+2026-02-12 19:40:31,723 - ERROR -     ItemCode: EC/JUEGOPROBB3.5ml B
+2026-02-12 19:40:31,724 - ERROR -     ItemName: JUEGO ENVASE PROBADOR 3.5ML BL (ENVASE Y BOMBA SPRAY BLANCA)
+2026-02-12 19:40:31,726 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:31,729 - ERROR -     U_BO_AA: PROBADOR3.5
+2026-02-12 19:40:31,733 - ERROR -     U_BO_TP: IM
+2026-02-12 19:40:31,735 - ERROR -     U_BO_F: Envases de vidrio
+2026-02-12 19:40:31,737 - ERROR -     U_BO_L: Cosméticos
+2026-02-12 19:40:31,739 - ERROR -     U_BO_G: Perfumes
+2026-02-12 19:40:31,740 - ERROR -     U_BO_L2: Bombas y válvulas
+2026-02-12 19:40:31,744 - ERROR -     U_BO_G2: Cosmética
+2026-02-12 19:40:39,702 - ERROR - Fila 693 | ItemCode: SER/ EC5276ABRMDSAZP | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@ô,¡Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:39,702 - ERROR - Fila 693 | ItemCode: SER/ EC5276ABRMDSAZP | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@ô,¡Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:39,703 - ERROR -   Datos de la fila:
+2026-02-12 19:40:39,703 - ERROR -     ItemCode: SER/ EC5276ABRMDSAZP
+2026-02-12 19:40:39,703 - ERROR -     ItemName: ENVASE EC5276ABR176C 30 CC PIROGRABADO: DYNAMIC SENTHIA AZUL PERLADO
+2026-02-12 19:40:39,704 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:39,704 - ERROR -     U_BO_AA: SERVICIO MARCADO
+2026-02-12 19:40:39,704 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:39,704 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:39,705 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:39,705 - ERROR -     U_BO_G: Pirograbado
+2026-02-12 19:40:39,705 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:39,705 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:39,999 - ERROR - Fila 694 | ItemCode: SER/ EC5276ABRMDSMT | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@ô,¡Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:40,000 - ERROR - Fila 694 | ItemCode: SER/ EC5276ABRMDSMT | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@ô,¡Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:40,000 - ERROR -   Datos de la fila:
+2026-02-12 19:40:40,001 - ERROR -     ItemCode: SER/ EC5276ABRMDSMT
+2026-02-12 19:40:40,001 - ERROR -     ItemName: ENVASE EC5276ABR176C 30 CC PIROGRABADO: DYNAMIC SENTHIA MAGENTA TRASLUCIDO
+2026-02-12 19:40:40,001 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:40,001 - ERROR -     U_BO_AA: SERVICIO MARCADO
+2026-02-12 19:40:40,002 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:40,002 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:40,002 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:40,002 - ERROR -     U_BO_G: Pirograbado
+2026-02-12 19:40:40,003 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:40,003 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:40,299 - ERROR - Fila 695 | ItemCode: SER/ EC5276ABRMDSN | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@TÈ\xa0Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:40,300 - ERROR - Fila 695 | ItemCode: SER/ EC5276ABRMDSN | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@TÈ\xa0Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:40,300 - ERROR -   Datos de la fila:
+2026-02-12 19:40:40,300 - ERROR -     ItemCode: SER/ EC5276ABRMDSN
+2026-02-12 19:40:40,302 - ERROR -     ItemName: ENVASE EC5276ABR176C 30 CC PIROGRABADO: DYNAMIC SENTHIA NEGRO
+2026-02-12 19:40:40,302 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:40,303 - ERROR -     U_BO_AA: SERVICIO MARCADO
+2026-02-12 19:40:40,304 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:40,304 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:40,305 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:40,305 - ERROR -     U_BO_G: Pirograbado
+2026-02-12 19:40:40,306 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:40,306 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:40,602 - ERROR - Fila 696 | ItemCode: SER/ EC5276ABRMDSNJT | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@TŽÉÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:40,602 - ERROR - Fila 696 | ItemCode: SER/ EC5276ABRMDSNJT | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@TŽÉÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:40,603 - ERROR -   Datos de la fila:
+2026-02-12 19:40:40,603 - ERROR -     ItemCode: SER/ EC5276ABRMDSNJT
+2026-02-12 19:40:40,603 - ERROR -     ItemName: ENVASE EC5276ABR176C 30 CC PIROGRABADO: DYNAMIC SENTHIA NARANJA TRSLUCIDO
+2026-02-12 19:40:40,604 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:40,605 - ERROR -     U_BO_AA: SERVICIO MARCADO
+2026-02-12 19:40:40,605 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:40,605 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:40,605 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:40,605 - ERROR -     U_BO_G: Pirograbado
+2026-02-12 19:40:40,605 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:40,606 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:40,905 - ERROR - Fila 697 | ItemCode: SER/ EC5304BAOMJV | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table \'QUIR-266.dbo.Productos\', column \'U_BO_AA\'. Truncated value: \'@T"ŸÔ\x01..\n.\'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+2026-02-12 19:40:40,905 - ERROR - Fila 697 | ItemCode: SER/ EC5304BAOMJV | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table \'QUIR-266.dbo.Productos\', column \'U_BO_AA\'. Truncated value: \'@T"ŸÔ\x01..\n.\'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+2026-02-12 19:40:40,906 - ERROR -   Datos de la fila:
+2026-02-12 19:40:40,906 - ERROR -     ItemCode: SER/ EC5304BAOMJV
+2026-02-12 19:40:40,906 - ERROR -     ItemName: Envase EC5304BA112C 50 cc OPALIZADO Y MARCADO JOIE VITROSCREEN
+2026-02-12 19:40:40,907 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:40,907 - ERROR -     U_BO_AA: SERVICIO MARCADO
+2026-02-12 19:40:40,907 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:40,907 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:40,908 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:40,908 - ERROR -     U_BO_G: Opalizado y marcado
+2026-02-12 19:40:40,908 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:40,908 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:41,197 - ERROR - Fila 698 | ItemCode: SER/ EC5352ABRMDSAZP | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@ÔÍ\xa0Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:41,197 - ERROR - Fila 698 | ItemCode: SER/ EC5352ABRMDSAZP | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@ÔÍ\xa0Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:41,198 - ERROR -   Datos de la fila:
+2026-02-12 19:40:41,198 - ERROR -     ItemCode: SER/ EC5352ABRMDSAZP
+2026-02-12 19:40:41,199 - ERROR -     ItemName: ENVASE EC5352ABR162C 60 CC PIROGRABADO: DYNAMIC SENTHIA AZUL PERLADO
+2026-02-12 19:40:41,199 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:41,199 - ERROR -     U_BO_AA: SERVICIO MARCADO
+2026-02-12 19:40:41,199 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:41,200 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:41,200 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:41,200 - ERROR -     U_BO_G: Pirograbado
+2026-02-12 19:40:41,200 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:41,201 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:41,491 - ERROR - Fila 699 | ItemCode: SER/ EC5352ABRMDSMT | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@T-¡Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:41,492 - ERROR - Fila 699 | ItemCode: SER/ EC5352ABRMDSMT | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@T-¡Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:41,492 - ERROR -   Datos de la fila:
+2026-02-12 19:40:41,492 - ERROR -     ItemCode: SER/ EC5352ABRMDSMT
+2026-02-12 19:40:41,494 - ERROR -     ItemName: ENVASE EC5352ABR162C 60 CC PIROGRABADO: DYNAMIC SENTHIA MAGENTA TRASLUCIDO
+2026-02-12 19:40:41,494 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:41,494 - ERROR -     U_BO_AA: SERVICIO MARCADO
+2026-02-12 19:40:41,494 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:41,495 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:41,495 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:41,495 - ERROR -     U_BO_G: Pirograbado
+2026-02-12 19:40:41,495 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:41,496 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:41,784 - ERROR - Fila 700 | ItemCode: SER/ EC5352ABRMDSN | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@t‰ÉÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:41,784 - ERROR - Fila 700 | ItemCode: SER/ EC5352ABRMDSN | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@t‰ÉÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:41,785 - ERROR -   Datos de la fila:
+2026-02-12 19:40:41,785 - ERROR -     ItemCode: SER/ EC5352ABRMDSN
+2026-02-12 19:40:41,786 - ERROR -     ItemName: ENVASE EC5352ABR162C 60 CC PIROGRABADO: DYNAMIC SENTHIA NEGRO
+2026-02-12 19:40:41,786 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:41,786 - ERROR -     U_BO_AA: SERVICIO MARCADO
+2026-02-12 19:40:41,786 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:41,787 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:41,787 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:41,787 - ERROR -     U_BO_G: Pirograbado
+2026-02-12 19:40:41,788 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:41,788 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:42,170 - ERROR - Fila 701 | ItemCode: SER/ EC5352ABRMDSNJT | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@\x14$ŸÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:42,171 - ERROR - Fila 701 | ItemCode: SER/ EC5352ABRMDSNJT | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@\x14$ŸÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:42,171 - ERROR -   Datos de la fila:
+2026-02-12 19:40:42,172 - ERROR -     ItemCode: SER/ EC5352ABRMDSNJT
+2026-02-12 19:40:42,172 - ERROR -     ItemName: ENVASE EC5352ABR162C 60 CC PIROGRABADO: DYNAMIC SENTHIA NARANJA TRASLUCIDO
+2026-02-12 19:40:42,172 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:42,172 - ERROR -     U_BO_AA: SERVICIO MARCADO
+2026-02-12 19:40:42,172 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:42,172 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:42,173 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:42,173 - ERROR -     U_BO_G: Pirograbado
+2026-02-12 19:40:42,173 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:42,173 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:42,470 - ERROR - Fila 702 | ItemCode: SER/ACEITGX18K | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@4$ŸÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:42,472 - ERROR - Fila 702 | ItemCode: SER/ACEITGX18K | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@4$ŸÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:42,472 - ERROR -   Datos de la fila:
+2026-02-12 19:40:42,473 - ERROR -     ItemCode: SER/ACEITGX18K
+2026-02-12 19:40:42,473 - ERROR -     ItemName: QK/ACEITE MI 18 GARRAFA 18KG
+2026-02-12 19:40:42,473 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:42,473 - ERROR -     U_BO_AA: SER/ACEITGX18K
+2026-02-12 19:40:42,473 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:42,474 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:42,474 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:42,474 - ERROR -     U_BO_G: Kileo
+2026-02-12 19:40:42,474 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:42,475 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:42,770 - ERROR - Fila 703 | ItemCode: SER/ACESURX1K | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table \'QUIR-266.dbo.Productos\', column \'U_BO_AA\'. Truncated value: \'@T"ŸÔ\x01..\n.\'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+2026-02-12 19:40:42,771 - ERROR - Fila 703 | ItemCode: SER/ACESURX1K | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table \'QUIR-266.dbo.Productos\', column \'U_BO_AA\'. Truncated value: \'@T"ŸÔ\x01..\n.\'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+2026-02-12 19:40:42,771 - ERROR -   Datos de la fila:
+2026-02-12 19:40:42,772 - ERROR -     ItemCode: SER/ACESURX1K
+2026-02-12 19:40:42,772 - ERROR -     ItemName: QK/ACESULFAME K CH 1 REEMPAQUE BOLSA 1KG
+2026-02-12 19:40:42,772 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:42,773 - ERROR -     U_BO_AA: SER/ACESURX1K
+2026-02-12 19:40:42,773 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:42,774 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:42,774 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:42,774 - ERROR -     U_BO_G: Kileo
+2026-02-12 19:40:42,774 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:42,776 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:43,074 - ERROR - Fila 704 | ItemCode: SER/AGARDRX1K | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table \'QUIR-266.dbo.Productos\', column \'U_BO_AA\'. Truncated value: \'@ô"ŸÔ\x01..\n.\'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+2026-02-12 19:40:43,076 - ERROR - Fila 704 | ItemCode: SER/AGARDRX1K | Error: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table \'QUIR-266.dbo.Productos\', column \'U_BO_AA\'. Truncated value: \'@ô"ŸÔ\x01..\n.\'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+2026-02-12 19:40:43,076 - ERROR -   Datos de la fila:
+2026-02-12 19:40:43,076 - ERROR -     ItemCode: SER/AGARDRX1K
+2026-02-12 19:40:43,077 - ERROR -     ItemName: QK/AGAR D 1 REEMPAQUE BOLSA 1KG
+2026-02-12 19:40:43,077 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:43,077 - ERROR -     U_BO_AA: SER/AGARDRX1K
+2026-02-12 19:40:43,078 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:43,078 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:43,078 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:43,078 - ERROR -     U_BO_G: Kileo
+2026-02-12 19:40:43,078 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:43,080 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:43,419 - ERROR - Fila 705 | ItemCode: SER/ARMAGOTE01 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@ô%ŸÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:43,421 - ERROR - Fila 705 | ItemCode: SER/ARMAGOTE01 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@ô%ŸÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:43,421 - ERROR -   Datos de la fila:
+2026-02-12 19:40:43,422 - ERROR -     ItemCode: SER/ARMAGOTE01
+2026-02-12 19:40:43,422 - ERROR -     ItemName: Armado Gotero: TG/PERA 18 N- TG/PIPETA 65- TTG/TAPA 18 N GDS
+2026-02-12 19:40:43,423 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:43,424 - ERROR -     U_BO_AA: SER/ARMAGOTE01
+2026-02-12 19:40:43,425 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:43,428 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:43,428 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:43,430 - ERROR -     U_BO_G: Armado
+2026-02-12 19:40:43,430 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:43,431 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:43,729 - ERROR - Fila 706 | ItemCode: SER/ARMAGOTE02 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@\x14 ŸÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:43,729 - ERROR - Fila 706 | ItemCode: SER/ARMAGOTE02 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@\x14 ŸÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:43,730 - ERROR -   Datos de la fila:
+2026-02-12 19:40:43,730 - ERROR -     ItemCode: SER/ARMAGOTE02
+2026-02-12 19:40:43,732 - ERROR -     ItemName: Armado Juego Gotero utilizando : TG/TAPA 18 NGDS -TG/PERA 18 N -TG/PIPETA 72 F
+2026-02-12 19:40:43,745 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:43,746 - ERROR -     U_BO_AA: SER/ARMAGOTE02
+2026-02-12 19:40:43,746 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:43,747 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:43,748 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:43,748 - ERROR -     U_BO_G: Armado
+2026-02-12 19:40:43,749 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:43,749 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:44,040 - ERROR - Fila 707 | ItemCode: SER/ARMAGOTE03 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@”-¡Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:44,041 - ERROR - Fila 707 | ItemCode: SER/ARMAGOTE03 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@”-¡Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:44,041 - ERROR -   Datos de la fila:
+2026-02-12 19:40:44,042 - ERROR -     ItemCode: SER/ARMAGOTE03
+2026-02-12 19:40:44,042 - ERROR -     ItemName: Armado Juego Gotero utilizando : TG/TAPA 18 NGDS -TG/PERA 18 N -TG/PIPETA 72 T
+2026-02-12 19:40:44,042 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:44,043 - ERROR -     U_BO_AA: SER/ARMAGOTE03
+2026-02-12 19:40:44,043 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:44,043 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:44,043 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:44,044 - ERROR -     U_BO_G: Armado
+2026-02-12 19:40:44,044 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:44,044 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:44,337 - ERROR - Fila 708 | ItemCode: SER/ARMAGOTE04 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@tÐÉÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:44,337 - ERROR - Fila 708 | ItemCode: SER/ARMAGOTE04 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@tÐÉÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:44,339 - ERROR -   Datos de la fila:
+2026-02-12 19:40:44,340 - ERROR -     ItemCode: SER/ARMAGOTE04
+2026-02-12 19:40:44,340 - ERROR -     ItemName: Armado Gotero P&R:JUEGO GOTERO 18-400 NEGRA(TAPA-PERA-PIPETA 72mm) PIEZAS NALES
+2026-02-12 19:40:44,342 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:44,342 - ERROR -     U_BO_AA: SER/ARMAGOTE04
+2026-02-12 19:40:44,344 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:44,344 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:44,345 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:44,346 - ERROR -     U_BO_G: Armado
+2026-02-12 19:40:44,347 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:44,347 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:44,641 - ERROR - Fila 709 | ItemCode: SER/ARMAGOTE05 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@\x14ŽÉÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:44,641 - ERROR - Fila 709 | ItemCode: SER/ARMAGOTE05 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@\x14ŽÉÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:44,643 - ERROR -   Datos de la fila:
+2026-02-12 19:40:44,643 - ERROR -     ItemCode: SER/ARMAGOTE05
+2026-02-12 19:40:44,643 - ERROR -     ItemName: Armado Gotero P&R:JUEGO GOTERO 20-400 NEGRA(TAPA-PERA-PIPETA 72mm) PIEZAS NALES
+2026-02-12 19:40:44,643 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:44,643 - ERROR -     U_BO_AA: SER/ARMAGOTE05
+2026-02-12 19:40:44,644 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:44,644 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:44,644 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:44,644 - ERROR -     U_BO_G: Armado
+2026-02-12 19:40:44,644 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:44,644 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:45,044 - ERROR - Fila 710 | ItemCode: SER/ARMAGOTE06 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@4ÖÉÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:45,045 - ERROR - Fila 710 | ItemCode: SER/ARMAGOTE06 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@4ÖÉÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:45,046 - ERROR -   Datos de la fila:
+2026-02-12 19:40:45,047 - ERROR -     ItemCode: SER/ARMAGOTE06
+2026-02-12 19:40:45,048 - ERROR -     ItemName: Armado Juego Gotero utilizando : TG/TAPA 18 NGDS -TG/PERA 18 N -TG/PIPETA 55 T
+2026-02-12 19:40:45,048 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:45,049 - ERROR -     U_BO_AA: SER/ARMAGOTE06
+2026-02-12 19:40:45,050 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:45,051 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:45,059 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:45,061 - ERROR -     U_BO_G: Armado
+2026-02-12 19:40:45,064 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:45,065 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:45,364 - ERROR - Fila 711 | ItemCode: SER/ARMAGOTE07 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@Ô‹ÉÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:45,365 - ERROR - Fila 711 | ItemCode: SER/ARMAGOTE07 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@Ô‹ÉÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:45,365 - ERROR -   Datos de la fila:
+2026-02-12 19:40:45,366 - ERROR -     ItemCode: SER/ARMAGOTE07
+2026-02-12 19:40:45,366 - ERROR -     ItemName: Armado Juego Gotero utilizando : TG/TAPA18BGDS -TG/PERA 18 B -TG/PIPETA 72 F
+2026-02-12 19:40:45,367 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:45,367 - ERROR -     U_BO_AA: SER/ARMAGOTE07
+2026-02-12 19:40:45,368 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:45,368 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:45,369 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:45,369 - ERROR -     U_BO_G: Armado
+2026-02-12 19:40:45,370 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:45,370 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:45,668 - ERROR - Fila 712 | ItemCode: SER/ARMAJUESMAL105 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@\x141›Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:45,669 - ERROR - Fila 712 | ItemCode: SER/ARMAJUESMAL105 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@\x141›Ô\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:45,669 - ERROR -   Datos de la fila:
+2026-02-12 19:40:45,669 - ERROR -     ItemCode: SER/ARMAJUESMAL105
+2026-02-12 19:40:45,670 - ERROR -     ItemName: ARMADO JUEGO ESMALTE ( TC13ESMN-105 - TC13P10538)
+2026-02-12 19:40:45,670 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:45,670 - ERROR -     U_BO_AA: SER/ARMAJUESMAL105
+2026-02-12 19:40:45,670 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:45,670 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:45,670 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:45,670 - ERROR -     U_BO_G: Armado
+2026-02-12 19:40:45,672 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:45,672 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:45,965 - ERROR - Fila 713 | ItemCode: SER/ARMAJUESMAL9501 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@42ŸÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:45,966 - ERROR - Fila 713 | ItemCode: SER/ARMAJUESMAL9501 | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@42ŸÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-02-12 19:40:45,966 - ERROR -   Datos de la fila:
+2026-02-12 19:40:45,966 - ERROR -     ItemCode: SER/ARMAJUESMAL9501
+2026-02-12 19:40:45,968 - ERROR -     ItemName: ARMADO JUEGO ESMALTE ( TC13ESMNE-9501-TC13P9538)
+2026-02-12 19:40:45,968 - ERROR -     U_BO_ES: DIS
+2026-02-12 19:40:45,969 - ERROR -     U_BO_AA: SER/ARMAJUESMAL9501
+2026-02-12 19:40:45,969 - ERROR -     U_BO_TP: nan
+2026-02-12 19:40:45,969 - ERROR -     U_BO_F: Servicios y otros
+2026-02-12 19:40:45,969 - ERROR -     U_BO_L: Terceros
+2026-02-12 19:40:45,970 - ERROR -     U_BO_G: Armado
+2026-02-12 19:40:45,970 - ERROR -     U_BO_L2: nan
+2026-02-12 19:40:45,971 - ERROR -     U_BO_G2: nan
+2026-02-12 19:40:46,275 - ERROR - Fila 714 | ItemCode: SER/ASCORRX1K | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIR-266.dbo.Productos', column 'U_BO_AA'. Truncated value: '@Ô&ŸÔ\x01..\n.'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
