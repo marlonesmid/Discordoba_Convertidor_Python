@@ -1,0 +1,1248 @@
+2026-05-21 14:12:23,553 - INFO - ================================================================================
+2026-05-21 14:12:23,554 - INFO - INICIANDO PROCESO DE IMPORTACIÓN CRD1 (DIRECCIONES DE CLIENTES)
+2026-05-21 14:12:23,554 - INFO - ================================================================================
+2026-05-21 14:12:23,555 - INFO - Buscando archivo Excel...
+2026-05-21 14:12:23,555 - INFO - Directorio del script: C:\GitHub\Discordoba\Discordoba_Convertidor_Python\SAP\SAP_CRD1
+2026-05-21 14:12:23,555 - INFO - Archivos Excel encontrados: CRD1.xlsx
+2026-05-21 14:12:23,555 - INFO - Leyendo archivo: C:\GitHub\Discordoba\Discordoba_Convertidor_Python\SAP\SAP_CRD1\CRD1.xlsx
+2026-05-21 14:12:39,254 - INFO - Registros encontrados: 93349
+2026-05-21 14:12:39,254 - INFO - Columnas: Address, CardCode, AdresType, U_BO_Name, U_BO_LastName, U_BO_Cellolar, Street, Block, State, City, County, Status_Integration, Status_Comments, CreationDate
+2026-05-21 14:12:39,550 - INFO - Conectando a SQL Server...
+2026-05-21 14:12:40,587 - INFO - ✓ Conexión establecida exitosamente
+2026-05-21 14:12:40,677 - INFO - Procesando 93349 registros...
+2026-05-21 14:13:03,225 - INFO - Progreso: 100/93349 (0.1%) - Insertados: 100, Actualizados: 0
+2026-05-21 14:13:25,440 - INFO - Progreso: 200/93349 (0.2%) - Insertados: 200, Actualizados: 0
+2026-05-21 14:13:47,709 - INFO - Progreso: 300/93349 (0.3%) - Insertados: 300, Actualizados: 0
+2026-05-21 14:14:10,073 - INFO - Progreso: 400/93349 (0.4%) - Insertados: 400, Actualizados: 0
+2026-05-21 14:14:32,468 - INFO - Progreso: 500/93349 (0.5%) - Insertados: 500, Actualizados: 0
+2026-05-21 14:14:55,118 - INFO - Progreso: 600/93349 (0.6%) - Insertados: 600, Actualizados: 0
+2026-05-21 14:15:17,902 - INFO - Progreso: 700/93349 (0.7%) - Insertados: 700, Actualizados: 0
+2026-05-21 14:15:40,190 - INFO - Progreso: 800/93349 (0.9%) - Insertados: 800, Actualizados: 0
+2026-05-21 14:16:02,551 - INFO - Progreso: 900/93349 (1.0%) - Insertados: 900, Actualizados: 0
+2026-05-21 14:16:25,420 - INFO - Progreso: 1000/93349 (1.1%) - Insertados: 1000, Actualizados: 0
+2026-05-21 14:16:47,929 - INFO - Progreso: 1100/93349 (1.2%) - Insertados: 1100, Actualizados: 0
+2026-05-21 14:17:10,435 - INFO - Progreso: 1200/93349 (1.3%) - Insertados: 1200, Actualizados: 0
+2026-05-21 14:17:33,262 - INFO - Progreso: 1300/93349 (1.4%) - Insertados: 1300, Actualizados: 0
+2026-05-21 14:17:56,400 - INFO - Progreso: 1400/93349 (1.5%) - Insertados: 1400, Actualizados: 0
+2026-05-21 14:18:19,059 - INFO - Progreso: 1500/93349 (1.6%) - Insertados: 1500, Actualizados: 0
+2026-05-21 14:18:41,565 - INFO - Progreso: 1600/93349 (1.7%) - Insertados: 1600, Actualizados: 0
+2026-05-21 14:19:04,073 - INFO - Progreso: 1700/93349 (1.8%) - Insertados: 1700, Actualizados: 0
+2026-05-21 14:19:26,484 - INFO - Progreso: 1800/93349 (1.9%) - Insertados: 1800, Actualizados: 0
+2026-05-21 14:19:49,221 - INFO - Progreso: 1900/93349 (2.0%) - Insertados: 1900, Actualizados: 0
+2026-05-21 14:20:11,610 - INFO - Progreso: 2000/93349 (2.1%) - Insertados: 2000, Actualizados: 0
+2026-05-21 14:20:33,917 - INFO - Progreso: 2100/93349 (2.2%) - Insertados: 2100, Actualizados: 0
+2026-05-21 14:20:56,266 - INFO - Progreso: 2200/93349 (2.4%) - Insertados: 2200, Actualizados: 0
+2026-05-21 14:21:18,665 - INFO - Progreso: 2300/93349 (2.5%) - Insertados: 2300, Actualizados: 0
+2026-05-21 14:21:40,977 - INFO - Progreso: 2400/93349 (2.6%) - Insertados: 2400, Actualizados: 0
+2026-05-21 14:22:03,318 - INFO - Progreso: 2500/93349 (2.7%) - Insertados: 2500, Actualizados: 0
+2026-05-21 14:22:25,739 - INFO - Progreso: 2600/93349 (2.8%) - Insertados: 2600, Actualizados: 0
+2026-05-21 14:22:48,146 - INFO - Progreso: 2700/93349 (2.9%) - Insertados: 2700, Actualizados: 0
+2026-05-21 14:23:10,454 - INFO - Progreso: 2800/93349 (3.0%) - Insertados: 2800, Actualizados: 0
+2026-05-21 14:23:32,825 - INFO - Progreso: 2900/93349 (3.1%) - Insertados: 2900, Actualizados: 0
+2026-05-21 14:23:55,169 - INFO - Progreso: 3000/93349 (3.2%) - Insertados: 3000, Actualizados: 0
+2026-05-21 14:24:17,455 - INFO - Progreso: 3100/93349 (3.3%) - Insertados: 3100, Actualizados: 0
+2026-05-21 14:24:39,746 - INFO - Progreso: 3200/93349 (3.4%) - Insertados: 3200, Actualizados: 0
+2026-05-21 14:25:02,209 - INFO - Progreso: 3300/93349 (3.5%) - Insertados: 3300, Actualizados: 0
+2026-05-21 14:25:24,543 - INFO - Progreso: 3400/93349 (3.6%) - Insertados: 3400, Actualizados: 0
+2026-05-21 14:25:46,897 - INFO - Progreso: 3500/93349 (3.7%) - Insertados: 3500, Actualizados: 0
+2026-05-21 14:26:09,465 - INFO - Progreso: 3600/93349 (3.9%) - Insertados: 3600, Actualizados: 0
+2026-05-21 14:26:31,774 - INFO - Progreso: 3700/93349 (4.0%) - Insertados: 3700, Actualizados: 0
+2026-05-21 14:26:54,127 - INFO - Progreso: 3800/93349 (4.1%) - Insertados: 3800, Actualizados: 0
+2026-05-21 14:27:16,518 - INFO - Progreso: 3900/93349 (4.2%) - Insertados: 3900, Actualizados: 0
+2026-05-21 14:27:38,766 - INFO - Progreso: 4000/93349 (4.3%) - Insertados: 4000, Actualizados: 0
+2026-05-21 14:28:01,026 - INFO - Progreso: 4100/93349 (4.4%) - Insertados: 4100, Actualizados: 0
+2026-05-21 14:28:23,380 - INFO - Progreso: 4200/93349 (4.5%) - Insertados: 4200, Actualizados: 0
+2026-05-21 14:28:45,745 - INFO - Progreso: 4300/93349 (4.6%) - Insertados: 4300, Actualizados: 0
+2026-05-21 14:29:08,188 - INFO - Progreso: 4400/93349 (4.7%) - Insertados: 4400, Actualizados: 0
+2026-05-21 14:29:30,610 - INFO - Progreso: 4500/93349 (4.8%) - Insertados: 4500, Actualizados: 0
+2026-05-21 14:29:53,068 - INFO - Progreso: 4600/93349 (4.9%) - Insertados: 4600, Actualizados: 0
+2026-05-21 14:30:15,503 - INFO - Progreso: 4700/93349 (5.0%) - Insertados: 4700, Actualizados: 0
+2026-05-21 14:30:38,020 - INFO - Progreso: 4800/93349 (5.1%) - Insertados: 4800, Actualizados: 0
+2026-05-21 14:31:00,559 - INFO - Progreso: 4900/93349 (5.2%) - Insertados: 4900, Actualizados: 0
+2026-05-21 14:31:23,035 - INFO - Progreso: 5000/93349 (5.4%) - Insertados: 5000, Actualizados: 0
+2026-05-21 14:31:45,446 - INFO - Progreso: 5100/93349 (5.5%) - Insertados: 5100, Actualizados: 0
+2026-05-21 14:32:07,930 - INFO - Progreso: 5200/93349 (5.6%) - Insertados: 5200, Actualizados: 0
+2026-05-21 14:32:30,406 - INFO - Progreso: 5300/93349 (5.7%) - Insertados: 5300, Actualizados: 0
+2026-05-21 14:32:52,875 - INFO - Progreso: 5400/93349 (5.8%) - Insertados: 5400, Actualizados: 0
+2026-05-21 14:33:15,345 - INFO - Progreso: 5500/93349 (5.9%) - Insertados: 5500, Actualizados: 0
+2026-05-21 14:33:37,717 - INFO - Progreso: 5600/93349 (6.0%) - Insertados: 5600, Actualizados: 0
+2026-05-21 14:34:00,686 - INFO - Progreso: 5700/93349 (6.1%) - Insertados: 5700, Actualizados: 0
+2026-05-21 14:34:24,931 - INFO - Progreso: 5800/93349 (6.2%) - Insertados: 5800, Actualizados: 0
+2026-05-21 14:34:47,543 - INFO - Progreso: 5900/93349 (6.3%) - Insertados: 5900, Actualizados: 0
+2026-05-21 14:35:09,898 - INFO - Progreso: 6000/93349 (6.4%) - Insertados: 6000, Actualizados: 0
+2026-05-21 14:35:33,176 - INFO - Progreso: 6100/93349 (6.5%) - Insertados: 6100, Actualizados: 0
+2026-05-21 14:35:55,439 - INFO - Progreso: 6200/93349 (6.6%) - Insertados: 6200, Actualizados: 0
+2026-05-21 14:36:17,891 - INFO - Progreso: 6300/93349 (6.7%) - Insertados: 6300, Actualizados: 0
+2026-05-21 14:36:40,228 - INFO - Progreso: 6400/93349 (6.9%) - Insertados: 6400, Actualizados: 0
+2026-05-21 14:37:03,071 - INFO - Progreso: 6500/93349 (7.0%) - Insertados: 6500, Actualizados: 0
+2026-05-21 14:37:25,900 - INFO - Progreso: 6600/93349 (7.1%) - Insertados: 6600, Actualizados: 0
+2026-05-21 14:37:48,716 - INFO - Progreso: 6700/93349 (7.2%) - Insertados: 6700, Actualizados: 0
+2026-05-21 14:38:11,161 - INFO - Progreso: 6800/93349 (7.3%) - Insertados: 6800, Actualizados: 0
+2026-05-21 14:38:33,528 - INFO - Progreso: 6900/93349 (7.4%) - Insertados: 6900, Actualizados: 0
+2026-05-21 14:38:55,989 - INFO - Progreso: 7000/93349 (7.5%) - Insertados: 7000, Actualizados: 0
+2026-05-21 14:39:18,479 - INFO - Progreso: 7100/93349 (7.6%) - Insertados: 7100, Actualizados: 0
+2026-05-21 14:39:41,044 - INFO - Progreso: 7200/93349 (7.7%) - Insertados: 7200, Actualizados: 0
+2026-05-21 14:40:03,481 - INFO - Progreso: 7300/93349 (7.8%) - Insertados: 7300, Actualizados: 0
+2026-05-21 14:40:25,818 - INFO - Progreso: 7400/93349 (7.9%) - Insertados: 7400, Actualizados: 0
+2026-05-21 14:40:48,283 - INFO - Progreso: 7500/93349 (8.0%) - Insertados: 7500, Actualizados: 0
+2026-05-21 14:41:10,729 - INFO - Progreso: 7600/93349 (8.1%) - Insertados: 7600, Actualizados: 0
+2026-05-21 14:41:33,506 - INFO - Progreso: 7700/93349 (8.2%) - Insertados: 7700, Actualizados: 0
+2026-05-21 14:41:55,971 - INFO - Progreso: 7800/93349 (8.4%) - Insertados: 7800, Actualizados: 0
+2026-05-21 14:42:18,459 - INFO - Progreso: 7900/93349 (8.5%) - Insertados: 7900, Actualizados: 0
+2026-05-21 14:42:40,827 - INFO - Progreso: 8000/93349 (8.6%) - Insertados: 8000, Actualizados: 0
+2026-05-21 14:43:03,209 - INFO - Progreso: 8100/93349 (8.7%) - Insertados: 8100, Actualizados: 0
+2026-05-21 14:43:25,612 - INFO - Progreso: 8200/93349 (8.8%) - Insertados: 8200, Actualizados: 0
+2026-05-21 14:43:47,980 - INFO - Progreso: 8300/93349 (8.9%) - Insertados: 8300, Actualizados: 0
+2026-05-21 14:44:10,363 - INFO - Progreso: 8400/93349 (9.0%) - Insertados: 8400, Actualizados: 0
+2026-05-21 14:44:33,077 - INFO - Progreso: 8500/93349 (9.1%) - Insertados: 8500, Actualizados: 0
+2026-05-21 14:44:55,644 - INFO - Progreso: 8600/93349 (9.2%) - Insertados: 8600, Actualizados: 0
+2026-05-21 14:45:18,435 - INFO - Progreso: 8700/93349 (9.3%) - Insertados: 8700, Actualizados: 0
+2026-05-21 14:45:41,059 - INFO - Progreso: 8800/93349 (9.4%) - Insertados: 8800, Actualizados: 0
+2026-05-21 14:46:03,711 - INFO - Progreso: 8900/93349 (9.5%) - Insertados: 8900, Actualizados: 0
+2026-05-21 14:46:26,305 - INFO - Progreso: 9000/93349 (9.6%) - Insertados: 9000, Actualizados: 0
+2026-05-21 14:46:48,970 - INFO - Progreso: 9100/93349 (9.7%) - Insertados: 9100, Actualizados: 0
+2026-05-21 14:47:11,721 - INFO - Progreso: 9200/93349 (9.9%) - Insertados: 9200, Actualizados: 0
+2026-05-21 14:47:34,292 - INFO - Progreso: 9300/93349 (10.0%) - Insertados: 9300, Actualizados: 0
+2026-05-21 14:47:57,059 - INFO - Progreso: 9400/93349 (10.1%) - Insertados: 9400, Actualizados: 0
+2026-05-21 14:48:19,703 - INFO - Progreso: 9500/93349 (10.2%) - Insertados: 9500, Actualizados: 0
+2026-05-21 14:48:42,250 - INFO - Progreso: 9600/93349 (10.3%) - Insertados: 9600, Actualizados: 0
+2026-05-21 14:49:04,806 - INFO - Progreso: 9700/93349 (10.4%) - Insertados: 9700, Actualizados: 0
+2026-05-21 14:49:27,427 - INFO - Progreso: 9800/93349 (10.5%) - Insertados: 9800, Actualizados: 0
+2026-05-21 14:49:49,880 - INFO - Progreso: 9900/93349 (10.6%) - Insertados: 9900, Actualizados: 0
+2026-05-21 14:50:12,365 - INFO - Progreso: 10000/93349 (10.7%) - Insertados: 10000, Actualizados: 0
+2026-05-21 14:50:34,811 - INFO - Progreso: 10100/93349 (10.8%) - Insertados: 10100, Actualizados: 0
+2026-05-21 14:50:57,464 - INFO - Progreso: 10200/93349 (10.9%) - Insertados: 10200, Actualizados: 0
+2026-05-21 14:51:20,085 - INFO - Progreso: 10300/93349 (11.0%) - Insertados: 10299, Actualizados: 1
+2026-05-21 14:51:42,526 - INFO - Progreso: 10400/93349 (11.1%) - Insertados: 10399, Actualizados: 1
+2026-05-21 14:52:05,394 - INFO - Progreso: 10500/93349 (11.2%) - Insertados: 10499, Actualizados: 1
+2026-05-21 14:52:27,893 - INFO - Progreso: 10600/93349 (11.4%) - Insertados: 10599, Actualizados: 1
+2026-05-21 14:52:50,283 - INFO - Progreso: 10700/93349 (11.5%) - Insertados: 10699, Actualizados: 1
+2026-05-21 14:53:12,807 - INFO - Progreso: 10800/93349 (11.6%) - Insertados: 10799, Actualizados: 1
+2026-05-21 14:53:35,329 - INFO - Progreso: 10900/93349 (11.7%) - Insertados: 10899, Actualizados: 1
+2026-05-21 14:53:57,770 - INFO - Progreso: 11000/93349 (11.8%) - Insertados: 10999, Actualizados: 1
+2026-05-21 14:54:20,316 - INFO - Progreso: 11100/93349 (11.9%) - Insertados: 11099, Actualizados: 1
+2026-05-21 14:54:42,822 - INFO - Progreso: 11200/93349 (12.0%) - Insertados: 11199, Actualizados: 1
+2026-05-21 14:55:05,349 - INFO - Progreso: 11300/93349 (12.1%) - Insertados: 11299, Actualizados: 1
+2026-05-21 14:55:27,815 - INFO - Progreso: 11400/93349 (12.2%) - Insertados: 11399, Actualizados: 1
+2026-05-21 14:55:50,304 - INFO - Progreso: 11500/93349 (12.3%) - Insertados: 11499, Actualizados: 1
+2026-05-21 14:56:12,780 - INFO - Progreso: 11600/93349 (12.4%) - Insertados: 11599, Actualizados: 1
+2026-05-21 14:56:35,206 - INFO - Progreso: 11700/93349 (12.5%) - Insertados: 11699, Actualizados: 1
+2026-05-21 14:56:58,919 - INFO - Progreso: 11800/93349 (12.6%) - Insertados: 11799, Actualizados: 1
+2026-05-21 14:57:21,393 - INFO - Progreso: 11900/93349 (12.7%) - Insertados: 11899, Actualizados: 1
+2026-05-21 14:57:43,866 - INFO - Progreso: 12000/93349 (12.9%) - Insertados: 11999, Actualizados: 1
+2026-05-21 14:58:06,362 - INFO - Progreso: 12100/93349 (13.0%) - Insertados: 12099, Actualizados: 1
+2026-05-21 14:58:28,900 - INFO - Progreso: 12200/93349 (13.1%) - Insertados: 12199, Actualizados: 1
+2026-05-21 14:58:51,426 - INFO - Progreso: 12300/93349 (13.2%) - Insertados: 12299, Actualizados: 1
+2026-05-21 14:59:13,947 - INFO - Progreso: 12400/93349 (13.3%) - Insertados: 12399, Actualizados: 1
+2026-05-21 14:59:36,510 - INFO - Progreso: 12500/93349 (13.4%) - Insertados: 12499, Actualizados: 1
+2026-05-21 14:59:59,203 - INFO - Progreso: 12600/93349 (13.5%) - Insertados: 12599, Actualizados: 1
+2026-05-21 15:00:21,941 - INFO - Progreso: 12700/93349 (13.6%) - Insertados: 12699, Actualizados: 1
+2026-05-21 15:00:44,554 - INFO - Progreso: 12800/93349 (13.7%) - Insertados: 12799, Actualizados: 1
+2026-05-21 15:01:07,122 - INFO - Progreso: 12900/93349 (13.8%) - Insertados: 12899, Actualizados: 1
+2026-05-21 15:01:30,021 - INFO - Progreso: 13000/93349 (13.9%) - Insertados: 12999, Actualizados: 1
+2026-05-21 15:01:52,550 - INFO - Progreso: 13100/93349 (14.0%) - Insertados: 13099, Actualizados: 1
+2026-05-21 15:02:15,033 - INFO - Progreso: 13200/93349 (14.1%) - Insertados: 13199, Actualizados: 1
+2026-05-21 15:02:37,597 - INFO - Progreso: 13300/93349 (14.2%) - Insertados: 13299, Actualizados: 1
+2026-05-21 15:03:00,132 - INFO - Progreso: 13400/93349 (14.4%) - Insertados: 13399, Actualizados: 1
+2026-05-21 15:03:22,730 - INFO - Progreso: 13500/93349 (14.5%) - Insertados: 13499, Actualizados: 1
+2026-05-21 15:03:45,323 - INFO - Progreso: 13600/93349 (14.6%) - Insertados: 13599, Actualizados: 1
+2026-05-21 15:04:08,004 - INFO - Progreso: 13700/93349 (14.7%) - Insertados: 13698, Actualizados: 2
+2026-05-21 15:04:30,717 - INFO - Progreso: 13800/93349 (14.8%) - Insertados: 13798, Actualizados: 2
+2026-05-21 15:04:53,420 - INFO - Progreso: 13900/93349 (14.9%) - Insertados: 13898, Actualizados: 2
+2026-05-21 15:05:16,163 - INFO - Progreso: 14000/93349 (15.0%) - Insertados: 13998, Actualizados: 2
+2026-05-21 15:05:38,826 - INFO - Progreso: 14100/93349 (15.1%) - Insertados: 14098, Actualizados: 2
+2026-05-21 15:06:01,474 - INFO - Progreso: 14200/93349 (15.2%) - Insertados: 14198, Actualizados: 2
+2026-05-21 15:06:24,192 - INFO - Progreso: 14300/93349 (15.3%) - Insertados: 14298, Actualizados: 2
+2026-05-21 15:06:46,926 - INFO - Progreso: 14400/93349 (15.4%) - Insertados: 14398, Actualizados: 2
+2026-05-21 15:07:10,002 - INFO - Progreso: 14500/93349 (15.5%) - Insertados: 14498, Actualizados: 2
+2026-05-21 15:07:32,725 - INFO - Progreso: 14600/93349 (15.6%) - Insertados: 14598, Actualizados: 2
+2026-05-21 15:07:55,546 - INFO - Progreso: 14700/93349 (15.7%) - Insertados: 14698, Actualizados: 2
+2026-05-21 15:08:18,169 - INFO - Progreso: 14800/93349 (15.9%) - Insertados: 14798, Actualizados: 2
+2026-05-21 15:08:40,904 - INFO - Progreso: 14900/93349 (16.0%) - Insertados: 14898, Actualizados: 2
+2026-05-21 15:09:03,535 - INFO - Progreso: 15000/93349 (16.1%) - Insertados: 14998, Actualizados: 2
+2026-05-21 15:09:26,047 - INFO - Progreso: 15100/93349 (16.2%) - Insertados: 15098, Actualizados: 2
+2026-05-21 15:09:48,546 - INFO - Progreso: 15200/93349 (16.3%) - Insertados: 15198, Actualizados: 2
+2026-05-21 15:10:11,145 - INFO - Progreso: 15300/93349 (16.4%) - Insertados: 15298, Actualizados: 2
+2026-05-21 15:10:33,735 - INFO - Progreso: 15400/93349 (16.5%) - Insertados: 15398, Actualizados: 2
+2026-05-21 15:10:56,317 - INFO - Progreso: 15500/93349 (16.6%) - Insertados: 15498, Actualizados: 2
+2026-05-21 15:11:18,902 - INFO - Progreso: 15600/93349 (16.7%) - Insertados: 15598, Actualizados: 2
+2026-05-21 15:11:41,479 - INFO - Progreso: 15700/93349 (16.8%) - Insertados: 15698, Actualizados: 2
+2026-05-21 15:12:04,155 - INFO - Progreso: 15800/93349 (16.9%) - Insertados: 15798, Actualizados: 2
+2026-05-21 15:12:27,017 - INFO - Progreso: 15900/93349 (17.0%) - Insertados: 15898, Actualizados: 2
+2026-05-21 15:12:49,629 - INFO - Progreso: 16000/93349 (17.1%) - Insertados: 15998, Actualizados: 2
+2026-05-21 15:13:12,316 - INFO - Progreso: 16100/93349 (17.2%) - Insertados: 16098, Actualizados: 2
+2026-05-21 15:13:34,852 - INFO - Progreso: 16200/93349 (17.4%) - Insertados: 16198, Actualizados: 2
+2026-05-21 15:13:57,416 - INFO - Progreso: 16300/93349 (17.5%) - Insertados: 16298, Actualizados: 2
+2026-05-21 15:14:19,940 - INFO - Progreso: 16400/93349 (17.6%) - Insertados: 16398, Actualizados: 2
+2026-05-21 15:14:42,420 - INFO - Progreso: 16500/93349 (17.7%) - Insertados: 16498, Actualizados: 2
+2026-05-21 15:15:04,900 - INFO - Progreso: 16600/93349 (17.8%) - Insertados: 16598, Actualizados: 2
+2026-05-21 15:15:27,471 - INFO - Progreso: 16700/93349 (17.9%) - Insertados: 16698, Actualizados: 2
+2026-05-21 15:15:50,155 - INFO - Progreso: 16800/93349 (18.0%) - Insertados: 16797, Actualizados: 3
+2026-05-21 15:16:12,744 - INFO - Progreso: 16900/93349 (18.1%) - Insertados: 16897, Actualizados: 3
+2026-05-21 15:16:35,195 - INFO - Progreso: 17000/93349 (18.2%) - Insertados: 16997, Actualizados: 3
+2026-05-21 15:16:57,900 - INFO - Progreso: 17100/93349 (18.3%) - Insertados: 17097, Actualizados: 3
+2026-05-21 15:17:20,471 - INFO - Progreso: 17200/93349 (18.4%) - Insertados: 17197, Actualizados: 3
+2026-05-21 15:17:43,032 - INFO - Progreso: 17300/93349 (18.5%) - Insertados: 17297, Actualizados: 3
+2026-05-21 15:18:05,474 - INFO - Progreso: 17400/93349 (18.6%) - Insertados: 17397, Actualizados: 3
+2026-05-21 15:18:27,918 - INFO - Progreso: 17500/93349 (18.7%) - Insertados: 17497, Actualizados: 3
+2026-05-21 15:18:50,458 - INFO - Progreso: 17600/93349 (18.9%) - Insertados: 17597, Actualizados: 3
+2026-05-21 15:19:12,960 - INFO - Progreso: 17700/93349 (19.0%) - Insertados: 17697, Actualizados: 3
+2026-05-21 15:19:35,904 - INFO - Progreso: 17800/93349 (19.1%) - Insertados: 17797, Actualizados: 3
+2026-05-21 15:19:58,787 - INFO - Progreso: 17900/93349 (19.2%) - Insertados: 17897, Actualizados: 3
+2026-05-21 15:20:21,506 - INFO - Progreso: 18000/93349 (19.3%) - Insertados: 17997, Actualizados: 3
+2026-05-21 15:20:44,255 - INFO - Progreso: 18100/93349 (19.4%) - Insertados: 18097, Actualizados: 3
+2026-05-21 15:21:07,236 - INFO - Progreso: 18200/93349 (19.5%) - Insertados: 18197, Actualizados: 3
+2026-05-21 15:21:30,084 - INFO - Progreso: 18300/93349 (19.6%) - Insertados: 18297, Actualizados: 3
+2026-05-21 15:21:52,747 - INFO - Progreso: 18400/93349 (19.7%) - Insertados: 18397, Actualizados: 3
+2026-05-21 15:22:15,245 - INFO - Progreso: 18500/93349 (19.8%) - Insertados: 18497, Actualizados: 3
+2026-05-21 15:22:37,778 - INFO - Progreso: 18600/93349 (19.9%) - Insertados: 18597, Actualizados: 3
+2026-05-21 15:23:00,241 - INFO - Progreso: 18700/93349 (20.0%) - Insertados: 18697, Actualizados: 3
+2026-05-21 15:23:22,875 - INFO - Progreso: 18800/93349 (20.1%) - Insertados: 18797, Actualizados: 3
+2026-05-21 15:23:45,692 - INFO - Progreso: 18900/93349 (20.2%) - Insertados: 18897, Actualizados: 3
+2026-05-21 15:24:08,227 - INFO - Progreso: 19000/93349 (20.4%) - Insertados: 18997, Actualizados: 3
+2026-05-21 15:24:30,994 - INFO - Progreso: 19100/93349 (20.5%) - Insertados: 19097, Actualizados: 3
+2026-05-21 15:24:53,609 - INFO - Progreso: 19200/93349 (20.6%) - Insertados: 19197, Actualizados: 3
+2026-05-21 15:25:16,167 - INFO - Progreso: 19300/93349 (20.7%) - Insertados: 19297, Actualizados: 3
+2026-05-21 15:25:38,805 - INFO - Progreso: 19400/93349 (20.8%) - Insertados: 19397, Actualizados: 3
+2026-05-21 15:26:01,359 - INFO - Progreso: 19500/93349 (20.9%) - Insertados: 19497, Actualizados: 3
+2026-05-21 15:26:23,939 - INFO - Progreso: 19600/93349 (21.0%) - Insertados: 19597, Actualizados: 3
+2026-05-21 15:26:46,671 - INFO - Progreso: 19700/93349 (21.1%) - Insertados: 19697, Actualizados: 3
+2026-05-21 15:27:09,424 - INFO - Progreso: 19800/93349 (21.2%) - Insertados: 19797, Actualizados: 3
+2026-05-21 15:27:32,275 - INFO - Progreso: 19900/93349 (21.3%) - Insertados: 19897, Actualizados: 3
+2026-05-21 15:27:54,925 - INFO - Progreso: 20000/93349 (21.4%) - Insertados: 19997, Actualizados: 3
+2026-05-21 15:28:18,329 - INFO - Progreso: 20100/93349 (21.5%) - Insertados: 20097, Actualizados: 3
+2026-05-21 15:28:42,478 - INFO - Progreso: 20200/93349 (21.6%) - Insertados: 20197, Actualizados: 3
+2026-05-21 15:29:05,255 - INFO - Progreso: 20300/93349 (21.7%) - Insertados: 20297, Actualizados: 3
+2026-05-21 15:29:28,576 - INFO - Progreso: 20400/93349 (21.9%) - Insertados: 20397, Actualizados: 3
+2026-05-21 15:29:51,225 - INFO - Progreso: 20500/93349 (22.0%) - Insertados: 20497, Actualizados: 3
+2026-05-21 15:30:14,098 - INFO - Progreso: 20600/93349 (22.1%) - Insertados: 20597, Actualizados: 3
+2026-05-21 15:30:37,387 - INFO - Progreso: 20700/93349 (22.2%) - Insertados: 20697, Actualizados: 3
+2026-05-21 15:31:00,208 - INFO - Progreso: 20800/93349 (22.3%) - Insertados: 20797, Actualizados: 3
+2026-05-21 15:31:23,295 - INFO - Progreso: 20900/93349 (22.4%) - Insertados: 20897, Actualizados: 3
+2026-05-21 15:31:46,017 - INFO - Progreso: 21000/93349 (22.5%) - Insertados: 20997, Actualizados: 3
+2026-05-21 15:32:08,758 - INFO - Progreso: 21100/93349 (22.6%) - Insertados: 21097, Actualizados: 3
+2026-05-21 15:32:31,484 - INFO - Progreso: 21200/93349 (22.7%) - Insertados: 21197, Actualizados: 3
+2026-05-21 15:32:54,118 - INFO - Progreso: 21300/93349 (22.8%) - Insertados: 21297, Actualizados: 3
+2026-05-21 15:33:16,742 - INFO - Progreso: 21400/93349 (22.9%) - Insertados: 21397, Actualizados: 3
+2026-05-21 15:33:39,427 - INFO - Progreso: 21500/93349 (23.0%) - Insertados: 21497, Actualizados: 3
+2026-05-21 15:34:02,854 - INFO - Progreso: 21600/93349 (23.1%) - Insertados: 21597, Actualizados: 3
+2026-05-21 15:34:26,510 - INFO - Progreso: 21700/93349 (23.2%) - Insertados: 21697, Actualizados: 3
+2026-05-21 15:34:49,447 - INFO - Progreso: 21800/93349 (23.4%) - Insertados: 21797, Actualizados: 3
+2026-05-21 15:35:12,536 - INFO - Progreso: 21900/93349 (23.5%) - Insertados: 21897, Actualizados: 3
+2026-05-21 15:35:35,834 - INFO - Progreso: 22000/93349 (23.6%) - Insertados: 21997, Actualizados: 3
+2026-05-21 15:35:59,169 - INFO - Progreso: 22100/93349 (23.7%) - Insertados: 22097, Actualizados: 3
+2026-05-21 15:36:22,987 - INFO - Progreso: 22200/93349 (23.8%) - Insertados: 22197, Actualizados: 3
+2026-05-21 15:36:46,161 - INFO - Progreso: 22300/93349 (23.9%) - Insertados: 22297, Actualizados: 3
+2026-05-21 15:37:09,024 - INFO - Progreso: 22400/93349 (24.0%) - Insertados: 22397, Actualizados: 3
+2026-05-21 15:37:34,168 - INFO - Progreso: 22500/93349 (24.1%) - Insertados: 22497, Actualizados: 3
+2026-05-21 15:37:57,236 - INFO - Progreso: 22600/93349 (24.2%) - Insertados: 22597, Actualizados: 3
+2026-05-21 15:38:21,996 - INFO - Progreso: 22700/93349 (24.3%) - Insertados: 22697, Actualizados: 3
+2026-05-21 15:38:44,763 - INFO - Progreso: 22800/93349 (24.4%) - Insertados: 22797, Actualizados: 3
+2026-05-21 15:39:07,430 - INFO - Progreso: 22900/93349 (24.5%) - Insertados: 22897, Actualizados: 3
+2026-05-21 15:39:30,021 - INFO - Progreso: 23000/93349 (24.6%) - Insertados: 22997, Actualizados: 3
+2026-05-21 15:39:52,865 - INFO - Progreso: 23100/93349 (24.7%) - Insertados: 23097, Actualizados: 3
+2026-05-21 15:40:15,783 - INFO - Progreso: 23200/93349 (24.9%) - Insertados: 23197, Actualizados: 3
+2026-05-21 15:40:38,590 - INFO - Progreso: 23300/93349 (25.0%) - Insertados: 23297, Actualizados: 3
+2026-05-21 15:41:01,295 - INFO - Progreso: 23400/93349 (25.1%) - Insertados: 23397, Actualizados: 3
+2026-05-21 15:41:23,845 - INFO - Progreso: 23500/93349 (25.2%) - Insertados: 23497, Actualizados: 3
+2026-05-21 15:41:46,410 - INFO - Progreso: 23600/93349 (25.3%) - Insertados: 23597, Actualizados: 3
+2026-05-21 15:42:09,085 - INFO - Progreso: 23700/93349 (25.4%) - Insertados: 23697, Actualizados: 3
+2026-05-21 15:42:31,768 - INFO - Progreso: 23800/93349 (25.5%) - Insertados: 23797, Actualizados: 3
+2026-05-21 15:42:54,547 - INFO - Progreso: 23900/93349 (25.6%) - Insertados: 23897, Actualizados: 3
+2026-05-21 15:43:17,257 - INFO - Progreso: 24000/93349 (25.7%) - Insertados: 23997, Actualizados: 3
+2026-05-21 15:43:39,778 - INFO - Progreso: 24100/93349 (25.8%) - Insertados: 24097, Actualizados: 3
+2026-05-21 15:44:02,600 - INFO - Progreso: 24200/93349 (25.9%) - Insertados: 24197, Actualizados: 3
+2026-05-21 15:44:25,619 - INFO - Progreso: 24300/93349 (26.0%) - Insertados: 24297, Actualizados: 3
+2026-05-21 15:44:48,982 - INFO - Progreso: 24400/93349 (26.1%) - Insertados: 24397, Actualizados: 3
+2026-05-21 15:45:12,137 - INFO - Progreso: 24500/93349 (26.2%) - Insertados: 24497, Actualizados: 3
+2026-05-21 15:45:35,206 - INFO - Progreso: 24600/93349 (26.4%) - Insertados: 24597, Actualizados: 3
+2026-05-21 15:45:57,921 - INFO - Progreso: 24700/93349 (26.5%) - Insertados: 24697, Actualizados: 3
+2026-05-21 15:46:20,595 - INFO - Progreso: 24800/93349 (26.6%) - Insertados: 24797, Actualizados: 3
+2026-05-21 15:46:43,241 - INFO - Progreso: 24900/93349 (26.7%) - Insertados: 24897, Actualizados: 3
+2026-05-21 15:47:06,025 - INFO - Progreso: 25000/93349 (26.8%) - Insertados: 24997, Actualizados: 3
+2026-05-21 15:47:28,668 - INFO - Progreso: 25100/93349 (26.9%) - Insertados: 25097, Actualizados: 3
+2026-05-21 15:47:51,193 - INFO - Progreso: 25200/93349 (27.0%) - Insertados: 25197, Actualizados: 3
+2026-05-21 15:48:13,708 - INFO - Progreso: 25300/93349 (27.1%) - Insertados: 25297, Actualizados: 3
+2026-05-21 15:48:36,304 - INFO - Progreso: 25400/93349 (27.2%) - Insertados: 25397, Actualizados: 3
+2026-05-21 15:48:58,889 - INFO - Progreso: 25500/93349 (27.3%) - Insertados: 25497, Actualizados: 3
+2026-05-21 15:49:21,472 - INFO - Progreso: 25600/93349 (27.4%) - Insertados: 25597, Actualizados: 3
+2026-05-21 15:49:44,045 - INFO - Progreso: 25700/93349 (27.5%) - Insertados: 25697, Actualizados: 3
+2026-05-21 15:50:06,608 - INFO - Progreso: 25800/93349 (27.6%) - Insertados: 25797, Actualizados: 3
+2026-05-21 15:50:29,216 - INFO - Progreso: 25900/93349 (27.7%) - Insertados: 25897, Actualizados: 3
+2026-05-21 15:50:51,964 - INFO - Progreso: 26000/93349 (27.9%) - Insertados: 25997, Actualizados: 3
+2026-05-21 15:51:15,127 - INFO - Progreso: 26100/93349 (28.0%) - Insertados: 26097, Actualizados: 3
+2026-05-21 15:51:38,113 - INFO - Progreso: 26200/93349 (28.1%) - Insertados: 26197, Actualizados: 3
+2026-05-21 15:52:01,140 - INFO - Progreso: 26300/93349 (28.2%) - Insertados: 26297, Actualizados: 3
+2026-05-21 15:52:23,926 - INFO - Progreso: 26400/93349 (28.3%) - Insertados: 26396, Actualizados: 4
+2026-05-21 15:52:46,537 - INFO - Progreso: 26500/93349 (28.4%) - Insertados: 26496, Actualizados: 4
+2026-05-21 15:53:09,557 - INFO - Progreso: 26600/93349 (28.5%) - Insertados: 26596, Actualizados: 4
+2026-05-21 15:53:32,330 - INFO - Progreso: 26700/93349 (28.6%) - Insertados: 26696, Actualizados: 4
+2026-05-21 15:53:55,075 - INFO - Progreso: 26800/93349 (28.7%) - Insertados: 26796, Actualizados: 4
+2026-05-21 15:54:17,811 - INFO - Progreso: 26900/93349 (28.8%) - Insertados: 26896, Actualizados: 4
+2026-05-21 15:54:40,606 - INFO - Progreso: 27000/93349 (28.9%) - Insertados: 26996, Actualizados: 4
+2026-05-21 15:55:03,399 - INFO - Progreso: 27100/93349 (29.0%) - Insertados: 27096, Actualizados: 4
+2026-05-21 15:55:26,195 - INFO - Progreso: 27200/93349 (29.1%) - Insertados: 27196, Actualizados: 4
+2026-05-21 15:55:49,312 - INFO - Progreso: 27300/93349 (29.2%) - Insertados: 27296, Actualizados: 4
+2026-05-21 15:56:11,979 - INFO - Progreso: 27400/93349 (29.4%) - Insertados: 27396, Actualizados: 4
+2026-05-21 15:56:34,835 - INFO - Progreso: 27500/93349 (29.5%) - Insertados: 27496, Actualizados: 4
+2026-05-21 15:56:57,609 - INFO - Progreso: 27600/93349 (29.6%) - Insertados: 27596, Actualizados: 4
+2026-05-21 15:57:20,293 - INFO - Progreso: 27700/93349 (29.7%) - Insertados: 27696, Actualizados: 4
+2026-05-21 15:57:42,883 - INFO - Progreso: 27800/93349 (29.8%) - Insertados: 27796, Actualizados: 4
+2026-05-21 15:58:05,480 - INFO - Progreso: 27900/93349 (29.9%) - Insertados: 27896, Actualizados: 4
+2026-05-21 15:58:28,159 - INFO - Progreso: 28000/93349 (30.0%) - Insertados: 27996, Actualizados: 4
+2026-05-21 15:58:50,962 - INFO - Progreso: 28100/93349 (30.1%) - Insertados: 28096, Actualizados: 4
+2026-05-21 15:59:13,846 - INFO - Progreso: 28200/93349 (30.2%) - Insertados: 28196, Actualizados: 4
+2026-05-21 15:59:36,587 - INFO - Progreso: 28300/93349 (30.3%) - Insertados: 28296, Actualizados: 4
+2026-05-21 15:59:59,263 - INFO - Progreso: 28400/93349 (30.4%) - Insertados: 28396, Actualizados: 4
+2026-05-21 16:00:21,943 - INFO - Progreso: 28500/93349 (30.5%) - Insertados: 28496, Actualizados: 4
+2026-05-21 16:00:44,827 - INFO - Progreso: 28600/93349 (30.6%) - Insertados: 28596, Actualizados: 4
+2026-05-21 16:01:07,840 - INFO - Progreso: 28700/93349 (30.7%) - Insertados: 28696, Actualizados: 4
+2026-05-21 16:01:30,758 - INFO - Progreso: 28800/93349 (30.9%) - Insertados: 28796, Actualizados: 4
+2026-05-21 16:01:53,441 - INFO - Progreso: 28900/93349 (31.0%) - Insertados: 28896, Actualizados: 4
+2026-05-21 16:02:16,128 - INFO - Progreso: 29000/93349 (31.1%) - Insertados: 28996, Actualizados: 4
+2026-05-21 16:02:38,915 - INFO - Progreso: 29100/93349 (31.2%) - Insertados: 29096, Actualizados: 4
+2026-05-21 16:03:01,573 - INFO - Progreso: 29200/93349 (31.3%) - Insertados: 29196, Actualizados: 4
+2026-05-21 16:03:24,217 - INFO - Progreso: 29300/93349 (31.4%) - Insertados: 29296, Actualizados: 4
+2026-05-21 16:03:46,912 - INFO - Progreso: 29400/93349 (31.5%) - Insertados: 29396, Actualizados: 4
+2026-05-21 16:04:09,528 - INFO - Progreso: 29500/93349 (31.6%) - Insertados: 29496, Actualizados: 4
+2026-05-21 16:04:32,320 - INFO - Progreso: 29600/93349 (31.7%) - Insertados: 29596, Actualizados: 4
+2026-05-21 16:04:55,120 - INFO - Progreso: 29700/93349 (31.8%) - Insertados: 29696, Actualizados: 4
+2026-05-21 16:05:17,760 - INFO - Progreso: 29800/93349 (31.9%) - Insertados: 29796, Actualizados: 4
+2026-05-21 16:05:40,347 - INFO - Progreso: 29900/93349 (32.0%) - Insertados: 29896, Actualizados: 4
+2026-05-21 16:06:03,025 - INFO - Progreso: 30000/93349 (32.1%) - Insertados: 29996, Actualizados: 4
+2026-05-21 16:06:25,797 - INFO - Progreso: 30100/93349 (32.2%) - Insertados: 30096, Actualizados: 4
+2026-05-21 16:06:48,922 - INFO - Progreso: 30200/93349 (32.4%) - Insertados: 30196, Actualizados: 4
+2026-05-21 16:07:11,957 - INFO - Progreso: 30300/93349 (32.5%) - Insertados: 30296, Actualizados: 4
+2026-05-21 16:07:34,949 - INFO - Progreso: 30400/93349 (32.6%) - Insertados: 30396, Actualizados: 4
+2026-05-21 16:07:57,721 - INFO - Progreso: 30500/93349 (32.7%) - Insertados: 30496, Actualizados: 4
+2026-05-21 16:08:20,458 - INFO - Progreso: 30600/93349 (32.8%) - Insertados: 30596, Actualizados: 4
+2026-05-21 16:08:43,597 - INFO - Progreso: 30700/93349 (32.9%) - Insertados: 30696, Actualizados: 4
+2026-05-21 16:09:07,219 - INFO - Progreso: 30800/93349 (33.0%) - Insertados: 30796, Actualizados: 4
+2026-05-21 16:09:30,337 - INFO - Progreso: 30900/93349 (33.1%) - Insertados: 30896, Actualizados: 4
+2026-05-21 16:09:53,327 - INFO - Progreso: 31000/93349 (33.2%) - Insertados: 30996, Actualizados: 4
+2026-05-21 16:10:16,556 - INFO - Progreso: 31100/93349 (33.3%) - Insertados: 31096, Actualizados: 4
+2026-05-21 16:10:39,635 - INFO - Progreso: 31200/93349 (33.4%) - Insertados: 31196, Actualizados: 4
+2026-05-21 16:11:02,443 - INFO - Progreso: 31300/93349 (33.5%) - Insertados: 31296, Actualizados: 4
+2026-05-21 16:11:26,089 - INFO - Progreso: 31400/93349 (33.6%) - Insertados: 31396, Actualizados: 4
+2026-05-21 16:11:49,326 - INFO - Progreso: 31500/93349 (33.7%) - Insertados: 31496, Actualizados: 4
+2026-05-21 16:12:12,290 - INFO - Progreso: 31600/93349 (33.9%) - Insertados: 31596, Actualizados: 4
+2026-05-21 16:12:35,222 - INFO - Progreso: 31700/93349 (34.0%) - Insertados: 31696, Actualizados: 4
+2026-05-21 16:12:58,138 - INFO - Progreso: 31800/93349 (34.1%) - Insertados: 31796, Actualizados: 4
+2026-05-21 16:13:21,111 - INFO - Progreso: 31900/93349 (34.2%) - Insertados: 31896, Actualizados: 4
+2026-05-21 16:13:44,007 - INFO - Progreso: 32000/93349 (34.3%) - Insertados: 31996, Actualizados: 4
+2026-05-21 16:14:06,939 - INFO - Progreso: 32100/93349 (34.4%) - Insertados: 32096, Actualizados: 4
+2026-05-21 16:14:29,607 - INFO - Progreso: 32200/93349 (34.5%) - Insertados: 32196, Actualizados: 4
+2026-05-21 16:14:52,296 - INFO - Progreso: 32300/93349 (34.6%) - Insertados: 32296, Actualizados: 4
+2026-05-21 16:15:15,018 - INFO - Progreso: 32400/93349 (34.7%) - Insertados: 32396, Actualizados: 4
+2026-05-21 16:15:37,822 - INFO - Progreso: 32500/93349 (34.8%) - Insertados: 32496, Actualizados: 4
+2026-05-21 16:16:00,514 - INFO - Progreso: 32600/93349 (34.9%) - Insertados: 32596, Actualizados: 4
+2026-05-21 16:16:23,271 - INFO - Progreso: 32700/93349 (35.0%) - Insertados: 32696, Actualizados: 4
+2026-05-21 16:16:46,504 - INFO - Progreso: 32800/93349 (35.1%) - Insertados: 32796, Actualizados: 4
+2026-05-21 16:17:10,672 - INFO - Progreso: 32900/93349 (35.2%) - Insertados: 32896, Actualizados: 4
+2026-05-21 16:17:33,393 - INFO - Progreso: 33000/93349 (35.4%) - Insertados: 32996, Actualizados: 4
+2026-05-21 16:17:56,176 - INFO - Progreso: 33100/93349 (35.5%) - Insertados: 33096, Actualizados: 4
+2026-05-21 16:18:18,965 - INFO - Progreso: 33200/93349 (35.6%) - Insertados: 33196, Actualizados: 4
+2026-05-21 16:18:41,685 - INFO - Progreso: 33300/93349 (35.7%) - Insertados: 33296, Actualizados: 4
+2026-05-21 16:19:04,417 - INFO - Progreso: 33400/93349 (35.8%) - Insertados: 33396, Actualizados: 4
+2026-05-21 16:19:27,132 - INFO - Progreso: 33500/93349 (35.9%) - Insertados: 33496, Actualizados: 4
+2026-05-21 16:19:49,866 - INFO - Progreso: 33600/93349 (36.0%) - Insertados: 33596, Actualizados: 4
+2026-05-21 16:20:12,563 - INFO - Progreso: 33700/93349 (36.1%) - Insertados: 33696, Actualizados: 4
+2026-05-21 16:20:35,327 - INFO - Progreso: 33800/93349 (36.2%) - Insertados: 33796, Actualizados: 4
+2026-05-21 16:20:58,031 - INFO - Progreso: 33900/93349 (36.3%) - Insertados: 33896, Actualizados: 4
+2026-05-21 16:21:21,103 - INFO - Progreso: 34000/93349 (36.4%) - Insertados: 33996, Actualizados: 4
+2026-05-21 16:21:44,076 - INFO - Progreso: 34100/93349 (36.5%) - Insertados: 34096, Actualizados: 4
+2026-05-21 16:22:07,213 - INFO - Progreso: 34200/93349 (36.6%) - Insertados: 34196, Actualizados: 4
+2026-05-21 16:22:30,464 - INFO - Progreso: 34300/93349 (36.7%) - Insertados: 34296, Actualizados: 4
+2026-05-21 16:22:53,585 - INFO - Progreso: 34400/93349 (36.9%) - Insertados: 34396, Actualizados: 4
+2026-05-21 16:23:17,378 - INFO - Progreso: 34500/93349 (37.0%) - Insertados: 34496, Actualizados: 4
+2026-05-21 16:23:41,251 - INFO - Progreso: 34600/93349 (37.1%) - Insertados: 34596, Actualizados: 4
+2026-05-21 16:24:05,080 - INFO - Progreso: 34700/93349 (37.2%) - Insertados: 34696, Actualizados: 4
+2026-05-21 16:24:29,760 - INFO - Progreso: 34800/93349 (37.3%) - Insertados: 34796, Actualizados: 4
+2026-05-21 16:24:53,172 - INFO - Progreso: 34900/93349 (37.4%) - Insertados: 34896, Actualizados: 4
+2026-05-21 16:25:16,643 - INFO - Progreso: 35000/93349 (37.5%) - Insertados: 34996, Actualizados: 4
+2026-05-21 16:25:39,990 - INFO - Progreso: 35100/93349 (37.6%) - Insertados: 35096, Actualizados: 4
+2026-05-21 16:26:04,269 - INFO - Progreso: 35200/93349 (37.7%) - Insertados: 35196, Actualizados: 4
+2026-05-21 16:26:29,097 - INFO - Progreso: 35300/93349 (37.8%) - Insertados: 35296, Actualizados: 4
+2026-05-21 16:26:55,571 - INFO - Progreso: 35400/93349 (37.9%) - Insertados: 35396, Actualizados: 4
+2026-05-21 16:27:21,588 - INFO - Progreso: 35500/93349 (38.0%) - Insertados: 35496, Actualizados: 4
+2026-05-21 16:27:47,154 - INFO - Progreso: 35600/93349 (38.1%) - Insertados: 35596, Actualizados: 4
+2026-05-21 16:28:12,652 - INFO - Progreso: 35700/93349 (38.2%) - Insertados: 35696, Actualizados: 4
+2026-05-21 16:28:38,193 - INFO - Progreso: 35800/93349 (38.4%) - Insertados: 35796, Actualizados: 4
+2026-05-21 16:29:03,226 - INFO - Progreso: 35900/93349 (38.5%) - Insertados: 35896, Actualizados: 4
+2026-05-21 16:29:28,158 - INFO - Progreso: 36000/93349 (38.6%) - Insertados: 35996, Actualizados: 4
+2026-05-21 16:29:53,220 - INFO - Progreso: 36100/93349 (38.7%) - Insertados: 36096, Actualizados: 4
+2026-05-21 16:30:17,754 - INFO - Progreso: 36200/93349 (38.8%) - Insertados: 36196, Actualizados: 4
+2026-05-21 16:30:41,081 - INFO - Progreso: 36300/93349 (38.9%) - Insertados: 36296, Actualizados: 4
+2026-05-21 16:31:04,600 - INFO - Progreso: 36400/93349 (39.0%) - Insertados: 36396, Actualizados: 4
+2026-05-21 16:31:28,482 - INFO - Progreso: 36500/93349 (39.1%) - Insertados: 36496, Actualizados: 4
+2026-05-21 16:31:52,213 - INFO - Progreso: 36600/93349 (39.2%) - Insertados: 36596, Actualizados: 4
+2026-05-21 16:32:15,456 - INFO - Progreso: 36700/93349 (39.3%) - Insertados: 36696, Actualizados: 4
+2026-05-21 16:32:38,859 - INFO - Progreso: 36800/93349 (39.4%) - Insertados: 36796, Actualizados: 4
+2026-05-21 16:33:02,251 - INFO - Progreso: 36900/93349 (39.5%) - Insertados: 36896, Actualizados: 4
+2026-05-21 16:33:25,461 - INFO - Progreso: 37000/93349 (39.6%) - Insertados: 36996, Actualizados: 4
+2026-05-21 16:33:48,839 - INFO - Progreso: 37100/93349 (39.7%) - Insertados: 37096, Actualizados: 4
+2026-05-21 16:34:11,939 - INFO - Progreso: 37200/93349 (39.9%) - Insertados: 37196, Actualizados: 4
+2026-05-21 16:34:34,861 - INFO - Progreso: 37300/93349 (40.0%) - Insertados: 37296, Actualizados: 4
+2026-05-21 16:34:58,203 - INFO - Progreso: 37400/93349 (40.1%) - Insertados: 37396, Actualizados: 4
+2026-05-21 16:35:21,366 - INFO - Progreso: 37500/93349 (40.2%) - Insertados: 37496, Actualizados: 4
+2026-05-21 16:35:44,272 - INFO - Progreso: 37600/93349 (40.3%) - Insertados: 37596, Actualizados: 4
+2026-05-21 16:36:07,530 - INFO - Progreso: 37700/93349 (40.4%) - Insertados: 37695, Actualizados: 5
+2026-05-21 16:36:30,603 - INFO - Progreso: 37800/93349 (40.5%) - Insertados: 37795, Actualizados: 5
+2026-05-21 16:36:53,802 - INFO - Progreso: 37900/93349 (40.6%) - Insertados: 37895, Actualizados: 5
+2026-05-21 16:37:17,543 - INFO - Progreso: 38000/93349 (40.7%) - Insertados: 37995, Actualizados: 5
+2026-05-21 16:37:40,885 - INFO - Progreso: 38100/93349 (40.8%) - Insertados: 38095, Actualizados: 5
+2026-05-21 16:38:03,822 - INFO - Progreso: 38200/93349 (40.9%) - Insertados: 38195, Actualizados: 5
+2026-05-21 16:38:27,027 - INFO - Progreso: 38300/93349 (41.0%) - Insertados: 38295, Actualizados: 5
+2026-05-21 16:38:49,999 - INFO - Progreso: 38400/93349 (41.1%) - Insertados: 38395, Actualizados: 5
+2026-05-21 16:39:13,143 - INFO - Progreso: 38500/93349 (41.2%) - Insertados: 38495, Actualizados: 5
+2026-05-21 16:39:36,999 - INFO - Progreso: 38600/93349 (41.4%) - Insertados: 38595, Actualizados: 5
+2026-05-21 16:40:00,470 - INFO - Progreso: 38700/93349 (41.5%) - Insertados: 38695, Actualizados: 5
+2026-05-21 16:40:23,724 - INFO - Progreso: 38800/93349 (41.6%) - Insertados: 38795, Actualizados: 5
+2026-05-21 16:40:47,120 - INFO - Progreso: 38900/93349 (41.7%) - Insertados: 38894, Actualizados: 6
+2026-05-21 16:41:10,213 - INFO - Progreso: 39000/93349 (41.8%) - Insertados: 38994, Actualizados: 6
+2026-05-21 16:41:34,374 - INFO - Progreso: 39100/93349 (41.9%) - Insertados: 39094, Actualizados: 6
+2026-05-21 16:41:59,705 - INFO - Progreso: 39200/93349 (42.0%) - Insertados: 39194, Actualizados: 6
+2026-05-21 16:42:24,032 - INFO - Progreso: 39300/93349 (42.1%) - Insertados: 39294, Actualizados: 6
+2026-05-21 16:42:48,130 - INFO - Progreso: 39400/93349 (42.2%) - Insertados: 39394, Actualizados: 6
+2026-05-21 16:43:13,392 - INFO - Progreso: 39500/93349 (42.3%) - Insertados: 39494, Actualizados: 6
+2026-05-21 16:43:38,726 - INFO - Progreso: 39600/93349 (42.4%) - Insertados: 39594, Actualizados: 6
+2026-05-21 16:44:04,092 - INFO - Progreso: 39700/93349 (42.5%) - Insertados: 39694, Actualizados: 6
+2026-05-21 16:44:27,910 - INFO - Progreso: 39800/93349 (42.6%) - Insertados: 39794, Actualizados: 6
+2026-05-21 16:44:51,435 - INFO - Progreso: 39900/93349 (42.7%) - Insertados: 39894, Actualizados: 6
+2026-05-21 16:45:14,850 - INFO - Progreso: 40000/93349 (42.8%) - Insertados: 39994, Actualizados: 6
+2026-05-21 16:45:37,932 - INFO - Progreso: 40100/93349 (43.0%) - Insertados: 40094, Actualizados: 6
+2026-05-21 16:46:01,166 - INFO - Progreso: 40200/93349 (43.1%) - Insertados: 40194, Actualizados: 6
+2026-05-21 16:46:24,357 - INFO - Progreso: 40300/93349 (43.2%) - Insertados: 40294, Actualizados: 6
+2026-05-21 16:46:47,508 - INFO - Progreso: 40400/93349 (43.3%) - Insertados: 40394, Actualizados: 6
+2026-05-21 16:47:10,767 - INFO - Progreso: 40500/93349 (43.4%) - Insertados: 40494, Actualizados: 6
+2026-05-21 16:47:34,510 - INFO - Progreso: 40600/93349 (43.5%) - Insertados: 40594, Actualizados: 6
+2026-05-21 16:47:59,260 - INFO - Progreso: 40700/93349 (43.6%) - Insertados: 40694, Actualizados: 6
+2026-05-21 16:48:23,033 - INFO - Progreso: 40800/93349 (43.7%) - Insertados: 40794, Actualizados: 6
+2026-05-21 16:48:46,571 - INFO - Progreso: 40900/93349 (43.8%) - Insertados: 40894, Actualizados: 6
+2026-05-21 16:49:10,616 - INFO - Progreso: 41000/93349 (43.9%) - Insertados: 40994, Actualizados: 6
+2026-05-21 16:49:34,785 - INFO - Progreso: 41100/93349 (44.0%) - Insertados: 41094, Actualizados: 6
+2026-05-21 16:49:58,111 - INFO - Progreso: 41200/93349 (44.1%) - Insertados: 41194, Actualizados: 6
+2026-05-21 16:50:21,471 - INFO - Progreso: 41300/93349 (44.2%) - Insertados: 41294, Actualizados: 6
+2026-05-21 16:50:44,726 - INFO - Progreso: 41400/93349 (44.3%) - Insertados: 41394, Actualizados: 6
+2026-05-21 16:51:08,135 - INFO - Progreso: 41500/93349 (44.5%) - Insertados: 41494, Actualizados: 6
+2026-05-21 16:51:31,624 - INFO - Progreso: 41600/93349 (44.6%) - Insertados: 41594, Actualizados: 6
+2026-05-21 16:51:54,848 - INFO - Progreso: 41700/93349 (44.7%) - Insertados: 41694, Actualizados: 6
+2026-05-21 16:52:17,883 - INFO - Progreso: 41800/93349 (44.8%) - Insertados: 41794, Actualizados: 6
+2026-05-21 16:52:41,452 - INFO - Progreso: 41900/93349 (44.9%) - Insertados: 41894, Actualizados: 6
+2026-05-21 16:53:04,666 - INFO - Progreso: 42000/93349 (45.0%) - Insertados: 41994, Actualizados: 6
+2026-05-21 16:53:28,442 - INFO - Progreso: 42100/93349 (45.1%) - Insertados: 42094, Actualizados: 6
+2026-05-21 16:53:51,675 - INFO - Progreso: 42200/93349 (45.2%) - Insertados: 42193, Actualizados: 7
+2026-05-21 16:54:14,684 - INFO - Progreso: 42300/93349 (45.3%) - Insertados: 42293, Actualizados: 7
+2026-05-21 16:54:37,908 - INFO - Progreso: 42400/93349 (45.4%) - Insertados: 42393, Actualizados: 7
+2026-05-21 16:55:01,179 - INFO - Progreso: 42500/93349 (45.5%) - Insertados: 42493, Actualizados: 7
+2026-05-21 16:55:24,464 - INFO - Progreso: 42600/93349 (45.6%) - Insertados: 42593, Actualizados: 7
+2026-05-21 16:55:47,810 - INFO - Progreso: 42700/93349 (45.7%) - Insertados: 42693, Actualizados: 7
+2026-05-21 16:56:11,234 - INFO - Progreso: 42800/93349 (45.8%) - Insertados: 42793, Actualizados: 7
+2026-05-21 16:56:35,047 - INFO - Progreso: 42900/93349 (46.0%) - Insertados: 42893, Actualizados: 7
+2026-05-21 16:56:59,744 - INFO - Progreso: 43000/93349 (46.1%) - Insertados: 42993, Actualizados: 7
+2026-05-21 16:57:24,290 - INFO - Progreso: 43100/93349 (46.2%) - Insertados: 43093, Actualizados: 7
+2026-05-21 16:57:49,215 - INFO - Progreso: 43200/93349 (46.3%) - Insertados: 43193, Actualizados: 7
+2026-05-21 16:58:12,522 - INFO - Progreso: 43300/93349 (46.4%) - Insertados: 43293, Actualizados: 7
+2026-05-21 16:58:35,936 - INFO - Progreso: 43400/93349 (46.5%) - Insertados: 43393, Actualizados: 7
+2026-05-21 16:58:59,224 - INFO - Progreso: 43500/93349 (46.6%) - Insertados: 43493, Actualizados: 7
+2026-05-21 16:59:22,497 - INFO - Progreso: 43600/93349 (46.7%) - Insertados: 43593, Actualizados: 7
+2026-05-21 16:59:45,629 - INFO - Progreso: 43700/93349 (46.8%) - Insertados: 43693, Actualizados: 7
+2026-05-21 17:00:08,765 - INFO - Progreso: 43800/93349 (46.9%) - Insertados: 43793, Actualizados: 7
+2026-05-21 17:00:31,803 - INFO - Progreso: 43900/93349 (47.0%) - Insertados: 43893, Actualizados: 7
+2026-05-21 17:00:54,863 - INFO - Progreso: 44000/93349 (47.1%) - Insertados: 43993, Actualizados: 7
+2026-05-21 17:01:18,477 - INFO - Progreso: 44100/93349 (47.2%) - Insertados: 44093, Actualizados: 7
+2026-05-21 17:01:42,414 - INFO - Progreso: 44200/93349 (47.3%) - Insertados: 44193, Actualizados: 7
+2026-05-21 17:02:05,649 - INFO - Progreso: 44300/93349 (47.5%) - Insertados: 44293, Actualizados: 7
+2026-05-21 17:02:29,130 - INFO - Progreso: 44400/93349 (47.6%) - Insertados: 44393, Actualizados: 7
+2026-05-21 17:02:52,546 - INFO - Progreso: 44500/93349 (47.7%) - Insertados: 44493, Actualizados: 7
+2026-05-21 17:03:16,164 - INFO - Progreso: 44600/93349 (47.8%) - Insertados: 44593, Actualizados: 7
+2026-05-21 17:03:39,465 - INFO - Progreso: 44700/93349 (47.9%) - Insertados: 44693, Actualizados: 7
+2026-05-21 17:04:02,611 - INFO - Progreso: 44800/93349 (48.0%) - Insertados: 44793, Actualizados: 7
+2026-05-21 17:04:25,739 - INFO - Progreso: 44900/93349 (48.1%) - Insertados: 44893, Actualizados: 7
+2026-05-21 17:04:48,850 - INFO - Progreso: 45000/93349 (48.2%) - Insertados: 44993, Actualizados: 7
+2026-05-21 17:05:11,978 - INFO - Progreso: 45100/93349 (48.3%) - Insertados: 45093, Actualizados: 7
+2026-05-21 17:05:35,090 - INFO - Progreso: 45200/93349 (48.4%) - Insertados: 45193, Actualizados: 7
+2026-05-21 17:05:58,229 - INFO - Progreso: 45300/93349 (48.5%) - Insertados: 45293, Actualizados: 7
+2026-05-21 17:06:21,354 - INFO - Progreso: 45400/93349 (48.6%) - Insertados: 45393, Actualizados: 7
+2026-05-21 17:06:44,610 - INFO - Progreso: 45500/93349 (48.7%) - Insertados: 45493, Actualizados: 7
+2026-05-21 17:07:07,735 - INFO - Progreso: 45600/93349 (48.8%) - Insertados: 45593, Actualizados: 7
+2026-05-21 17:07:30,650 - INFO - Progreso: 45700/93349 (49.0%) - Insertados: 45693, Actualizados: 7
+2026-05-21 17:07:53,853 - INFO - Progreso: 45800/93349 (49.1%) - Insertados: 45793, Actualizados: 7
+2026-05-21 17:08:17,353 - INFO - Progreso: 45900/93349 (49.2%) - Insertados: 45893, Actualizados: 7
+2026-05-21 17:08:40,467 - INFO - Progreso: 46000/93349 (49.3%) - Insertados: 45993, Actualizados: 7
+2026-05-21 17:09:03,602 - INFO - Progreso: 46100/93349 (49.4%) - Insertados: 46093, Actualizados: 7
+2026-05-21 17:09:26,833 - INFO - Progreso: 46200/93349 (49.5%) - Insertados: 46193, Actualizados: 7
+2026-05-21 17:09:50,077 - INFO - Progreso: 46300/93349 (49.6%) - Insertados: 46293, Actualizados: 7
+2026-05-21 17:10:13,339 - INFO - Progreso: 46400/93349 (49.7%) - Insertados: 46393, Actualizados: 7
+2026-05-21 17:10:37,064 - INFO - Progreso: 46500/93349 (49.8%) - Insertados: 46493, Actualizados: 7
+2026-05-21 17:11:00,744 - INFO - Progreso: 46600/93349 (49.9%) - Insertados: 46593, Actualizados: 7
+2026-05-21 17:11:24,732 - INFO - Progreso: 46700/93349 (50.0%) - Insertados: 46693, Actualizados: 7
+2026-05-21 17:11:48,059 - INFO - Progreso: 46800/93349 (50.1%) - Insertados: 46793, Actualizados: 7
+2026-05-21 17:12:11,169 - INFO - Progreso: 46900/93349 (50.2%) - Insertados: 46893, Actualizados: 7
+2026-05-21 17:12:34,424 - INFO - Progreso: 47000/93349 (50.3%) - Insertados: 46993, Actualizados: 7
+2026-05-21 17:12:57,990 - INFO - Progreso: 47100/93349 (50.5%) - Insertados: 47093, Actualizados: 7
+2026-05-21 17:13:21,480 - INFO - Progreso: 47200/93349 (50.6%) - Insertados: 47193, Actualizados: 7
+2026-05-21 17:13:44,637 - INFO - Progreso: 47300/93349 (50.7%) - Insertados: 47293, Actualizados: 7
+2026-05-21 17:14:07,822 - INFO - Progreso: 47400/93349 (50.8%) - Insertados: 47393, Actualizados: 7
+2026-05-21 17:14:30,949 - INFO - Progreso: 47500/93349 (50.9%) - Insertados: 47493, Actualizados: 7
+2026-05-21 17:14:54,122 - INFO - Progreso: 47600/93349 (51.0%) - Insertados: 47593, Actualizados: 7
+2026-05-21 17:15:17,919 - INFO - Progreso: 47700/93349 (51.1%) - Insertados: 47693, Actualizados: 7
+2026-05-21 17:15:41,322 - INFO - Progreso: 47800/93349 (51.2%) - Insertados: 47793, Actualizados: 7
+2026-05-21 17:16:04,429 - INFO - Progreso: 47900/93349 (51.3%) - Insertados: 47893, Actualizados: 7
+2026-05-21 17:16:27,746 - INFO - Progreso: 48000/93349 (51.4%) - Insertados: 47993, Actualizados: 7
+2026-05-21 17:16:50,950 - INFO - Progreso: 48100/93349 (51.5%) - Insertados: 48093, Actualizados: 7
+2026-05-21 17:17:14,063 - INFO - Progreso: 48200/93349 (51.6%) - Insertados: 48193, Actualizados: 7
+2026-05-21 17:17:38,356 - INFO - Progreso: 48300/93349 (51.7%) - Insertados: 48293, Actualizados: 7
+2026-05-21 17:18:02,196 - INFO - Progreso: 48400/93349 (51.8%) - Insertados: 48393, Actualizados: 7
+2026-05-21 17:18:25,496 - INFO - Progreso: 48500/93349 (52.0%) - Insertados: 48493, Actualizados: 7
+2026-05-21 17:18:48,602 - INFO - Progreso: 48600/93349 (52.1%) - Insertados: 48593, Actualizados: 7
+2026-05-21 17:19:11,771 - INFO - Progreso: 48700/93349 (52.2%) - Insertados: 48693, Actualizados: 7
+2026-05-21 17:19:34,930 - INFO - Progreso: 48800/93349 (52.3%) - Insertados: 48793, Actualizados: 7
+2026-05-21 17:19:58,150 - INFO - Progreso: 48900/93349 (52.4%) - Insertados: 48893, Actualizados: 7
+2026-05-21 17:20:21,380 - INFO - Progreso: 49000/93349 (52.5%) - Insertados: 48993, Actualizados: 7
+2026-05-21 17:20:44,489 - INFO - Progreso: 49100/93349 (52.6%) - Insertados: 49093, Actualizados: 7
+2026-05-21 17:21:07,654 - INFO - Progreso: 49200/93349 (52.7%) - Insertados: 49193, Actualizados: 7
+2026-05-21 17:21:30,814 - INFO - Progreso: 49300/93349 (52.8%) - Insertados: 49293, Actualizados: 7
+2026-05-21 17:21:53,902 - INFO - Progreso: 49400/93349 (52.9%) - Insertados: 49393, Actualizados: 7
+2026-05-21 17:22:17,055 - INFO - Progreso: 49500/93349 (53.0%) - Insertados: 49493, Actualizados: 7
+2026-05-21 17:22:40,477 - INFO - Progreso: 49600/93349 (53.1%) - Insertados: 49593, Actualizados: 7
+2026-05-21 17:23:03,651 - INFO - Progreso: 49700/93349 (53.2%) - Insertados: 49693, Actualizados: 7
+2026-05-21 17:23:26,950 - INFO - Progreso: 49800/93349 (53.3%) - Insertados: 49793, Actualizados: 7
+2026-05-21 17:23:50,130 - INFO - Progreso: 49900/93349 (53.5%) - Insertados: 49893, Actualizados: 7
+2026-05-21 17:24:13,483 - INFO - Progreso: 50000/93349 (53.6%) - Insertados: 49993, Actualizados: 7
+2026-05-21 17:24:36,646 - INFO - Progreso: 50100/93349 (53.7%) - Insertados: 50093, Actualizados: 7
+2026-05-21 17:24:59,839 - INFO - Progreso: 50200/93349 (53.8%) - Insertados: 50193, Actualizados: 7
+2026-05-21 17:25:23,013 - INFO - Progreso: 50300/93349 (53.9%) - Insertados: 50293, Actualizados: 7
+2026-05-21 17:25:46,157 - INFO - Progreso: 50400/93349 (54.0%) - Insertados: 50393, Actualizados: 7
+2026-05-21 17:26:09,291 - INFO - Progreso: 50500/93349 (54.1%) - Insertados: 50493, Actualizados: 7
+2026-05-21 17:26:32,521 - INFO - Progreso: 50600/93349 (54.2%) - Insertados: 50593, Actualizados: 7
+2026-05-21 17:26:55,909 - INFO - Progreso: 50700/93349 (54.3%) - Insertados: 50693, Actualizados: 7
+2026-05-21 17:27:19,486 - INFO - Progreso: 50800/93349 (54.4%) - Insertados: 50793, Actualizados: 7
+2026-05-21 17:27:42,996 - INFO - Progreso: 50900/93349 (54.5%) - Insertados: 50893, Actualizados: 7
+2026-05-21 17:28:06,152 - INFO - Progreso: 51000/93349 (54.6%) - Insertados: 50993, Actualizados: 7
+2026-05-21 17:28:29,258 - INFO - Progreso: 51100/93349 (54.7%) - Insertados: 51093, Actualizados: 7
+2026-05-21 17:28:54,199 - INFO - Progreso: 51200/93349 (54.8%) - Insertados: 51193, Actualizados: 7
+2026-05-21 17:29:19,733 - INFO - Progreso: 51300/93349 (55.0%) - Insertados: 51293, Actualizados: 7
+2026-05-21 17:29:45,184 - INFO - Progreso: 51400/93349 (55.1%) - Insertados: 51393, Actualizados: 7
+2026-05-21 17:30:10,499 - INFO - Progreso: 51500/93349 (55.2%) - Insertados: 51493, Actualizados: 7
+2026-05-21 17:30:34,872 - INFO - Progreso: 51600/93349 (55.3%) - Insertados: 51593, Actualizados: 7
+2026-05-21 17:30:58,446 - INFO - Progreso: 51700/93349 (55.4%) - Insertados: 51693, Actualizados: 7
+2026-05-21 17:31:22,163 - INFO - Progreso: 51800/93349 (55.5%) - Insertados: 51793, Actualizados: 7
+2026-05-21 17:31:45,376 - INFO - Progreso: 51900/93349 (55.6%) - Insertados: 51893, Actualizados: 7
+2026-05-21 17:32:08,630 - INFO - Progreso: 52000/93349 (55.7%) - Insertados: 51993, Actualizados: 7
+2026-05-21 17:32:32,010 - INFO - Progreso: 52100/93349 (55.8%) - Insertados: 52093, Actualizados: 7
+2026-05-21 17:32:55,283 - INFO - Progreso: 52200/93349 (55.9%) - Insertados: 52193, Actualizados: 7
+2026-05-21 17:33:18,712 - INFO - Progreso: 52300/93349 (56.0%) - Insertados: 52293, Actualizados: 7
+2026-05-21 17:33:42,019 - INFO - Progreso: 52400/93349 (56.1%) - Insertados: 52393, Actualizados: 7
+2026-05-21 17:34:06,515 - INFO - Progreso: 52500/93349 (56.2%) - Insertados: 52493, Actualizados: 7
+2026-05-21 17:34:30,519 - INFO - Progreso: 52600/93349 (56.3%) - Insertados: 52593, Actualizados: 7
+2026-05-21 17:34:53,623 - INFO - Progreso: 52700/93349 (56.5%) - Insertados: 52693, Actualizados: 7
+2026-05-21 17:35:16,949 - INFO - Progreso: 52800/93349 (56.6%) - Insertados: 52793, Actualizados: 7
+2026-05-21 17:35:40,516 - INFO - Progreso: 52900/93349 (56.7%) - Insertados: 52893, Actualizados: 7
+2026-05-21 17:36:05,352 - INFO - Progreso: 53000/93349 (56.8%) - Insertados: 52993, Actualizados: 7
+2026-05-21 17:36:29,425 - INFO - Progreso: 53100/93349 (56.9%) - Insertados: 53093, Actualizados: 7
+2026-05-21 17:36:53,201 - INFO - Progreso: 53200/93349 (57.0%) - Insertados: 53193, Actualizados: 7
+2026-05-21 17:37:16,676 - INFO - Progreso: 53300/93349 (57.1%) - Insertados: 53293, Actualizados: 7
+2026-05-21 17:37:41,964 - INFO - Progreso: 53400/93349 (57.2%) - Insertados: 53393, Actualizados: 7
+2026-05-21 17:38:07,501 - INFO - Progreso: 53500/93349 (57.3%) - Insertados: 53493, Actualizados: 7
+2026-05-21 17:38:31,219 - INFO - Progreso: 53600/93349 (57.4%) - Insertados: 53593, Actualizados: 7
+2026-05-21 17:38:54,342 - INFO - Progreso: 53700/93349 (57.5%) - Insertados: 53693, Actualizados: 7
+2026-05-21 17:39:17,488 - INFO - Progreso: 53800/93349 (57.6%) - Insertados: 53793, Actualizados: 7
+2026-05-21 17:39:40,742 - INFO - Progreso: 53900/93349 (57.7%) - Insertados: 53893, Actualizados: 7
+2026-05-21 17:40:04,087 - INFO - Progreso: 54000/93349 (57.8%) - Insertados: 53993, Actualizados: 7
+2026-05-21 17:40:27,325 - INFO - Progreso: 54100/93349 (58.0%) - Insertados: 54093, Actualizados: 7
+2026-05-21 17:40:51,703 - INFO - Progreso: 54200/93349 (58.1%) - Insertados: 54193, Actualizados: 7
+2026-05-21 17:41:15,748 - INFO - Progreso: 54300/93349 (58.2%) - Insertados: 54293, Actualizados: 7
+2026-05-21 17:41:39,034 - INFO - Progreso: 54400/93349 (58.3%) - Insertados: 54393, Actualizados: 7
+2026-05-21 17:42:02,348 - INFO - Progreso: 54500/93349 (58.4%) - Insertados: 54493, Actualizados: 7
+2026-05-21 17:42:25,564 - INFO - Progreso: 54600/93349 (58.5%) - Insertados: 54593, Actualizados: 7
+2026-05-21 17:42:48,671 - INFO - Progreso: 54700/93349 (58.6%) - Insertados: 54693, Actualizados: 7
+2026-05-21 17:43:12,133 - INFO - Progreso: 54800/93349 (58.7%) - Insertados: 54793, Actualizados: 7
+2026-05-21 17:43:35,594 - INFO - Progreso: 54900/93349 (58.8%) - Insertados: 54893, Actualizados: 7
+2026-05-21 17:43:58,912 - INFO - Progreso: 55000/93349 (58.9%) - Insertados: 54993, Actualizados: 7
+2026-05-21 17:44:22,404 - INFO - Progreso: 55100/93349 (59.0%) - Insertados: 55093, Actualizados: 7
+2026-05-21 17:44:45,871 - INFO - Progreso: 55200/93349 (59.1%) - Insertados: 55193, Actualizados: 7
+2026-05-21 17:45:09,402 - INFO - Progreso: 55300/93349 (59.2%) - Insertados: 55293, Actualizados: 7
+2026-05-21 17:45:32,658 - INFO - Progreso: 55400/93349 (59.3%) - Insertados: 55393, Actualizados: 7
+2026-05-21 17:45:55,892 - INFO - Progreso: 55500/93349 (59.5%) - Insertados: 55493, Actualizados: 7
+2026-05-21 17:46:19,116 - INFO - Progreso: 55600/93349 (59.6%) - Insertados: 55593, Actualizados: 7
+2026-05-21 17:46:42,558 - INFO - Progreso: 55700/93349 (59.7%) - Insertados: 55693, Actualizados: 7
+2026-05-21 17:47:06,279 - INFO - Progreso: 55800/93349 (59.8%) - Insertados: 55793, Actualizados: 7
+2026-05-21 17:47:29,749 - INFO - Progreso: 55900/93349 (59.9%) - Insertados: 55893, Actualizados: 7
+2026-05-21 17:47:52,991 - INFO - Progreso: 56000/93349 (60.0%) - Insertados: 55993, Actualizados: 7
+2026-05-21 17:48:16,332 - INFO - Progreso: 56100/93349 (60.1%) - Insertados: 56093, Actualizados: 7
+2026-05-21 17:48:39,578 - INFO - Progreso: 56200/93349 (60.2%) - Insertados: 56193, Actualizados: 7
+2026-05-21 17:49:03,247 - INFO - Progreso: 56300/93349 (60.3%) - Insertados: 56293, Actualizados: 7
+2026-05-21 17:49:26,847 - INFO - Progreso: 56400/93349 (60.4%) - Insertados: 56393, Actualizados: 7
+2026-05-21 17:49:49,975 - INFO - Progreso: 56500/93349 (60.5%) - Insertados: 56493, Actualizados: 7
+2026-05-21 17:50:13,165 - INFO - Progreso: 56600/93349 (60.6%) - Insertados: 56593, Actualizados: 7
+2026-05-21 17:50:36,493 - INFO - Progreso: 56700/93349 (60.7%) - Insertados: 56693, Actualizados: 7
+2026-05-21 17:50:59,692 - INFO - Progreso: 56800/93349 (60.8%) - Insertados: 56793, Actualizados: 7
+2026-05-21 17:51:23,150 - INFO - Progreso: 56900/93349 (61.0%) - Insertados: 56893, Actualizados: 7
+2026-05-21 17:51:46,295 - INFO - Progreso: 57000/93349 (61.1%) - Insertados: 56993, Actualizados: 7
+2026-05-21 17:52:09,675 - INFO - Progreso: 57100/93349 (61.2%) - Insertados: 57093, Actualizados: 7
+2026-05-21 17:52:33,519 - INFO - Progreso: 57200/93349 (61.3%) - Insertados: 57193, Actualizados: 7
+2026-05-21 17:52:57,114 - INFO - Progreso: 57300/93349 (61.4%) - Insertados: 57293, Actualizados: 7
+2026-05-21 17:53:20,693 - INFO - Progreso: 57400/93349 (61.5%) - Insertados: 57393, Actualizados: 7
+2026-05-21 17:53:44,100 - INFO - Progreso: 57500/93349 (61.6%) - Insertados: 57493, Actualizados: 7
+2026-05-21 17:54:07,316 - INFO - Progreso: 57600/93349 (61.7%) - Insertados: 57593, Actualizados: 7
+2026-05-21 17:54:30,657 - INFO - Progreso: 57700/93349 (61.8%) - Insertados: 57693, Actualizados: 7
+2026-05-21 17:54:54,010 - INFO - Progreso: 57800/93349 (61.9%) - Insertados: 57793, Actualizados: 7
+2026-05-21 17:55:17,254 - INFO - Progreso: 57900/93349 (62.0%) - Insertados: 57893, Actualizados: 7
+2026-05-21 17:55:40,522 - INFO - Progreso: 58000/93349 (62.1%) - Insertados: 57993, Actualizados: 7
+2026-05-21 17:56:03,860 - INFO - Progreso: 58100/93349 (62.2%) - Insertados: 58093, Actualizados: 7
+2026-05-21 17:56:27,360 - INFO - Progreso: 58200/93349 (62.3%) - Insertados: 58193, Actualizados: 7
+2026-05-21 17:56:50,729 - INFO - Progreso: 58300/93349 (62.5%) - Insertados: 58293, Actualizados: 7
+2026-05-21 17:57:13,994 - INFO - Progreso: 58400/93349 (62.6%) - Insertados: 58393, Actualizados: 7
+2026-05-21 17:57:37,407 - INFO - Progreso: 58500/93349 (62.7%) - Insertados: 58493, Actualizados: 7
+2026-05-21 17:58:00,871 - INFO - Progreso: 58600/93349 (62.8%) - Insertados: 58593, Actualizados: 7
+2026-05-21 17:58:24,157 - INFO - Progreso: 58700/93349 (62.9%) - Insertados: 58693, Actualizados: 7
+2026-05-21 17:58:47,473 - INFO - Progreso: 58800/93349 (63.0%) - Insertados: 58793, Actualizados: 7
+2026-05-21 17:59:11,010 - INFO - Progreso: 58900/93349 (63.1%) - Insertados: 58893, Actualizados: 7
+2026-05-21 17:59:34,449 - INFO - Progreso: 59000/93349 (63.2%) - Insertados: 58993, Actualizados: 7
+2026-05-21 17:59:57,818 - INFO - Progreso: 59100/93349 (63.3%) - Insertados: 59093, Actualizados: 7
+2026-05-21 18:00:21,208 - INFO - Progreso: 59200/93349 (63.4%) - Insertados: 59193, Actualizados: 7
+2026-05-21 18:00:44,842 - INFO - Progreso: 59300/93349 (63.5%) - Insertados: 59293, Actualizados: 7
+2026-05-21 18:01:08,523 - INFO - Progreso: 59400/93349 (63.6%) - Insertados: 59393, Actualizados: 7
+2026-05-21 18:01:31,931 - INFO - Progreso: 59500/93349 (63.7%) - Insertados: 59493, Actualizados: 7
+2026-05-21 18:01:55,216 - INFO - Progreso: 59600/93349 (63.8%) - Insertados: 59593, Actualizados: 7
+2026-05-21 18:02:18,501 - INFO - Progreso: 59700/93349 (64.0%) - Insertados: 59693, Actualizados: 7
+2026-05-21 18:02:41,831 - INFO - Progreso: 59800/93349 (64.1%) - Insertados: 59793, Actualizados: 7
+2026-05-21 18:03:05,157 - INFO - Progreso: 59900/93349 (64.2%) - Insertados: 59893, Actualizados: 7
+2026-05-21 18:03:29,019 - INFO - Progreso: 60000/93349 (64.3%) - Insertados: 59993, Actualizados: 7
+2026-05-21 18:03:52,417 - INFO - Progreso: 60100/93349 (64.4%) - Insertados: 60093, Actualizados: 7
+2026-05-21 18:04:15,744 - INFO - Progreso: 60200/93349 (64.5%) - Insertados: 60193, Actualizados: 7
+2026-05-21 18:04:39,129 - INFO - Progreso: 60300/93349 (64.6%) - Insertados: 60293, Actualizados: 7
+2026-05-21 18:05:02,487 - INFO - Progreso: 60400/93349 (64.7%) - Insertados: 60393, Actualizados: 7
+2026-05-21 18:05:25,770 - INFO - Progreso: 60500/93349 (64.8%) - Insertados: 60493, Actualizados: 7
+2026-05-21 18:05:48,998 - INFO - Progreso: 60600/93349 (64.9%) - Insertados: 60593, Actualizados: 7
+2026-05-21 18:06:12,314 - INFO - Progreso: 60700/93349 (65.0%) - Insertados: 60693, Actualizados: 7
+2026-05-21 18:06:35,670 - INFO - Progreso: 60800/93349 (65.1%) - Insertados: 60793, Actualizados: 7
+2026-05-21 18:06:58,932 - INFO - Progreso: 60900/93349 (65.2%) - Insertados: 60893, Actualizados: 7
+2026-05-21 18:07:22,116 - INFO - Progreso: 61000/93349 (65.3%) - Insertados: 60993, Actualizados: 7
+2026-05-21 18:07:45,412 - INFO - Progreso: 61100/93349 (65.5%) - Insertados: 61093, Actualizados: 7
+2026-05-21 18:08:08,687 - INFO - Progreso: 61200/93349 (65.6%) - Insertados: 61193, Actualizados: 7
+2026-05-21 18:08:31,982 - INFO - Progreso: 61300/93349 (65.7%) - Insertados: 61293, Actualizados: 7
+2026-05-21 18:08:55,234 - INFO - Progreso: 61400/93349 (65.8%) - Insertados: 61393, Actualizados: 7
+2026-05-21 18:09:18,468 - INFO - Progreso: 61500/93349 (65.9%) - Insertados: 61493, Actualizados: 7
+2026-05-21 18:09:41,774 - INFO - Progreso: 61600/93349 (66.0%) - Insertados: 61593, Actualizados: 7
+2026-05-21 18:10:05,068 - INFO - Progreso: 61700/93349 (66.1%) - Insertados: 61693, Actualizados: 7
+2026-05-21 18:10:28,228 - INFO - Progreso: 61800/93349 (66.2%) - Insertados: 61793, Actualizados: 7
+2026-05-21 18:10:51,464 - INFO - Progreso: 61900/93349 (66.3%) - Insertados: 61893, Actualizados: 7
+2026-05-21 18:11:14,793 - INFO - Progreso: 62000/93349 (66.4%) - Insertados: 61993, Actualizados: 7
+2026-05-21 18:11:38,043 - INFO - Progreso: 62100/93349 (66.5%) - Insertados: 62093, Actualizados: 7
+2026-05-21 18:12:01,392 - INFO - Progreso: 62200/93349 (66.6%) - Insertados: 62192, Actualizados: 8
+2026-05-21 18:12:24,504 - INFO - Progreso: 62300/93349 (66.7%) - Insertados: 62292, Actualizados: 8
+2026-05-21 18:12:47,428 - INFO - Progreso: 62400/93349 (66.8%) - Insertados: 62392, Actualizados: 8
+2026-05-21 18:13:10,643 - INFO - Progreso: 62500/93349 (67.0%) - Insertados: 62492, Actualizados: 8
+2026-05-21 18:13:33,946 - INFO - Progreso: 62600/93349 (67.1%) - Insertados: 62592, Actualizados: 8
+2026-05-21 18:13:57,206 - INFO - Progreso: 62700/93349 (67.2%) - Insertados: 62692, Actualizados: 8
+2026-05-21 18:14:20,476 - INFO - Progreso: 62800/93349 (67.3%) - Insertados: 62792, Actualizados: 8
+2026-05-21 18:14:43,908 - INFO - Progreso: 62900/93349 (67.4%) - Insertados: 62892, Actualizados: 8
+2026-05-21 18:15:07,149 - INFO - Progreso: 63000/93349 (67.5%) - Insertados: 62992, Actualizados: 8
+2026-05-21 18:15:30,311 - INFO - Progreso: 63100/93349 (67.6%) - Insertados: 63092, Actualizados: 8
+2026-05-21 18:15:53,721 - INFO - Progreso: 63200/93349 (67.7%) - Insertados: 63192, Actualizados: 8
+2026-05-21 18:16:16,992 - INFO - Progreso: 63300/93349 (67.8%) - Insertados: 63292, Actualizados: 8
+2026-05-21 18:16:40,264 - INFO - Progreso: 63400/93349 (67.9%) - Insertados: 63392, Actualizados: 8
+2026-05-21 18:17:03,598 - INFO - Progreso: 63500/93349 (68.0%) - Insertados: 63492, Actualizados: 8
+2026-05-21 18:17:26,917 - INFO - Progreso: 63600/93349 (68.1%) - Insertados: 63592, Actualizados: 8
+2026-05-21 18:17:50,493 - INFO - Progreso: 63700/93349 (68.2%) - Insertados: 63692, Actualizados: 8
+2026-05-21 18:18:13,696 - INFO - Progreso: 63800/93349 (68.3%) - Insertados: 63792, Actualizados: 8
+2026-05-21 18:18:37,035 - INFO - Progreso: 63900/93349 (68.5%) - Insertados: 63892, Actualizados: 8
+2026-05-21 18:19:00,199 - INFO - Progreso: 64000/93349 (68.6%) - Insertados: 63992, Actualizados: 8
+2026-05-21 18:19:23,554 - INFO - Progreso: 64100/93349 (68.7%) - Insertados: 64092, Actualizados: 8
+2026-05-21 18:19:46,944 - INFO - Progreso: 64200/93349 (68.8%) - Insertados: 64192, Actualizados: 8
+2026-05-21 18:20:10,270 - INFO - Progreso: 64300/93349 (68.9%) - Insertados: 64292, Actualizados: 8
+2026-05-21 18:20:33,645 - INFO - Progreso: 64400/93349 (69.0%) - Insertados: 64392, Actualizados: 8
+2026-05-21 18:20:57,848 - INFO - Progreso: 64500/93349 (69.1%) - Insertados: 64492, Actualizados: 8
+2026-05-21 18:21:22,299 - INFO - Progreso: 64600/93349 (69.2%) - Insertados: 64592, Actualizados: 8
+2026-05-21 18:21:46,324 - INFO - Progreso: 64700/93349 (69.3%) - Insertados: 64692, Actualizados: 8
+2026-05-21 18:22:10,532 - INFO - Progreso: 64800/93349 (69.4%) - Insertados: 64792, Actualizados: 8
+2026-05-21 18:22:35,081 - INFO - Progreso: 64900/93349 (69.5%) - Insertados: 64892, Actualizados: 8
+2026-05-21 18:23:00,396 - INFO - Progreso: 65000/93349 (69.6%) - Insertados: 64992, Actualizados: 8
+2026-05-21 18:23:25,380 - INFO - Progreso: 65100/93349 (69.7%) - Insertados: 65092, Actualizados: 8
+2026-05-21 18:23:48,595 - INFO - Progreso: 65200/93349 (69.8%) - Insertados: 65192, Actualizados: 8
+2026-05-21 18:24:11,818 - INFO - Progreso: 65300/93349 (70.0%) - Insertados: 65292, Actualizados: 8
+2026-05-21 18:24:35,100 - INFO - Progreso: 65400/93349 (70.1%) - Insertados: 65392, Actualizados: 8
+2026-05-21 18:24:58,404 - INFO - Progreso: 65500/93349 (70.2%) - Insertados: 65492, Actualizados: 8
+2026-05-21 18:25:21,671 - INFO - Progreso: 65600/93349 (70.3%) - Insertados: 65592, Actualizados: 8
+2026-05-21 18:25:44,890 - INFO - Progreso: 65700/93349 (70.4%) - Insertados: 65692, Actualizados: 8
+2026-05-21 18:26:08,400 - INFO - Progreso: 65800/93349 (70.5%) - Insertados: 65792, Actualizados: 8
+2026-05-21 18:26:31,726 - INFO - Progreso: 65900/93349 (70.6%) - Insertados: 65892, Actualizados: 8
+2026-05-21 18:26:55,051 - INFO - Progreso: 66000/93349 (70.7%) - Insertados: 65992, Actualizados: 8
+2026-05-21 18:27:18,186 - INFO - Progreso: 66100/93349 (70.8%) - Insertados: 66092, Actualizados: 8
+2026-05-21 18:27:41,541 - INFO - Progreso: 66200/93349 (70.9%) - Insertados: 66192, Actualizados: 8
+2026-05-21 18:28:04,817 - INFO - Progreso: 66300/93349 (71.0%) - Insertados: 66292, Actualizados: 8
+2026-05-21 18:28:28,212 - INFO - Progreso: 66400/93349 (71.1%) - Insertados: 66392, Actualizados: 8
+2026-05-21 18:28:51,633 - INFO - Progreso: 66500/93349 (71.2%) - Insertados: 66492, Actualizados: 8
+2026-05-21 18:29:15,094 - INFO - Progreso: 66600/93349 (71.3%) - Insertados: 66592, Actualizados: 8
+2026-05-21 18:29:38,389 - INFO - Progreso: 66700/93349 (71.5%) - Insertados: 66692, Actualizados: 8
+2026-05-21 18:30:01,768 - INFO - Progreso: 66800/93349 (71.6%) - Insertados: 66792, Actualizados: 8
+2026-05-21 18:30:25,103 - INFO - Progreso: 66900/93349 (71.7%) - Insertados: 66892, Actualizados: 8
+2026-05-21 18:30:48,401 - INFO - Progreso: 67000/93349 (71.8%) - Insertados: 66992, Actualizados: 8
+2026-05-21 18:31:11,714 - INFO - Progreso: 67100/93349 (71.9%) - Insertados: 67092, Actualizados: 8
+2026-05-21 18:31:35,053 - INFO - Progreso: 67200/93349 (72.0%) - Insertados: 67192, Actualizados: 8
+2026-05-21 18:31:58,491 - INFO - Progreso: 67300/93349 (72.1%) - Insertados: 67291, Actualizados: 9
+2026-05-21 18:32:21,571 - INFO - Progreso: 67400/93349 (72.2%) - Insertados: 67391, Actualizados: 9
+2026-05-21 18:32:44,802 - INFO - Progreso: 67500/93349 (72.3%) - Insertados: 67491, Actualizados: 9
+2026-05-21 18:33:08,086 - INFO - Progreso: 67600/93349 (72.4%) - Insertados: 67591, Actualizados: 9
+2026-05-21 18:33:31,422 - INFO - Progreso: 67700/93349 (72.5%) - Insertados: 67691, Actualizados: 9
+2026-05-21 18:33:55,601 - INFO - Progreso: 67800/93349 (72.6%) - Insertados: 67791, Actualizados: 9
+2026-05-21 18:34:18,942 - INFO - Progreso: 67900/93349 (72.7%) - Insertados: 67891, Actualizados: 9
+2026-05-21 18:34:42,136 - INFO - Progreso: 68000/93349 (72.8%) - Insertados: 67991, Actualizados: 9
+2026-05-21 18:35:05,092 - INFO - Progreso: 68100/93349 (73.0%) - Insertados: 68091, Actualizados: 9
+2026-05-21 18:35:28,055 - INFO - Progreso: 68200/93349 (73.1%) - Insertados: 68191, Actualizados: 9
+2026-05-21 18:35:51,057 - INFO - Progreso: 68300/93349 (73.2%) - Insertados: 68291, Actualizados: 9
+2026-05-21 18:36:14,599 - INFO - Progreso: 68400/93349 (73.3%) - Insertados: 68391, Actualizados: 9
+2026-05-21 18:36:38,208 - INFO - Progreso: 68500/93349 (73.4%) - Insertados: 68491, Actualizados: 9
+2026-05-21 18:37:01,401 - INFO - Progreso: 68600/93349 (73.5%) - Insertados: 68591, Actualizados: 9
+2026-05-21 18:37:24,504 - INFO - Progreso: 68700/93349 (73.6%) - Insertados: 68691, Actualizados: 9
+2026-05-21 18:37:48,043 - INFO - Progreso: 68800/93349 (73.7%) - Insertados: 68791, Actualizados: 9
+2026-05-21 18:38:11,395 - INFO - Progreso: 68900/93349 (73.8%) - Insertados: 68891, Actualizados: 9
+2026-05-21 18:38:34,369 - INFO - Progreso: 69000/93349 (73.9%) - Insertados: 68991, Actualizados: 9
+2026-05-21 18:38:57,323 - INFO - Progreso: 69100/93349 (74.0%) - Insertados: 69091, Actualizados: 9
+2026-05-21 18:39:20,724 - INFO - Progreso: 69200/93349 (74.1%) - Insertados: 69191, Actualizados: 9
+2026-05-21 18:39:44,102 - INFO - Progreso: 69300/93349 (74.2%) - Insertados: 69291, Actualizados: 9
+2026-05-21 18:40:07,441 - INFO - Progreso: 69400/93349 (74.3%) - Insertados: 69391, Actualizados: 9
+2026-05-21 18:40:30,633 - INFO - Progreso: 69500/93349 (74.5%) - Insertados: 69491, Actualizados: 9
+2026-05-21 18:40:53,658 - INFO - Progreso: 69600/93349 (74.6%) - Insertados: 69591, Actualizados: 9
+2026-05-21 18:41:16,600 - INFO - Progreso: 69700/93349 (74.7%) - Insertados: 69691, Actualizados: 9
+2026-05-21 18:41:39,749 - INFO - Progreso: 69800/93349 (74.8%) - Insertados: 69791, Actualizados: 9
+2026-05-21 18:42:02,652 - INFO - Progreso: 69900/93349 (74.9%) - Insertados: 69891, Actualizados: 9
+2026-05-21 18:42:25,281 - INFO - Progreso: 70000/93349 (75.0%) - Insertados: 69991, Actualizados: 9
+2026-05-21 18:42:48,208 - INFO - Progreso: 70100/93349 (75.1%) - Insertados: 70091, Actualizados: 9
+2026-05-21 18:43:11,108 - INFO - Progreso: 70200/93349 (75.2%) - Insertados: 70191, Actualizados: 9
+2026-05-21 18:43:34,048 - INFO - Progreso: 70300/93349 (75.3%) - Insertados: 70291, Actualizados: 9
+2026-05-21 18:43:56,859 - INFO - Progreso: 70400/93349 (75.4%) - Insertados: 70391, Actualizados: 9
+2026-05-21 18:44:20,196 - INFO - Progreso: 70500/93349 (75.5%) - Insertados: 70491, Actualizados: 9
+2026-05-21 18:44:43,777 - INFO - Progreso: 70600/93349 (75.6%) - Insertados: 70591, Actualizados: 9
+2026-05-21 18:45:07,467 - INFO - Progreso: 70700/93349 (75.7%) - Insertados: 70691, Actualizados: 9
+2026-05-21 18:45:30,910 - INFO - Progreso: 70800/93349 (75.8%) - Insertados: 70791, Actualizados: 9
+2026-05-21 18:45:54,481 - INFO - Progreso: 70900/93349 (76.0%) - Insertados: 70891, Actualizados: 9
+2026-05-21 18:46:17,798 - INFO - Progreso: 71000/93349 (76.1%) - Insertados: 70991, Actualizados: 9
+2026-05-21 18:46:41,350 - INFO - Progreso: 71100/93349 (76.2%) - Insertados: 71091, Actualizados: 9
+2026-05-21 18:47:04,380 - INFO - Progreso: 71200/93349 (76.3%) - Insertados: 71191, Actualizados: 9
+2026-05-21 18:47:27,568 - INFO - Progreso: 71300/93349 (76.4%) - Insertados: 71291, Actualizados: 9
+2026-05-21 18:47:50,210 - INFO - Progreso: 71400/93349 (76.5%) - Insertados: 71391, Actualizados: 9
+2026-05-21 18:48:15,231 - INFO - Progreso: 71500/93349 (76.6%) - Insertados: 71491, Actualizados: 9
+2026-05-21 18:48:40,324 - INFO - Progreso: 71600/93349 (76.7%) - Insertados: 71591, Actualizados: 9
+2026-05-21 18:49:05,347 - INFO - Progreso: 71700/93349 (76.8%) - Insertados: 71691, Actualizados: 9
+2026-05-21 18:49:30,384 - INFO - Progreso: 71800/93349 (76.9%) - Insertados: 71791, Actualizados: 9
+2026-05-21 18:49:55,516 - INFO - Progreso: 71900/93349 (77.0%) - Insertados: 71891, Actualizados: 9
+2026-05-21 18:50:20,588 - INFO - Progreso: 72000/93349 (77.1%) - Insertados: 71991, Actualizados: 9
+2026-05-21 18:50:44,894 - INFO - Progreso: 72100/93349 (77.2%) - Insertados: 72091, Actualizados: 9
+2026-05-21 18:51:08,640 - INFO - Progreso: 72200/93349 (77.3%) - Insertados: 72191, Actualizados: 9
+2026-05-21 18:51:32,029 - INFO - Progreso: 72300/93349 (77.5%) - Insertados: 72291, Actualizados: 9
+2026-05-21 18:51:55,129 - INFO - Progreso: 72400/93349 (77.6%) - Insertados: 72391, Actualizados: 9
+2026-05-21 18:52:18,161 - INFO - Progreso: 72500/93349 (77.7%) - Insertados: 72491, Actualizados: 9
+2026-05-21 18:52:41,603 - INFO - Progreso: 72600/93349 (77.8%) - Insertados: 72591, Actualizados: 9
+2026-05-21 18:53:04,921 - INFO - Progreso: 72700/93349 (77.9%) - Insertados: 72691, Actualizados: 9
+2026-05-21 18:53:28,155 - INFO - Progreso: 72800/93349 (78.0%) - Insertados: 72791, Actualizados: 9
+2026-05-21 18:53:51,246 - INFO - Progreso: 72900/93349 (78.1%) - Insertados: 72891, Actualizados: 9
+2026-05-21 18:54:14,128 - INFO - Progreso: 73000/93349 (78.2%) - Insertados: 72991, Actualizados: 9
+2026-05-21 18:54:37,116 - INFO - Progreso: 73100/93349 (78.3%) - Insertados: 73091, Actualizados: 9
+2026-05-21 18:55:00,207 - INFO - Progreso: 73200/93349 (78.4%) - Insertados: 73191, Actualizados: 9
+2026-05-21 18:55:23,267 - INFO - Progreso: 73300/93349 (78.5%) - Insertados: 73291, Actualizados: 9
+2026-05-21 18:55:46,227 - INFO - Progreso: 73400/93349 (78.6%) - Insertados: 73391, Actualizados: 9
+2026-05-21 18:56:09,244 - INFO - Progreso: 73500/93349 (78.7%) - Insertados: 73491, Actualizados: 9
+2026-05-21 18:56:28,748 - ERROR - Fila 73585 | CardCode: B891300529, Address: MARGARITAS, AdresType: S | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIRAMA.dbo.IntegracionSAP_CRD1', column 'Street'. Truncated value: 'CL  8   17    80 BG 1 Parque Empresarial Margaritas de Montana, Mosquera,\t\t\tMOSQUERA\t\t\t\t10/08/2021\t\t'. (2628) (SQLParamData); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-05-21 18:56:28,752 - ERROR - Fila 73585 | CardCode: B891300529, Address: MARGARITAS, AdresType: S | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIRAMA.dbo.IntegracionSAP_CRD1', column 'Street'. Truncated value: 'CL  8   17    80 BG 1 Parque Empresarial Margaritas de Montana, Mosquera,\t\t\tMOSQUERA\t\t\t\t10/08/2021\t\t'. (2628) (SQLParamData); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-05-21 18:56:28,758 - ERROR -   Valores: CardCode=B891300529, Address=MARGARITAS, AdresType=S, Street=CL  8   17    80 BG 1 Parque Empresarial Margaritas de Montana, Mosquera,			MOSQUERA				10/08/2021		_x000D_
+LA UNION VALLE	A891902138	S				CL 14 4 125 BRR LAS LAJAS		76	LA UNION VALLE				12/03/2021		_x000D_
+PRINCIPAL	C76294538	B				CRA 96 2 A  19	MELENDEZ	76	CALI	CALI			26/04/2023		_x000D_
+PRINCIPAL 2	B900017433	S				CL 109 18 B 32 LO 2 BRR SAN PATRICIO	SAN PATRICIO	11	BOGOTA	BOGOTA			19/01/2009		_x000D_
+ENTREGA	B52151598	S				CALLE 11 10 08		11	BOGOTA				15/01/2009		_x000D_
+ECOPETROL BOGOTA	B804017878	S				CR   56 19  78 BG GRAL PUENTE ARANDA	PUENTE ARANDA	11	BOGOTA				15/01/2009		_x000D_
+MOLINOS NORTE	B1090401608	S				CL 112  14  47 ED CANAL DE MOLINOS AP	MOLINOS NORTE	11	BOGOTA	BOGOTA			30/11/2016		_x000D_
+ENTREGA II	B900857635	S				CL 5 28A 56	SANTA ISABEL	11	BOGOTA				07/12/2015		_x000D_
+BOGOTA	B5657839	S				AV CL 6  34  06		11	BOGOTA				04/02/2009		_x000D_
+PRINCIPAL	B1032416693	S				CL 89 84 A30	LA CERENA	11	BOGOTA				25/10/2016		_x000D_
+PRINCIPAL 2	B1020738197	S				CL 45 C 21 02		11	BOGOTA	BOGOTA			04/08/2016		_x000D_
+TERCERA	B900967152	S				CL 74 B 72 80		11	BOGOTA				04/08/2016		_x000D_
+PRINCIPAL	B7216754	B				CL  128 B   58 C 37	BOGOTA	11	BOGOTA	BOGOTA			19/06/2009		_x000D_
+PRINCIPAL	B354153	S				CARRERA 22 127D 80 TORRE 2 APTO 1001 EDIDFICIO LA CALLEJA 2000	LA CALLEJA	11	BOGOTA	BOGOTA			16/01/2009		_x000D_
+BOGOTA	B835000462	S				CL 21  87 B 36 TO 6 AP 409	HAYUELOS	11	BOGOTA	BOGOTA			03/11/2016		_x000D_
+RESTAURANTE ABASTO	B900139289	S				CL 69 A 9 9		11	BOGOTA	BOGOTA			30/01/2009		_x000D_
+PRINCIPAL	B830081544	S				CL  134 D  52 A 26	PRADO PINZON	11	BOGOTA				18/02/2009		_x000D_
+ENTREGA	B828002078	S				CL 38 8 56 APT 301  ED BRIGADIER  BRR TEUSAQUILLO		11	BOGOTA				31/07/2020		_x000D_
+SEGUNDA	B1020810008	S				CL 45 45 47 IN 8 AP 801		11	BOGOTA	BOGOTA			26/10/2018		_x000D_
+ALAMOS NORTE	B53120749	S				CL  188    55 A 62 BRR MIRANDELA QUINTAS DE SAN PEDRO 4 CASA 141	ALAMOS NORTE	11	BOGOTA	BOGOTA			21/04/2015		_x000D_
+PRINCIPAL	B39689165	B				CRA 2 8 52 BRR VEREDA PEUBLO VIEJO COTA CUNDINAMARCA	COTA	11	BOGOTA	BOGOTA			27/11/2014		_x000D_
+ENTREGA BOGOTA	B10230682	S				CENTRO COMERCIAL VIMA LO 10-40 ENTREDA 2  ALMACEN ANCAHUEL STORE	CC VIMA	11	BOGOTA	BOGOTA			08/05/2019		_x000D_
+PRINCIPAL	B10235051	S				CL 46 13 56 AP 212	PALERMO	11	BOGOTA				26/09/2016		_x000D_
+SEGUNDA	B11446115	S				CL 80 KM 2 VIA SIBERIA COTA  PARQUE ARGOINDUSTRIAL  DE OCCIDENTE  LOCAL 11 47		11	BOGOTA	BOGOTA			07/04/2010		_x000D_
+PRINCIPAL	B41492111	S				CALLE 1 B 40 D 15		11	BOGOTA	BOGOTA			10/12/2010		_x000D_
+BOGOTA	B79123852	S				CL  73  86 31	LOS PINOS	11	BOGOTA	BOGOTA			27/02/2013		_x000D_
+BOGOTA	B13440357	S				CL 2 19 A 20 P 1	EDUARDO SANTOS	11	BOGOTA	BOGOTA			28/03/2011		_x000D_
+ENTREGA	B860030808	S				CL   100  19 54		11	BOGOTA				25/02/2013		_x000D_
+NUEVA	B901272079	S				CL 107 A  7 A  81 TO 3 AP 702  SANTA ANA OCCIDENTAL USAQUEN		11	BOGOTA				10/12/2020		_x000D_
+ENTREGA	B860079486	S				CL 12 68 C 25		11	BOGOTA				18/03/2009		_x000D_
+ENTREGA	B75101317	S				CL 146 13 10 ED CEDRO 146 T2 AP 301		11	BOGOTA				08/02/2017		_x000D_
+PRINCIPAL	B77168733	S				CARRERA 71 D 74 A 95	BONANZA	11	BOGOTA				11/01/2012		_x000D_
+ENTREGA	B79057376	S				CALLE 83 95 D 04 BL 5 APT 414	BOCHICA	11	BOGOTA	BOGOTA			31/03/2014		_x000D_
+BOGOTA	B1014248425	S				CL 81 102 85 BL 45 AP 501 BOCHICA 2	BOCHICA 2	11	BOGOTA				26/11/2018		_x000D_
+PRINCIPAL 2	B79232015	S				CL 152 B 56 10 TO 2 AP 805 BRR MAZURES		11	BOGOTA				23/09/2020		_x000D_
+PRINCIPAL 2	B1032416763	S				CL  113 7 21 LC 113	SANTA BARBARA	11	BOGOTA				06/04/2016		_x000D_
+Restaurante Alemán Harald	B900082532	S				AC  116  70 C 68		11	BOGOTA	BOGOTA			11/03/2009		_x000D_
+ENTREGA	B800242722	S				CALLE 79 B 51  29	GAITAN	11	BOGOTA	BOGOTA			06/07/2011		_x000D_
+RADICACION FACTURA BTA	B900277223	S				AV  19 No 97  31 OF 404  ED  TORRE EMPRESARIAL CHICO		11	BOGOTA	BOGOTA			23/05/2013		_x000D_
+BOGOTA	B900323926	S				CL 13 13 15 P 2	SAN VICTORINO	11	BOGOTA				19/02/2016		_x000D_
+BOGOTA	B900478373	S				CL  73 86 31	PINOS NORTE	11	BOGOTA	BOGOTA			21/04/2016		_x000D_
+NUEVA	B1052384842	S				CL 66 A  103  51 PRIMER VILLA DEL MAR PISO LC ENGATIVA		11	BOGOTA				29/11/2021		_x000D_
+ENTREGA	B21069443	S				CARRERA 68 C  96 80	BARRIO LA ALBORADA	11	BOGOTA				30/04/2014		_x000D_
+ENTREGA	B900481965	S				CL 64 2 55 TRR 3 APTO 705		11	BOGOTA	BOGOTA			15/03/2017		_x000D_
+BOGOTA	B3174267	S				CL  9 6 65		11	BOGOTA	BOGOTA			15/02/2016		_x000D_
+ENTREGA	B79141544	S				CALLE 13 42 B 45		11	BOGOTA	BOGOTA			12/06/2009		_x000D_
+BOGOTA	B52182209	S				CL 56B 46  89	lijaca	11	BOGOTA				23/09/2013		_x000D_
+PRINCIPAL 2	B1020749221	S				CL  127 B 14 56 AP 301	LA CAROLINA	11	BOGOTA				05/05/2015		_x000D_
+PRINCIPAL	B53073245	S				CL  127 C 6 A 55 AP 1101	BELLA SUIZA	11	BOGOTA				18/02/2016		_x000D_
+SEGUNDA	B1018501048	S				CL 122 18 02		11	BOGOTA	BOGOTA			03/10/2018		_x000D_
+SANTA ISABEL	B52847313	S				CL 5 A 29 29 CASA		11	BOGOTA	BOGOTA			21/05/2021		_x000D_
+PRINCIPAL	B39777486	S				CLL 116 55 C -40 AP 221 TO 3 BR NIZA CORDOBA		11	BOGOTA	BOGOTA			08/11/2011		_x000D_
+ALAMOS NORTE	B35196301	S				CL  188    55 A 62 BRR MIRANDELA QUINTAS DE SAN PEDRO 4 CASA 141	ALAMOS NORTE	11	BOGOTA	BOGOTA			09/11/2018		_x000D_
+PRINCIPAL	B35220442	S				CARRERA 67 66 C 22		11	BOGOTA	BOGOTA			10/11/2010		_x000D_
+PRINCIPAL	B35408799	S				CALLE 93A 11 07  OFI 304. EDIFICIOMARSELLA	MARSELLA	11	BOGOTA				30/05/2013		_x000D_
+PRINCIPAL	B1093735294	S				CL  42 BIS SUR 51 D 65	ALQUERIA MUZU	11	BOGOTA				24/04/2014		_x000D_
+ENTREGA	B52086422	S				CL 159 54 70 TORRE 4 APT 406 ED ALEJANDRIA TENERIFE BRR CANTALEJO		11	BOGOTA				27/10/2020		_x000D_
+LASHER DEPORT	B805006599	S				CL 54 A 15 54 BRR CHAPINERO	CHAPINERO	11	BOGOTA	BOGOTA			15/12/2016		_x000D_
+PRINCIPÁL	B900909082	S				CL 153 BIS 7 35 INT 2	BARRANCAS	11	BOGOTA	BOGOTA			23/02/2016		_x000D_
+ENTREGA	B4211586	S				AVENIDA  19 25 04		11	BOGOTA	BOGOTA			23/08/2010		_x000D_
+ENTREGA2	B900416466	S				CARRERA 4 N 23 48 OFICINA 302	CENTRO	11	BOGOTA	BOGOTA			09/12/2011		_x000D_
+SUCURSAL	B52810530	S				CARRERA 11B  119 62	MULTICENTRO	11	BOGOTA	BOGOTA			31/08/2015		_x000D_
+PRINCIPAL	B901117357	S				CL 53 B SUR 87 D 62 BRR BOSA	CHICALA	11	BOGOTA				05/10/2017		_x000D_
+SEGUNDA	B305430	S				AV CR 9 101 67 P6 EMPRESA SBS		11	BOGOTA	BOGOTA			29/03/2016		_x000D_
+PRINCIPAL 2	B900803520	S				AV 15 105 A 44 BR CHICO NORTE		11	BOGOTA	BOGOTA			06/11/2015		_x000D_
+ENTREGA	B901066417	S				CALLE 39F   72F 52 SUR	CHUCUA	11	BOGOTA	BOGOTA			07/11/2019		_x000D_
+ENTREGA	B51599198	S				AVENIDA 19 25 04	PALOQUEMAO	11	BOGOTA	BOGOTA			10/12/2010		_x000D_
+PRINCIPAL	B5534223	S				CALLE 39F   72F 52 SUR	CHUCUA	11	BOGOTA	BOGOTA			21/01/2016		_x000D_
+PRINCIPAL	B88254216	S				CL 70B 111 74 APTO 401 BR VILLA CONSTANZA		11	BOGOTA				06/07/2020		_x000D_
+PRINCIPAL	M900131001	S				CL 58 48 45	EL BAGRE	05	EL BAGRE ANTIOQUIA				10/01/2025		_x000D_
+PRINCIPAL	Q1140862571	B				Cra 43 98 32	MIRAMAR	08	BARRANQUILLA				22/08/2025		_x000D_
+RICAURTE	B901056883	S				CR 28 11 26 RICAURTE		11	BOGOTA				10/12/2020		_x000D_
+SEGUNDA	B1032359147	S				CR 8 108 A 59 APTO 501 BRR SANTA ANA	SANTA ANA	11	BOGOTA				20/11/2020		_x000D_
+BOGOTA	B1003479669	S				CL 185 55 D 41 BRR MIRANDELA	PORTON BLANCO AL LAD DEL BRR MIRANDELA	11	BOGOTA	BOGOTA			11/06/2019		_x000D_
+BOGOTA	B63455222	S				CL 57 C SUR  87 i - 30	Bosa diamante	11	BOGOTA	CUNDINAMARCA			10/09/2013		_x000D_
+ENTREGA FEPROMEL	B901093590	S				AUT MEDELLIN KM 3.5 BG 40 CENTRO EMPRESARIAL METROPOLITANO		11	BOGOTA	BOGOTA			06/07/2018		_x000D_
+COLINA CAMPESTRE	B53105143	S				CR 59 A  134 15 CONJ PRADOS DE LA COLINA 2 TO 3 AP 704 BRR COLINA CAMPESTRE	COLINA CAMPESTRE	11	BOGOTA	BOGOTA			31/08/2011		_x000D_
+PRINCIPAL	B5565330	S				A CL  68 30 45 BR ESTRADA	ESTRADA	11	BOGOTA	BOGOTA			04/10/2012		_x000D_
+ENTREGA	C900641729	S				CL 67A 60 93	J VARGAS	11	BOGOTA				10/06/2015		_x000D_
+ENTREGA	B1013620006	S				CL 60 SUR 64 84	BARRIO MADELENA ES UNA CALLE  CERRADA AUTOPISTA SUR	11	BOGOTA	BOGOTA			01/08/2016		_x000D_
+ENTREGA	B66848221	S				CARRERA 80A 56 34 SUR	CLAS ROMA	11	BOGOTA				01/08/2016		_x000D_
+PRINCIPAL	B1014215606	S				CRA 13 A 18 20 APTO 403 BR LA CAPUCHINA		11	BOGOTA				10/12/2015		_x000D_
+ENTREGA 2	B1014223392	S				CRA 121 A 63 A 85	MIRADOR 2 ENGATIVA	11	BOGOTA	BOGOTA			09/12/2015		_x000D_
+CEDRO GOLF	B1032379258	S				CL  148 7 40 INT 1 APT 604	CEDRO GOLF	11	BOGOTA	BOGOTA			26/02/2016		_x000D_
+NUEVA	B901323899	S				CL 214 93 00 VIA ARRAYANES CONJ TORRE MOLINOS CASA 69		11	BOGOTA				19/11/2021		_x000D_
+SEGUNDA	B51653096	S				AV. AMERICAS 33 50 ED A 1 ENTRADA 1 AP 201 BR CORFERIAS	CORFERIAS	11	BOGOTA				10/11/2010		_x000D_
+PRINCIPAL	B1032418968	S				CL 152 B 58 C 49 CONJ MIRO  T 1 APT 1203	MAZUREN	11	BOGOTA	BOGOTA			09/11/2017		_x000D_
+ENTREGA	B79279206	S				CR 72 BIS 81 05 CS 5	VILLA CAROLINA	11	BOGOTA				08/06/2016		_x000D_
+TECSER	B900234821	S				CL 134 7 B 83 OF 412 ED BOSQUE		11	BOGOTA				04/05/2009		_x000D_
+PRINCIPAL	B1045705202	S				CARRERA 22  135  39 APARTAMENTO  508		11	BOGOTA	BOGOTA			07/10/2016		_x000D_
+BOGOTA	B900353539	S				CL 18B 110 59		11	BOGOTA				28/09/2015		_x000D_
+PRINCIPAL	B900405454	S				CARRERA 7 237 04	FLORESTA LA SABANA - BODEGA VILA CRITINA	11	BOGOTA	BOGOTA			11/04/2016		_x000D_
+ENTREGA II	B900410496-3	S				CRA 1 ESTE 70 A 42 APTO 203 ROSALES	ROSALES	11	BOGOTA				06/12/2012		_x000D_
+BOGOTACIUDAD JARDIN	B27954360	S				OF   TRANS GUAVIARE EN RESTREPO	CIUDAD JARDIN	11	BOGOTA				08/05/2012		_x000D_
+ENTREGA MERCANCIA	B10537697	S				CALLE 146 13 10	EDIFICIO CEDRO 146 TORRE2 APTO 301 BARRIO CEDRITOS	11	BOGOTA	BOGOTA			19/08/2015		_x000D_
+ENTREGA	B900529470	S				CALLE 130  106 43 AURES 2 SUBA	AURES 2	11	BOGOTA	BOGOTA			14/08/2013		_x000D_
+PRINCIPAL	C94283886	B				CLL 32 3 03 CARTAGO		76	CARTAGO	CARTAGO			19/08/2021		_x000D_
+BOGOTA	C900866197	S				CL 75 BIS 85 69 LA GRANJA		11	BOGOTA	CO			16/12/2019		_x000D_
+BOGOTA- AGROVEL	B30393692	S				CR  31A 8  83		11	BOGOTA				19/08/2009		_x000D_
+ENTREGA	B900641729	S				CL 67A 60 93	J VARGAS	11	BOGOTA				10/06/2015		_x000D_
+PRINCIPAL	B33376831	S				CR 15 134A 25 BRR CONTADOR APTO 402		11	BOGOTA	BOGOTA			23/11/2017		_x000D_
+DOMICILIO	B900676870	S				CLL 152 72 02 CONJ GRATAMIRA CAMPESTERE 3  APTO 404 TORRE 2		11	BOGOTA				19/07/2021		_x000D_
+ENTREGA	B900719892	S				CR 8 B 160 71		11	BOGOTA				08/05/2014		_x000D_
+BOGOTA	B35463827	S				CLL 74 27A 26 BRR ALCAZARES	ALCAZARES	11	BOGOTA				01/11/2019		_x000D_
+PRINCIPAL	B35469363	S				CL 126 7C 66 APT 203	SANTA BARBARA ORIENTAL	11	BOGOTA				29/01/2019		_x000D_
+NORTE	B1019099935	S				CR 7 C 129 38		11	BOGOTA				31/07/2020		_x000D_
+ENTRAGA II	B79739984	S				CL 10 12 30		11	BOGOTA				26/10/2009		_x000D_
+PRINCIPAL2	B900883846	S				CLL 118 6A 61	USAQUEN	11	BOGOTA				04/09/2020		_x000D_
+SUBA/COSTA RICA	B80758356	S				CR  95 B  130 A 27 COSTA RICA SUBA	SUBA	11	BOGOTA				25/10/2011		_x000D_
+ENTREGA	C66927386	S				CLL 40 #48A -33	MARIANO RAMOS	76	CALI	CALI			27/07/2020		_x000D_
+TERCERA	B52780731	S				CL 8 70 35		11	BOGOTA	BOGOTA			25/09/2019		_x000D_
+SEGUNDA	B80881781	S				CR 118 BIS 89 A 26 BRR CIUDADELA SOLSUBSIDIO IN 6 AP 301	CIUDADELA COLSIBSIDIO	11	BOGOTA	BOGOTA			13/02/2017		_x000D_
+ENTREGA	B1026266218	S				CR 17 93A 05 AP 705	CHICO NORTE	11	BOGOTA	BOGOTA			29/10/2012		_x000D_
+ENTREGA	B860518394	S				CL 10 SUR 41 27 BRR CIUDAD MONTES		11	BOGOTA				07/12/2021		_x000D_
+ENTREGA	B53021254	S				CR   24 1 H 16	EL VERGEL	11	BOGOTA				17/06/2010		_x000D_
+PRINCIPAL	B900458671	S				CL 25A 31-15 BL C OF 204	GRAN AMERICA	11	BOGOTA	BOGOTA			02/09/2011		_x000D_
+SEGUNDA PRINCIPAL	B802022128	S				CR  18  63 81 o 85		11	BOGOTA	BOGOTA			19/11/2009		_x000D_
+MARCACION	B900749861	S				CR 55 128 A  75		11	BOGOTA	BOGOTA			27/10/2015		_x000D_
+PRINCIPAL	C94283886	S				CLL 32 3 03 CARTAGO		76	CARTAGO	CARTAGO			17/02/2025		_x000D_
+ENVIO	B35400991	S				CARRERA 15 19 51 CHIA CUNDINAMARCA ACADEMIA DE EQUITACION KABALI ENTREGA 8AM A 5PM	CHIA CUNDINAMARCA	25	CHIA	CHIA			11/03/2024		_x000D_
+BOGOTA	B900356871	S				CL 76 22 44		11	BOGOTA				16/05/2011		_x000D_
+COUNTRY	B900367261	S				CARRERA 18 No. 85-28 COUNTRY	COUNTRY	11	BOGOTA	BOGOTA			26/05/2016		_x000D_
+BOGOTA	B900866197	S				CL 75 BIS 85 69 LA GRANJA		11	BOGOTA	CO			13/08/2015		_x000D_
+PRINCIPAL	B900444634	S				TV 20 A 4 A 81 BG 2 ACOLOGISTICA SAS	ACOLOGISTICA SAS	11	BOGOTA	BOGOTA			05/09/2017		_x000D_
+PRINCIPAL	Q1140862571	S				Cra 43 98 32	MIRAMAR	08	BARRANQUILLA				22/08/2025		_x000D_
+ALMACEN PASTAS EL CISNE	B800211337	S				CR 9  60   11		11	BOGOTA	BOGOTA			13/05/2009		_x000D_
+PRINCIPAL	B900414489	S				CR  116 C 23 41		11	BOGOTA				23/03/2011		_x000D_
+ENTREGA	C1045046805	S				CLL 22 #9A - 54	VILLA GORGONA	76	CANDELARIA	CANDELARIA			04/12/2023		_x000D_
+NUEVA 1	B19158301	S				CL 74 A 84 11 BRR LA SOLEDAD	BRR LA SOLEDAD NORTE	11	BOGOTA	CUNDINAMARCA			15/01/2009		_x000D_
+PRINCIPAL	B900122875	S				C R 66 3 65		11	BOGOTA				13/01/2009		_x000D_
+principal	52779519	S				CL 61 2 09 ED MIRARDOR DE LA SALLE AP 604 TO 4			BOGOTA	BOGOTA			07/12/2015		_x000D_
+ENTREGA 2	B52416324	S				CRA 7 BIS A 124 40 BRR SANTA BARBARA	SANTA BARBARA	11	BOGOTA				08/09/2015		_x000D_
+PRINCIPAL	B80504872	S				CR 7 B 134 B 66 AP 402 INT 3	CONJUNTO ABADIA DEL BOSQUE	11	BOGOTA	BOGOTA			02/11/2016		_x000D_
+PRINCIPAL	B55303266	S				CL 147  15  95 ED ATENAS AP 103	CEDRITOS	11	BOGOTA	BOGOTA			17/11/2016		_x000D_
+OFICINAS	B900415051	S				CL 182  7 51 BG  5 Y 6			BOGOTA				15/07/2013		_x000D_
+BOGOTA 2	B1020777874	S				CR 19 66 30 BRR 7 DE AGOSTO	7 DE AGOSTO	11	BOGOTA	BOGOTA			09/12/2015		_x000D_
+ENTREGA	B901030626	S				CR 4  60 A 60 AP 409 ED AREZZO 60		11	BOGOTA	BOGOTA			09/05/2017		_x000D_
+MUSEO	B860015542-6	S				CR 2 10 70 PLAZOLETA PRINCIPAL  3 BLOQUE B	CENTRO	11	BOGOTA	BOGOTA			13/02/2009		_x000D_
+Bill To	M71937780	B				ENVIO							25/11/2024		_x000D_
+PRINCIPAL	B901087047	S				CL 24 A 42 09 BR QUINTA PAREDES	CORFERIAS	11	BOGOTA				10/07/2017		_x000D_
+NUEVA	B53054358	S				CL 152 A 99 60 CS 60 CONJ PINAR DE LA FONTANA 1	SUBA	11	BOGOTA	BOGOTA			20/03/2009		_x000D_
+PRINCIPAL	B1007402553	S				CL 50 B SUR 38 18 BRR FATIMA	FATIMA	11	BOGOTA				14/05/2021		_x000D_
+PUB ANDINO	B830094751	S				CR 12  83 33 BR PUB ANDINO		11	BOGOTA	BOGOTA			28/07/2014		_x000D_
+PRINCIPAL	B46678558	B				CRA 22 14 31		11	BOGOTA	BOGOTA			16/05/2024		_x000D_
+PRINCIPAL	B1010193578	S				CL 8 SUR 39 34 BRR CIUDAD MONTES  PUENTE ARANDA		11	BOGOTA	BOGOTA			17/08/2016		_x000D_
+BOGOTA	B41759182	S				CR  22    122  85		11	BOGOTA				25/02/2015		_x000D_
+CL 30 52 - 30 SUR	B901176663	S				CL 30 52 30 SUR	ALCALA	11	BOGOTA	CUNDINAMARCA			22/01/2020		_x000D_
+SCREEN CRISTAL	B39389271	S				CLL 16 I    97  26	CENTRO	11	BOGOTA				27/02/2014		_x000D_
+PRINCIPAL NUEVA	B79686313	S				CR  33    6A  15 BRR PENSILVANIA	PENSILVANIA	11	BOGOTA				29/05/2009		_x000D_
+PRINCIPAL TRABAJO	B65735472	S				CR 7 180 75 BG 5 LO 26 27 PLAZA DE MERCADO DEL NORTE	SAN ANTONIO	11	BOGOTA	BOGOTA			12/12/2012		_x000D_
+GALAN	B900666801	S				CL 70 72 A 63	GALAN	11	BOGOTA	BOGOTA			12/05/2009		_x000D_
+BOGOTÁ 2	B43985270	S				AV CL 116 54 54 AP 504		11	BOGOTA	BOGOTA			06/03/2019		_x000D_
+PRINCIPAL	C63511711	B				CRA 11 1 66 05	ALFONSO LOPEZ	76	CALI	CALI			26/04/2023		_x000D_
+PRINCIPAL	M1017230599	B				CR 50 A 107 89 AP 201	ANDA LUCIA	05	MEDELLIN	MEDELLIN			28/09/2020		_x000D_
+CENTRO	B19187070	S				AUTO SUR 52  47 VENECIA	CENTRO	11	BOGOTA	BOGOTA			11/07/2011		_x000D_
+PRINCIPAL	B52429244	B				CRA 70 B 3 A 18 BRR NUEVA MARSELLA LOC KENNEDY	NUEVA MARSELLA	11	BOGOTA	BOGOTA			22/08/2022		_x000D_
+ENTREGA 2	B19312396	S				CR  26 78 47	SANTA SOFIA	11	BOGOTA	BOGOTA			28/01/2016		_x000D_
+BOGOTA 2	B900154991	S				CR 7 56 A 25 AP 602		11	BOGOTA	BOGOTA			24/05/2016		_x000D_
+PRINCIPAL	B52429244	S				CRA 70 B 3 A 18 BRR NUEVA MARSELLA LOC KENNEDY	NUEVA MARSELLA	11	BOGOTA	BOGOTA			22/08/2022		_x000D_
+PRINCIPAL	B19442321	S				CR 81 B 9 73 BR VALLA DOLY CASTILLA		11	BOGOTA				14/05/2021		_x000D_
+ENTREGA	B1037572360	S				CR 68G 77 47		11	BOGOTA	BOGOTA			15/10/2014		_x000D_
+SCREEN CRISTAL	B900239634	S				SCREN CRISTAL - CALLE 16 i # 97 - 26 FONTIBON CENTRO, CERCA AL HOSPITAL PRINCIPAL.	FONTIBON CENTRO	11	BOGOTA				10/10/2013		_x000D_
+GALAN	B900272334	S				CARRERA 43 C No. 4F-10	GALAN	11	BOGOTA	BOGOTA			12/05/2009		_x000D_
+PRINCIPAL	B79657355	S				CL 128 A BIS  58 C 97	LAS VILLAS- SUBA	11	BOGOTA				29/07/2021		_x000D_
+VITRO SCREEN 1	B53001321	S				CL 68 93 15		11	BOGOTA				02/06/2021		_x000D_
+PRINCIPAL	C19442321	S				CR 81 B 9 73 BR VALLA DOLY CASTILLA		11	BOGOTA				14/05/2021		_x000D_
+PRINCIPAL	B20760198	S				CR  68 h bis  34 a 17 Sur	Barrio Floralia	11	BOGOTA	BOGOTA			11/11/2011		_x000D_
+PRINCIPAL	B901958270	S				AV TRONCAL DEL OCCIDENTE 18 76 LT LOTE 21 MZ B PAR INDUSTRIAL SANTO DOMINGO	MOSQUERA	25	MOSQUERA	CUNDINAMARCA			04/09/2025		_x000D_
+PRINCIPAL	B900399698	S				DG 13 1 12 ESTE AV PRADILLA		11	BOGOTA	BOGOTA			24/11/2011		_x000D_
+ENTREGA 1	B900439161	S				CR  23 87 78	EL POLO	11	BOGOTA	BOGOTA			09/11/2012		_x000D_
+MARKANDO	B900439161	S				CR 22  68  34		11	BOGOTA	BOGOTA			09/11/2012		_x000D_
+PRINCIPAL	B52116318	S				CL 79  9 10 BRR NOGAL	NOGAL	11	BOGOTA	BOGOTA			07/06/2016		_x000D_
+ENTREGA	B900013075	S				CR 64A 4 D 34	PRADERA	11	BOGOTA				14/11/2014		_x000D_
+ENTREGA 2	B51897525	S				PRINTO GLASS CRA   83    77 A   41 LA GRANJA		11	BOGOTA	BOGOTA			11/08/2009		_x000D_
+ENTREGA 2	B900528824	S				CR  8 B  106 19		11	BOGOTA	BOGOTA			01/04/2013		_x000D_
+QUINTA	B52252373	S				CL 69 15 25		11	BOGOTA				15/01/2021		_x000D_
+PRINCIPAL	B900567901	S				CL 128 54 16 BRR		11	BOGOTA	BOGOTA			21/11/2013		_x000D_
+BOGOTA	B30393692	S				CR   7 245  60 casa 23		11	BOGOTA				19/08/2009		_x000D_
+ENTREGA	B1072646379	S				CR 15 140 28 LC 1 BRR CEDRITOS	CREDITOS	11	BOGOTA	BOGOTA			19/11/2013		_x000D_
+ENTREGA	B900608984	S				CL 58 3A 17 CHAPINERO ALTO		11	BOGOTA				31/05/2013		_x000D_
+PLANTA JUGOS TROPICALES	B900622511	S				CR   20   17 24		11	BOGOTA				14/03/2014		_x000D_
+DIRECCION 3	M900633304	S				DG 51 B SUR 60 31	NUEVO MUZU	11	BOGOTA				19/07/2013		_x000D_
+ENTREGA	B900740196	S				CR 49 134A 53	CHICO	11	BOGOTA				14/09/2020		_x000D_
+PRINCIPAL	B35466576	S				CR 7 82 14 AP 401	ROSALES	11	BOGOTA	BOGOTA			24/11/2015		_x000D_
+PRINCIPAL	B52516677	S				CR 20 N 50 11 AP 101 BRR GALERIAS	CASTILLA	11	BOGOTA	BOGOTA			22/08/2014		_x000D_
+BOGOTA	B52518655	S				CL 71  69K 25 BRR LAS FERIAS	LAS FERIAS	11	BOGOTA	BOGOTA			15/08/2017		_x000D_
+ENTREGA	B52622374	S				CRA 7 237 04 BODEGA VILLA CRISTINA FLORESTA DELA SABANA CASA LA PAZ	VEREDA DE TORCA	11	BOGOTA	BOGOTA			19/10/2020		_x000D_
+2016	B805026245	S				CR  1  46 75	AUTOPISTA NORTE SANTANDERCITO	11	BOGOTA				30/10/2015		_x000D_
+BECAPRO	B900848725	S				CLL 17A 97 22 BRR FONTIBON CENTRO	BRR FONTIBON CENTRO	11	BOGOTA	CO			28/01/2016		_x000D_
+NORTE	B43979178	S				CALLE 70 A 1 78 APT 202 BR ROSALES	ROSALES	11	BOGOTA				25/04/2012		_x000D_
+BOGOTA ROSALES	B38243302	S				CR 1 68 01 AP 501 BRR ROSALES	ROSALES	11	BOGOTA	BOGOTA			22/03/2016		_x000D_
+ENTREGAS 1	B38243302	S				CL   69    7  51 AP  503		11	BOGOTA	BOGOTA			22/03/2016		_x000D_
+TERCERO	B900926865	S				CR 28 A 71 89	ALCAZARES	11	BOGOTA				04/04/2018		_x000D_
+OFICINA	B19282191	S				CL 182  7 51 BG  5 Y 6			BOGOTA				01/03/2019		_x000D_
+ANDRES CALDERON	B1020750825	S				CL 127 A 7 C 15 AP 102 BR BELLA SUIZA USAQUEN		11	BOGOTA				03/05/2021		_x000D_
+ENTREGA	B800102517	S				CR  47 134A 63	PRADO VERANIEGO	11	BOGOTA	BOGOTA			24/03/2009		_x000D_
+ENTREGA	B52700244	S				CL 119 4 10 AP 802 SANTA BARBARA	SANTA BARBARA		BOGOTA				07/05/2010		_x000D_
+Bill To	Q1127590508	B				ENVIO							09/02/2026		_x000D_
+FACTURA	B900543847	S				CR    102A    24F  33 FONTIBON	FONTIBON	11	BOGOTA				26/09/2012		_x000D_
+PRINCIPAL	B900132503	S				CL 16 I 97 26 FONTIBON	FONTIBON	11	BOGOTA				26/10/2020		_x000D_
+PLANTA CELTA	B860529588	S				AUTOPISTA MEDELLÍN KM 7 CELTA TRADE PARK, LOTE 159 A, PASILLO J, BODEGA 7 Y 8			BOGOTA	CUNDINAMARCA			30/10/2020		_x000D_
+PRINCIPAL	Q32881507	B				CALLE 52 #8G -108	CONDOMINIO TORRES DE LAS PALMAS	08	BARRANQUILLA	BARRANQUILLA			08/04/2025		_x000D_
+ENTREGA 1	B800027357	S				AV TRONCAL DE OC 5 61 ESTE PARQUE INDUSTRIAL PUERTO VALLARTA BG 17		11	BOGOTA				02/07/2010		_x000D_
+PALOQUEMAO	B900297153	S				CALLE 18A 28A 43		11	BOGOTA	BOGOTA			25/02/2010		_x000D_
+NUEVA	B32656239	S				CL 64 80 28 BOSA CENTRO	BOSA CENTRO	11	BOGOTA	BOGOTA			12/06/2018		_x000D_
+PRINCIPAL	B1030549301	B				CR 73 B BIS # 2 B 04	AMERICAS OCCIDENTAL	11	BOGOTA	BOGOTÁ			21/04/2020		_x000D_
+BOGOTA	B900994027	S				CR 73 2 A 24 SUR BR AMERICAS OCCIDENTAL		11	BOGOTA				28/01/2021		_x000D_
+ENVIO	B23555183	B				calle 17#11-77		77	DUITAMA				22/11/2023		_x000D_
+Entrega	PSR-860514851	B				Calle 13 No 27 - 02		11	Bogota	BOGOTÁ			18/03/2025		_x000D_
+ENTREGA	B830025533	S				CR 64 5 A 62		11	BOGOTA	BOGOTA			23/06/2010		_x000D_
+ENTREGA M	B1023913885	S				CL 26 B SUR 10 A 08		11	BOGOTA	BOGOTA			23/02/2016		_x000D_
+ENTREGA 2	B52108803	S				CL 31 A 16 23	ARMENIA	11	BOGOTA	BOGOTA			26/05/2014		_x000D_
+PRINCIPAL 2	B900626888	S				CR 7 113 43 OF 1805			BOGOTA				07/04/2016		_x000D_
+AGROPECUARIA FONTIBON	C900236878	S				CLL 22F 103B 29	FONTIBON	11	BOGOTA	BOGOTA			16/05/2016		_x000D_
+DOMICILIO	B830039998	S				AV CLL 116 54 90 OFI 302 BRR ALAMBRA		25	BOGOTA				19/10/2021		_x000D_
+ENVIO	B900702839	S				CRA 28  72 44 BRO ALCACERES		25	BOGOTA				04/09/2023		_x000D_
+ENTREGA	B39745005	S				CR  13A 12 27 LC 4 CENTRO COMERCIAL LA CORUÑA			BOGOTA	CUNDINAMARCA			05/02/2021		_x000D_
+Radicacion factura	B830034343	S				CL 76 11 35 P 9		25	BOGOTA	BOGOTA			02/03/2022		_x000D_
+NUEVA	B830131373	S				CR  16 A 86 A 15  AP 502 ED PARQUE DEL COUNTRY BR ANTIGUO COUNTRY		25	BOGOTA				19/08/2021		_x000D_
+BOGOTA-CHAPINERO 2	B41736746	S				CL 69 6 46 TIMBRE 1 BRR CHAPINERO		25	BOGOTA				20/10/2021		_x000D_
+DOMICILIO	B21066768	S				CLL 74 9 61 APT 102 EDF CAUCA CHAPINERO		25	BOGOTA				29/11/2021		_x000D_
+CHAPINERO ALTO	B901216942	S				CL 65 1 A 26 TOB AP 203 CHAPINERO ALTO		25	BOGOTA				17/03/2022		_x000D_
+BOGOTA	B72271195	S				CL 102 68A 31	LA FLORESTA		BOGOTA	BOGOTA			20/02/2018		_x000D_
+TEUSAQUILLO	B1020792560	S				CR 13 A 34 57 TEUSAQUILLO		25	BOGOTA				11/03/2022		_x000D_
+DOMICILIO	B860353776	S				CRA 19 B 168 91 BR TOBERIN		25	BOGOTA				14/02/2022		_x000D_
+ENTREGA	B901507714	S				CR 7  48 04 PRIMER PISO CIGARRERIA MANDRAKE		25	BOGOTA				21/02/2022		_x000D_
+DOMICILIO	B900577604	S				CRA 21 169 01 BR TOBERIN		25	BOGOTA				13/05/2022		_x000D_
+DOMICILIO	B900561233	S				CLL 90 11 13 LOCAL 9 BR  CHAPINERO		25	BOGOTA				04/10/2021		_x000D_
+PRINCIPAL	Q1040510343	B				VIA 40 69 58		08	BARRANQUILLA	BARRANQUILLA			18/11/2025		_x000D_
+BOGOTA	B800147302	S				CL 70 7 60 OF 301			BOGOTA				26/05/2017		_x000D_
+ENTREGA	B830117750	S				CR   22 No 16  03 P  QUEMAO	P/QUEMAO		BOGOTA	BOGOTA			27/07/2022		_x000D_
+NUEVA SEDE	B900200678	S				CL 79  69 B  19		25	BOGOTA	BOGOTA			13/07/2009		_x000D_
+KEEP&GO	B900230750	S				CLL 76 20B 46	SAN FELIPE		BOGOTA				17/03/2021		_x000D_
+VOLTRE CALI	C800100159	S				CL 14 B 53 101 AP 202 D		76	CALI	CALI			10/05/2017		_x000D_
+CALI	C800125313	S				CL 11 28 A 346 BG 16 CONJUNTO DE BODEGAS MARIANO RAMOS	ACOPI YUMBO	76	CALI	YUMBO			29/01/2015		_x000D_
+PRINCIPAL	C66927386	B				CLL 40 #48A -33	MARIANO RAMOS	76	CALI	CALI			27/07/2020		_x000D_
+PRINCIPAL	C34572620	S				CR 3 4 67	CALI	76	CALI	CO			10/08/2020		_x000D_
+PRINCIPAL	B1015474063	B				CRR 70 C 80 48 ENGATIVA	PONTE VEDRA	11	BOGOTA	BOGOTA			13/06/2025		_x000D_
+SOCORRO / SANTANDER RAFAEL ROMERO	B9528116	S				CR  15    12  14	CENTRO						28/07/2011		_x000D_
+Screen Cristal	B901163262	S				Calle 16i No 97-26 Fontibón							14/03/2018		_x000D_
+entrega	B860042585	S				Calle 25D# 95A - 22 Bod. 2							08/03/2023		_x000D_
+LOGISTICA  SAS	B901012341	S				Autopista Medellin Km 7 costado sur parque interpack bodega 4 lote 85							24/07/2018		_x000D_
+PRINCIPAL	C1045046805	B				CLL 22 #9A - 54	VILLA GORGONA	76	CANDELARIA	CANDELARIA			04/12/2023		_x000D_
+DIRECCION PRINCIPAL	B9009001179	S				CR  7 26 20 OFICINA 2301							10/03/2016		_x000D_
+BOGOTA	B830503596	S				Autopista Medellin km 7,5  Parque logistico Interpark Lote 41 Bodega: 2	FUNZA	11		BOGOTA			11/11/2020		_x000D_
+ENTREGA II	B53060678	S				CR 78 173 15 INT 1		11		BOGOTA			26/05/2016		_x000D_
+CHIA	B53120749	S				CR 9 CL 35 VRD BOJACA FINCA EL ROBLE VIA CHIA CAJICA	CHIA	11		CHIA			21/04/2015		_x000D_
+CENTRO LOGISTICO CCL	B890300686	S				CR  35A    16  80 BOD 6 CALLEJON DEL VIEJO AREPAZO  76  COL	ACOPI YUMBO	11		VALLE			11/01/2013		_x000D_
+Principal	B1007414262	S				CR 68G  77 47	LAS FERIAS	11		BOGOTA			15/03/2017		_x000D_
+PRINCIPAL	B900497908	B				CRA 69H 80 40 BRR JULIO FLORES ENGATIVA	JULIO FLORES	11	BOGOTA	BOGOTA			19/12/2024		_x000D_
+PRINCIPAL	Q32881507	S				CALLE 52 #8G -108	CONDOMINIO TORRES DE LAS PALMAS	08	BARRANQUILLA	BARRANQUILLA			08/04/2025		_x000D_
+CALOTO	C860025900	S				Parque industrial y comercial Cauca		76					07/09/2015		_x000D_
+CHIA	B35196301	S				CR 9 CL 35 VRD BOJACA FINCA EL ROBLE VIA CHIA CAJICA	CHIA	11		CHIA			09/11/2018		_x000D_
+ENTREGA	B890205512	S				DG 40 A 14 82 - TEUSAQUILLO	LA SOLEDAD	11					19/04/2023		_x000D_
+PRINCIPAL	B1082933877	B				CLL 52 A 22 76 TEUSAQUILLO		11	BOGOTA	BOGOTA			04/04/2025		_x000D_
+BOGOTA	B901254926	S				CL  4    4  59	CENTRO	11					12/04/2019		_x000D_
+PRINCIPAL	B1082933877	S				CLL 52 A 22 76 TEUSAQUILLO		11	BOGOTA	BOGOTA			04/04/2025		_x000D_
+PRINCIPAL	B900362642	S				CL 66 B 57 B 20	MODELO NORTE	11		BOGOTA			13/05/2021		_x000D_
+BRR ABAJO	Q901197673	B				CR 50 42 17	BRR ABAJO	08	BARRANQUILLA				23/09/2024		_x000D_
+SAN JOAQUIN	B1128444901	S				CIR 2  68 14 AP 502 ED ALEZIO BRR SAN JOAQUIN	SAN JOAQUIN	05	MEDELLIN	MEDELLIN			15/09/2017		_x000D_
+PRINCIPAL	M43984184	S				CL 1 A SUR 43 A 206 AP 702	POBLADO	05	MEDELLIN	MEDELLIN			20/04/2021		_x000D_
+ENVIO	M1000405920	S				CLL 41 SUR 83 15 BRR SAN ANTONIO DE PRADO	SAN ANTONIO DE PRADO	05	MEDELLIN	MEDELLÍN			15/06/2023		_x000D_
+DESTINO	M900733992	S				CL 114 68A 62	FLORENCIA	05	MEDELLIN	MEDELLIN			06/06/2014		_x000D_
+PLACITA DE FLOREZ	M32290618	S				CR 39 50 25 LC 21-22	BUENOS AIRES- PLAZA DE FLORES	05	MEDELLIN	MEDELLIN			12/08/2015		_x000D_
+PRINCIPAL	B900340995	S				CR 25 12SUR 59 OF 203 ED COMPLEX DE LOS BALSOS	POBLADO	05	MEDELLIN	MEDELLIN			11/03/2016		_x000D_
+GARZON	M900319733	S				CC la Sabana EN 1 al exitoCarreta de Perfumes Leparfum,al lado de Comcel", City=MEDELLIN
+2026-05-21 18:56:32,836 - INFO - Progreso: 73600/93349 (78.8%) - Insertados: 73591, Actualizados: 9
+2026-05-21 18:56:55,915 - INFO - Progreso: 73700/93349 (79.0%) - Insertados: 73691, Actualizados: 9
+2026-05-21 18:57:18,935 - INFO - Progreso: 73800/93349 (79.1%) - Insertados: 73791, Actualizados: 9
+2026-05-21 18:57:42,065 - INFO - Progreso: 73900/93349 (79.2%) - Insertados: 73891, Actualizados: 9
+2026-05-21 18:58:05,004 - INFO - Progreso: 74000/93349 (79.3%) - Insertados: 73991, Actualizados: 9
+2026-05-21 18:58:28,156 - INFO - Progreso: 74100/93349 (79.4%) - Insertados: 74091, Actualizados: 9
+2026-05-21 18:58:51,156 - INFO - Progreso: 74200/93349 (79.5%) - Insertados: 74191, Actualizados: 9
+2026-05-21 18:59:14,262 - INFO - Progreso: 74300/93349 (79.6%) - Insertados: 74291, Actualizados: 9
+2026-05-21 18:59:37,323 - INFO - Progreso: 74400/93349 (79.7%) - Insertados: 74391, Actualizados: 9
+2026-05-21 19:00:00,368 - INFO - Progreso: 74500/93349 (79.8%) - Insertados: 74491, Actualizados: 9
+2026-05-21 19:00:23,375 - INFO - Progreso: 74600/93349 (79.9%) - Insertados: 74591, Actualizados: 9
+2026-05-21 19:00:46,237 - INFO - Progreso: 74700/93349 (80.0%) - Insertados: 74691, Actualizados: 9
+2026-05-21 19:01:09,364 - INFO - Progreso: 74800/93349 (80.1%) - Insertados: 74791, Actualizados: 9
+2026-05-21 19:01:32,591 - INFO - Progreso: 74900/93349 (80.2%) - Insertados: 74891, Actualizados: 9
+2026-05-21 19:01:55,610 - INFO - Progreso: 75000/93349 (80.3%) - Insertados: 74991, Actualizados: 9
+2026-05-21 19:02:18,586 - INFO - Progreso: 75100/93349 (80.5%) - Insertados: 75091, Actualizados: 9
+2026-05-21 19:02:41,496 - INFO - Progreso: 75200/93349 (80.6%) - Insertados: 75191, Actualizados: 9
+2026-05-21 19:03:04,475 - INFO - Progreso: 75300/93349 (80.7%) - Insertados: 75291, Actualizados: 9
+2026-05-21 19:03:27,532 - INFO - Progreso: 75400/93349 (80.8%) - Insertados: 75391, Actualizados: 9
+2026-05-21 19:03:50,629 - INFO - Progreso: 75500/93349 (80.9%) - Insertados: 75489, Actualizados: 11
+2026-05-21 19:04:13,802 - INFO - Progreso: 75600/93349 (81.0%) - Insertados: 75589, Actualizados: 11
+2026-05-21 19:04:36,786 - INFO - Progreso: 75700/93349 (81.1%) - Insertados: 75689, Actualizados: 11
+2026-05-21 19:04:59,842 - INFO - Progreso: 75800/93349 (81.2%) - Insertados: 75789, Actualizados: 11
+2026-05-21 19:05:22,802 - INFO - Progreso: 75900/93349 (81.3%) - Insertados: 75889, Actualizados: 11
+2026-05-21 19:05:45,694 - INFO - Progreso: 76000/93349 (81.4%) - Insertados: 75989, Actualizados: 11
+2026-05-21 19:06:08,832 - INFO - Progreso: 76100/93349 (81.5%) - Insertados: 76089, Actualizados: 11
+2026-05-21 19:06:32,198 - INFO - Progreso: 76200/93349 (81.6%) - Insertados: 76188, Actualizados: 12
+2026-05-21 19:06:55,568 - INFO - Progreso: 76300/93349 (81.7%) - Insertados: 76286, Actualizados: 14
+2026-05-21 19:07:18,419 - INFO - Progreso: 76400/93349 (81.8%) - Insertados: 76386, Actualizados: 14
+2026-05-21 19:07:41,781 - INFO - Progreso: 76500/93349 (82.0%) - Insertados: 76486, Actualizados: 14
+2026-05-21 19:08:04,927 - INFO - Progreso: 76600/93349 (82.1%) - Insertados: 76586, Actualizados: 14
+2026-05-21 19:08:27,896 - INFO - Progreso: 76700/93349 (82.2%) - Insertados: 76686, Actualizados: 14
+2026-05-21 19:08:51,011 - INFO - Progreso: 76800/93349 (82.3%) - Insertados: 76785, Actualizados: 15
+2026-05-21 19:09:14,139 - INFO - Progreso: 76900/93349 (82.4%) - Insertados: 76885, Actualizados: 15
+2026-05-21 19:09:15,282 - ERROR - Fila 76907 | CardCode: B19488267, Address: SERFELSA, AdresType: B | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIRAMA.dbo.IntegracionSAP_CRD1', column 'Street'. Truncated value: '500 METROS ADELANTE DEL PEAJE VIA FUNZA ,COSTADONORTE PARQUE INDUSTRIAL  DE OCCIDENTE\t\t25\tBOGOTA\t\t\t\t'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-05-21 19:09:15,283 - ERROR - Fila 76907 | CardCode: B19488267, Address: SERFELSA, AdresType: B | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIRAMA.dbo.IntegracionSAP_CRD1', column 'Street'. Truncated value: '500 METROS ADELANTE DEL PEAJE VIA FUNZA ,COSTADONORTE PARQUE INDUSTRIAL  DE OCCIDENTE\t\t25\tBOGOTA\t\t\t\t'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-05-21 19:09:15,283 - ERROR -   Valores: CardCode=B19488267, Address=SERFELSA, AdresType=B, Street=500 METROS ADELANTE DEL PEAJE VIA FUNZA ,COSTADONORTE PARQUE INDUSTRIAL  DE OCCIDENTE		25	BOGOTA				16/12/2024		_x000D_
+SERFELSA	B19488267	S				500 METROS ADELANTE DEL PEAJE VIA FUNZA ,COSTADONORTE PARQUE INDUSTRIAL  DE OCCIDENTE, City=BOGOTA
+2026-05-21 19:09:37,383 - INFO - Progreso: 77000/93349 (82.5%) - Insertados: 76985, Actualizados: 15
+2026-05-21 19:10:00,439 - INFO - Progreso: 77100/93349 (82.6%) - Insertados: 77085, Actualizados: 15
+2026-05-21 19:10:23,629 - INFO - Progreso: 77200/93349 (82.7%) - Insertados: 77185, Actualizados: 15
+2026-05-21 19:10:46,659 - INFO - Progreso: 77300/93349 (82.8%) - Insertados: 77285, Actualizados: 15
+2026-05-21 19:11:09,699 - INFO - Progreso: 77400/93349 (82.9%) - Insertados: 77385, Actualizados: 15
+2026-05-21 19:11:32,767 - INFO - Progreso: 77500/93349 (83.0%) - Insertados: 77485, Actualizados: 15
+2026-05-21 19:11:55,871 - INFO - Progreso: 77600/93349 (83.1%) - Insertados: 77584, Actualizados: 16
+2026-05-21 19:12:18,664 - INFO - Progreso: 77700/93349 (83.2%) - Insertados: 77684, Actualizados: 16
+2026-05-21 19:12:41,406 - INFO - Progreso: 77800/93349 (83.3%) - Insertados: 77783, Actualizados: 17
+2026-05-21 19:13:04,230 - INFO - Progreso: 77900/93349 (83.5%) - Insertados: 77883, Actualizados: 17
+2026-05-21 19:13:27,020 - INFO - Progreso: 78000/93349 (83.6%) - Insertados: 77982, Actualizados: 18
+2026-05-21 19:13:50,105 - INFO - Progreso: 78100/93349 (83.7%) - Insertados: 78082, Actualizados: 18
+2026-05-21 19:14:13,142 - INFO - Progreso: 78200/93349 (83.8%) - Insertados: 78182, Actualizados: 18
+2026-05-21 19:14:36,202 - INFO - Progreso: 78300/93349 (83.9%) - Insertados: 78282, Actualizados: 18
+2026-05-21 19:14:59,262 - INFO - Progreso: 78400/93349 (84.0%) - Insertados: 78382, Actualizados: 18
+2026-05-21 19:15:22,275 - INFO - Progreso: 78500/93349 (84.1%) - Insertados: 78482, Actualizados: 18
+2026-05-21 19:15:45,277 - INFO - Progreso: 78600/93349 (84.2%) - Insertados: 78581, Actualizados: 19
+2026-05-21 19:16:08,478 - INFO - Progreso: 78700/93349 (84.3%) - Insertados: 78679, Actualizados: 21
+2026-05-21 19:16:31,823 - INFO - Progreso: 78800/93349 (84.4%) - Insertados: 78779, Actualizados: 21
+2026-05-21 19:16:54,875 - INFO - Progreso: 78900/93349 (84.5%) - Insertados: 78879, Actualizados: 21
+2026-05-21 19:17:17,989 - INFO - Progreso: 79000/93349 (84.6%) - Insertados: 78978, Actualizados: 22
+2026-05-21 19:17:41,034 - INFO - Progreso: 79100/93349 (84.7%) - Insertados: 79078, Actualizados: 22
+2026-05-21 19:18:03,939 - INFO - Progreso: 79200/93349 (84.8%) - Insertados: 79178, Actualizados: 22
+2026-05-21 19:18:26,616 - INFO - Progreso: 79300/93349 (85.0%) - Insertados: 79278, Actualizados: 22
+2026-05-21 19:18:49,328 - INFO - Progreso: 79400/93349 (85.1%) - Insertados: 79378, Actualizados: 22
+2026-05-21 19:19:11,994 - INFO - Progreso: 79500/93349 (85.2%) - Insertados: 79478, Actualizados: 22
+2026-05-21 19:19:34,668 - INFO - Progreso: 79600/93349 (85.3%) - Insertados: 79578, Actualizados: 22
+2026-05-21 19:19:57,766 - INFO - Progreso: 79700/93349 (85.4%) - Insertados: 79678, Actualizados: 22
+2026-05-21 19:20:20,810 - INFO - Progreso: 79800/93349 (85.5%) - Insertados: 79778, Actualizados: 22
+2026-05-21 19:20:44,053 - INFO - Progreso: 79900/93349 (85.6%) - Insertados: 79876, Actualizados: 24
+2026-05-21 19:21:07,028 - INFO - Progreso: 80000/93349 (85.7%) - Insertados: 79976, Actualizados: 24
+2026-05-21 19:21:30,060 - INFO - Progreso: 80100/93349 (85.8%) - Insertados: 80076, Actualizados: 24
+2026-05-21 19:21:53,086 - INFO - Progreso: 80200/93349 (85.9%) - Insertados: 80176, Actualizados: 24
+2026-05-21 19:22:16,079 - INFO - Progreso: 80300/93349 (86.0%) - Insertados: 80276, Actualizados: 24
+2026-05-21 19:22:39,505 - INFO - Progreso: 80400/93349 (86.1%) - Insertados: 80375, Actualizados: 25
+2026-05-21 19:23:03,055 - INFO - Progreso: 80500/93349 (86.2%) - Insertados: 80474, Actualizados: 26
+2026-05-21 19:23:26,618 - INFO - Progreso: 80600/93349 (86.3%) - Insertados: 80573, Actualizados: 27
+2026-05-21 19:23:50,079 - INFO - Progreso: 80700/93349 (86.4%) - Insertados: 80673, Actualizados: 27
+2026-05-21 19:24:13,523 - INFO - Progreso: 80800/93349 (86.6%) - Insertados: 80773, Actualizados: 27
+2026-05-21 19:24:36,818 - INFO - Progreso: 80900/93349 (86.7%) - Insertados: 80873, Actualizados: 27
+2026-05-21 19:25:00,078 - INFO - Progreso: 81000/93349 (86.8%) - Insertados: 80972, Actualizados: 28
+2026-05-21 19:25:23,156 - INFO - Progreso: 81100/93349 (86.9%) - Insertados: 81072, Actualizados: 28
+2026-05-21 19:25:46,047 - INFO - Progreso: 81200/93349 (87.0%) - Insertados: 81172, Actualizados: 28
+2026-05-21 19:26:09,076 - INFO - Progreso: 81300/93349 (87.1%) - Insertados: 81272, Actualizados: 28
+2026-05-21 19:26:32,078 - INFO - Progreso: 81400/93349 (87.2%) - Insertados: 81372, Actualizados: 28
+2026-05-21 19:26:55,211 - INFO - Progreso: 81500/93349 (87.3%) - Insertados: 81472, Actualizados: 28
+2026-05-21 19:27:18,258 - INFO - Progreso: 81600/93349 (87.4%) - Insertados: 81572, Actualizados: 28
+2026-05-21 19:27:41,432 - INFO - Progreso: 81700/93349 (87.5%) - Insertados: 81672, Actualizados: 28
+2026-05-21 19:28:04,490 - INFO - Progreso: 81800/93349 (87.6%) - Insertados: 81772, Actualizados: 28
+2026-05-21 19:28:27,558 - INFO - Progreso: 81900/93349 (87.7%) - Insertados: 81872, Actualizados: 28
+2026-05-21 19:28:50,614 - INFO - Progreso: 82000/93349 (87.8%) - Insertados: 81972, Actualizados: 28
+2026-05-21 19:29:13,813 - INFO - Progreso: 82100/93349 (87.9%) - Insertados: 82071, Actualizados: 29
+2026-05-21 19:29:36,955 - INFO - Progreso: 82200/93349 (88.1%) - Insertados: 82171, Actualizados: 29
+2026-05-21 19:30:00,025 - INFO - Progreso: 82300/93349 (88.2%) - Insertados: 82271, Actualizados: 29
+2026-05-21 19:30:23,103 - INFO - Progreso: 82400/93349 (88.3%) - Insertados: 82371, Actualizados: 29
+2026-05-21 19:30:46,187 - INFO - Progreso: 82500/93349 (88.4%) - Insertados: 82470, Actualizados: 30
+2026-05-21 19:31:09,343 - INFO - Progreso: 82600/93349 (88.5%) - Insertados: 82569, Actualizados: 31
+2026-05-21 19:31:32,407 - INFO - Progreso: 82700/93349 (88.6%) - Insertados: 82669, Actualizados: 31
+2026-05-21 19:31:55,605 - INFO - Progreso: 82800/93349 (88.7%) - Insertados: 82768, Actualizados: 32
+2026-05-21 19:32:18,363 - INFO - Progreso: 82900/93349 (88.8%) - Insertados: 82868, Actualizados: 32
+2026-05-21 19:32:41,394 - INFO - Progreso: 83000/93349 (88.9%) - Insertados: 82968, Actualizados: 32
+2026-05-21 19:33:04,418 - INFO - Progreso: 83100/93349 (89.0%) - Insertados: 83068, Actualizados: 32
+2026-05-21 19:33:27,465 - INFO - Progreso: 83200/93349 (89.1%) - Insertados: 83168, Actualizados: 32
+2026-05-21 19:33:51,021 - INFO - Progreso: 83300/93349 (89.2%) - Insertados: 83267, Actualizados: 33
+2026-05-21 19:34:14,969 - INFO - Progreso: 83400/93349 (89.3%) - Insertados: 83367, Actualizados: 33
+2026-05-21 19:34:37,882 - INFO - Progreso: 83500/93349 (89.4%) - Insertados: 83467, Actualizados: 33
+2026-05-21 19:35:01,259 - INFO - Progreso: 83600/93349 (89.6%) - Insertados: 83565, Actualizados: 35
+2026-05-21 19:35:24,311 - INFO - Progreso: 83700/93349 (89.7%) - Insertados: 83665, Actualizados: 35
+2026-05-21 19:35:47,308 - INFO - Progreso: 83800/93349 (89.8%) - Insertados: 83765, Actualizados: 35
+2026-05-21 19:36:10,402 - INFO - Progreso: 83900/93349 (89.9%) - Insertados: 83865, Actualizados: 35
+2026-05-21 19:36:33,534 - INFO - Progreso: 84000/93349 (90.0%) - Insertados: 83965, Actualizados: 35
+2026-05-21 19:36:56,599 - INFO - Progreso: 84100/93349 (90.1%) - Insertados: 84065, Actualizados: 35
+2026-05-21 19:37:19,553 - INFO - Progreso: 84200/93349 (90.2%) - Insertados: 84165, Actualizados: 35
+2026-05-21 19:37:43,086 - INFO - Progreso: 84300/93349 (90.3%) - Insertados: 84265, Actualizados: 35
+2026-05-21 19:38:06,825 - INFO - Progreso: 84400/93349 (90.4%) - Insertados: 84364, Actualizados: 36
+2026-05-21 19:38:29,994 - INFO - Progreso: 84500/93349 (90.5%) - Insertados: 84464, Actualizados: 36
+2026-05-21 19:38:53,162 - INFO - Progreso: 84600/93349 (90.6%) - Insertados: 84564, Actualizados: 36
+2026-05-21 19:39:16,316 - INFO - Progreso: 84700/93349 (90.7%) - Insertados: 84664, Actualizados: 36
+2026-05-21 19:39:39,500 - INFO - Progreso: 84800/93349 (90.8%) - Insertados: 84764, Actualizados: 36
+2026-05-21 19:40:02,783 - INFO - Progreso: 84900/93349 (90.9%) - Insertados: 84863, Actualizados: 37
+2026-05-21 19:40:25,859 - INFO - Progreso: 85000/93349 (91.1%) - Insertados: 84963, Actualizados: 37
+2026-05-21 19:40:48,894 - INFO - Progreso: 85100/93349 (91.2%) - Insertados: 85063, Actualizados: 37
+2026-05-21 19:41:12,009 - INFO - Progreso: 85200/93349 (91.3%) - Insertados: 85163, Actualizados: 37
+2026-05-21 19:41:35,220 - INFO - Progreso: 85300/93349 (91.4%) - Insertados: 85263, Actualizados: 37
+2026-05-21 19:41:58,449 - INFO - Progreso: 85400/93349 (91.5%) - Insertados: 85363, Actualizados: 37
+2026-05-21 19:42:21,363 - INFO - Progreso: 85500/93349 (91.6%) - Insertados: 85463, Actualizados: 37
+2026-05-21 19:42:44,185 - INFO - Progreso: 85600/93349 (91.7%) - Insertados: 85563, Actualizados: 37
+2026-05-21 19:43:06,981 - INFO - Progreso: 85700/93349 (91.8%) - Insertados: 85663, Actualizados: 37
+2026-05-21 19:43:29,873 - INFO - Progreso: 85800/93349 (91.9%) - Insertados: 85763, Actualizados: 37
+2026-05-21 19:43:53,015 - INFO - Progreso: 85900/93349 (92.0%) - Insertados: 85863, Actualizados: 37
+2026-05-21 19:44:16,167 - INFO - Progreso: 86000/93349 (92.1%) - Insertados: 85963, Actualizados: 37
+2026-05-21 19:44:39,330 - INFO - Progreso: 86100/93349 (92.2%) - Insertados: 86063, Actualizados: 37
+2026-05-21 19:45:02,475 - INFO - Progreso: 86200/93349 (92.3%) - Insertados: 86163, Actualizados: 37
+2026-05-21 19:45:25,610 - INFO - Progreso: 86300/93349 (92.4%) - Insertados: 86263, Actualizados: 37
+2026-05-21 19:45:48,958 - INFO - Progreso: 86400/93349 (92.6%) - Insertados: 86362, Actualizados: 38
+2026-05-21 19:46:12,247 - INFO - Progreso: 86500/93349 (92.7%) - Insertados: 86462, Actualizados: 38
+2026-05-21 19:46:35,621 - INFO - Progreso: 86600/93349 (92.8%) - Insertados: 86561, Actualizados: 39
+2026-05-21 19:46:58,798 - INFO - Progreso: 86700/93349 (92.9%) - Insertados: 86661, Actualizados: 39
+2026-05-21 19:47:22,481 - INFO - Progreso: 86800/93349 (93.0%) - Insertados: 86761, Actualizados: 39
+2026-05-21 19:47:48,986 - INFO - Progreso: 86900/93349 (93.1%) - Insertados: 86860, Actualizados: 40
+2026-05-21 19:48:15,183 - INFO - Progreso: 87000/93349 (93.2%) - Insertados: 86960, Actualizados: 40
+2026-05-21 19:48:39,592 - INFO - Progreso: 87100/93349 (93.3%) - Insertados: 87060, Actualizados: 40
+2026-05-21 19:49:02,787 - INFO - Progreso: 87200/93349 (93.4%) - Insertados: 87160, Actualizados: 40
+2026-05-21 19:49:25,918 - INFO - Progreso: 87300/93349 (93.5%) - Insertados: 87260, Actualizados: 40
+2026-05-21 19:49:49,115 - INFO - Progreso: 87400/93349 (93.6%) - Insertados: 87360, Actualizados: 40
+2026-05-21 19:50:12,206 - INFO - Progreso: 87500/93349 (93.7%) - Insertados: 87460, Actualizados: 40
+2026-05-21 19:50:35,366 - INFO - Progreso: 87600/93349 (93.8%) - Insertados: 87560, Actualizados: 40
+2026-05-21 19:50:58,531 - INFO - Progreso: 87700/93349 (93.9%) - Insertados: 87660, Actualizados: 40
+2026-05-21 19:51:21,650 - INFO - Progreso: 87800/93349 (94.1%) - Insertados: 87760, Actualizados: 40
+2026-05-21 19:51:44,972 - INFO - Progreso: 87900/93349 (94.2%) - Insertados: 87860, Actualizados: 40
+2026-05-21 19:52:08,045 - INFO - Progreso: 88000/93349 (94.3%) - Insertados: 87960, Actualizados: 40
+2026-05-21 19:52:31,174 - INFO - Progreso: 88100/93349 (94.4%) - Insertados: 88060, Actualizados: 40
+2026-05-21 19:52:54,258 - INFO - Progreso: 88200/93349 (94.5%) - Insertados: 88160, Actualizados: 40
+2026-05-21 19:53:17,698 - INFO - Progreso: 88300/93349 (94.6%) - Insertados: 88260, Actualizados: 40
+2026-05-21 19:53:40,767 - INFO - Progreso: 88400/93349 (94.7%) - Insertados: 88360, Actualizados: 40
+2026-05-21 19:54:03,861 - INFO - Progreso: 88500/93349 (94.8%) - Insertados: 88460, Actualizados: 40
+2026-05-21 19:54:26,913 - INFO - Progreso: 88600/93349 (94.9%) - Insertados: 88560, Actualizados: 40
+2026-05-21 19:54:50,032 - INFO - Progreso: 88700/93349 (95.0%) - Insertados: 88660, Actualizados: 40
+2026-05-21 19:55:13,146 - INFO - Progreso: 88800/93349 (95.1%) - Insertados: 88760, Actualizados: 40
+2026-05-21 19:55:36,139 - INFO - Progreso: 88900/93349 (95.2%) - Insertados: 88860, Actualizados: 40
+2026-05-21 19:55:59,220 - INFO - Progreso: 89000/93349 (95.3%) - Insertados: 88960, Actualizados: 40
+2026-05-21 19:56:22,353 - INFO - Progreso: 89100/93349 (95.4%) - Insertados: 89060, Actualizados: 40
+2026-05-21 19:56:45,548 - INFO - Progreso: 89200/93349 (95.6%) - Insertados: 89160, Actualizados: 40
+2026-05-21 19:57:08,739 - INFO - Progreso: 89300/93349 (95.7%) - Insertados: 89260, Actualizados: 40
+2026-05-21 19:57:31,557 - INFO - Progreso: 89400/93349 (95.8%) - Insertados: 89360, Actualizados: 40
+2026-05-21 19:57:54,519 - INFO - Progreso: 89500/93349 (95.9%) - Insertados: 89460, Actualizados: 40
+2026-05-21 19:58:17,700 - INFO - Progreso: 89600/93349 (96.0%) - Insertados: 89560, Actualizados: 40
+2026-05-21 19:58:40,885 - INFO - Progreso: 89700/93349 (96.1%) - Insertados: 89660, Actualizados: 40
+2026-05-21 19:59:03,925 - INFO - Progreso: 89800/93349 (96.2%) - Insertados: 89760, Actualizados: 40
+2026-05-21 19:59:27,109 - INFO - Progreso: 89900/93349 (96.3%) - Insertados: 89859, Actualizados: 41
+2026-05-21 19:59:50,266 - INFO - Progreso: 90000/93349 (96.4%) - Insertados: 89959, Actualizados: 41
+2026-05-21 20:00:13,572 - INFO - Progreso: 90100/93349 (96.5%) - Insertados: 90059, Actualizados: 41
+2026-05-21 20:00:36,583 - INFO - Progreso: 90200/93349 (96.6%) - Insertados: 90159, Actualizados: 41
+2026-05-21 20:00:59,824 - INFO - Progreso: 90300/93349 (96.7%) - Insertados: 90258, Actualizados: 42
+2026-05-21 20:01:23,160 - INFO - Progreso: 90400/93349 (96.8%) - Insertados: 90357, Actualizados: 43
+2026-05-21 20:01:46,407 - INFO - Progreso: 90500/93349 (96.9%) - Insertados: 90457, Actualizados: 43
+2026-05-21 20:02:09,557 - INFO - Progreso: 90600/93349 (97.1%) - Insertados: 90557, Actualizados: 43
+2026-05-21 20:02:32,766 - INFO - Progreso: 90700/93349 (97.2%) - Insertados: 90656, Actualizados: 44
+2026-05-21 20:02:56,167 - INFO - Progreso: 90800/93349 (97.3%) - Insertados: 90756, Actualizados: 44
+2026-05-21 20:03:19,281 - INFO - Progreso: 90900/93349 (97.4%) - Insertados: 90856, Actualizados: 44
+2026-05-21 20:03:42,445 - INFO - Progreso: 91000/93349 (97.5%) - Insertados: 90956, Actualizados: 44
+2026-05-21 20:04:05,734 - INFO - Progreso: 91100/93349 (97.6%) - Insertados: 91056, Actualizados: 44
+2026-05-21 20:04:28,951 - INFO - Progreso: 91200/93349 (97.7%) - Insertados: 91156, Actualizados: 44
+2026-05-21 20:04:52,139 - INFO - Progreso: 91300/93349 (97.8%) - Insertados: 91256, Actualizados: 44
+2026-05-21 20:05:15,301 - INFO - Progreso: 91400/93349 (97.9%) - Insertados: 91356, Actualizados: 44
+2026-05-21 20:05:38,437 - INFO - Progreso: 91500/93349 (98.0%) - Insertados: 91456, Actualizados: 44
+2026-05-21 20:06:01,654 - INFO - Progreso: 91600/93349 (98.1%) - Insertados: 91556, Actualizados: 44
+2026-05-21 20:06:24,877 - INFO - Progreso: 91700/93349 (98.2%) - Insertados: 91655, Actualizados: 45
+2026-05-21 20:06:48,008 - INFO - Progreso: 91800/93349 (98.3%) - Insertados: 91755, Actualizados: 45
+2026-05-21 20:07:11,243 - INFO - Progreso: 91900/93349 (98.4%) - Insertados: 91855, Actualizados: 45
+2026-05-21 20:07:34,479 - INFO - Progreso: 92000/93349 (98.6%) - Insertados: 91955, Actualizados: 45
+2026-05-21 20:07:57,626 - INFO - Progreso: 92100/93349 (98.7%) - Insertados: 92055, Actualizados: 45
+2026-05-21 20:08:20,796 - INFO - Progreso: 92200/93349 (98.8%) - Insertados: 92155, Actualizados: 45
+2026-05-21 20:08:44,020 - INFO - Progreso: 92300/93349 (98.9%) - Insertados: 92255, Actualizados: 45
+2026-05-21 20:09:07,180 - INFO - Progreso: 92400/93349 (99.0%) - Insertados: 92355, Actualizados: 45
+2026-05-21 20:09:30,529 - INFO - Progreso: 92500/93349 (99.1%) - Insertados: 92454, Actualizados: 46
+2026-05-21 20:09:53,654 - INFO - Progreso: 92600/93349 (99.2%) - Insertados: 92554, Actualizados: 46
+2026-05-21 20:10:16,832 - INFO - Progreso: 92700/93349 (99.3%) - Insertados: 92654, Actualizados: 46
+2026-05-21 20:10:39,975 - INFO - Progreso: 92800/93349 (99.4%) - Insertados: 92754, Actualizados: 46
+2026-05-21 20:10:40,431 - ERROR - Fila 92805 | CardCode: B901836760, Address: serfelsa, AdresType: B | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIRAMA.dbo.IntegracionSAP_CRD1', column 'Street'. Truncated value: '500 METROS ADELANTE DEL PEAJE VIA FUNZA ,COSTADONORTE PARQUE INDUSTRIAL  DE OCCIDENTE\t\t25\tBOGOTA\t\t\t\t'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-05-21 20:10:40,432 - ERROR - Fila 92805 | CardCode: B901836760, Address: serfelsa, AdresType: B | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIRAMA.dbo.IntegracionSAP_CRD1', column 'Street'. Truncated value: '500 METROS ADELANTE DEL PEAJE VIA FUNZA ,COSTADONORTE PARQUE INDUSTRIAL  DE OCCIDENTE\t\t25\tBOGOTA\t\t\t\t'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-05-21 20:10:40,432 - ERROR -   Valores: CardCode=B901836760, Address=serfelsa, AdresType=B, Street=500 METROS ADELANTE DEL PEAJE VIA FUNZA ,COSTADONORTE PARQUE INDUSTRIAL  DE OCCIDENTE		25	BOGOTA				17/12/2024		_x000D_
+serfelsa	B901836760	S				500 METROS ADELANTE DEL PEAJE VIA FUNZA ,COSTADONORTE PARQUE INDUSTRIAL  DE OCCIDENTE, City=BOGOTA
+2026-05-21 20:11:03,457 - INFO - Progreso: 92900/93349 (99.5%) - Insertados: 92854, Actualizados: 46
+2026-05-21 20:11:26,635 - INFO - Progreso: 93000/93349 (99.6%) - Insertados: 92954, Actualizados: 46
+2026-05-21 20:11:49,867 - INFO - Progreso: 93100/93349 (99.7%) - Insertados: 93054, Actualizados: 46
+2026-05-21 20:12:12,995 - INFO - Progreso: 93200/93349 (99.8%) - Insertados: 93154, Actualizados: 46
+2026-05-21 20:12:36,138 - INFO - Progreso: 93300/93349 (99.9%) - Insertados: 93254, Actualizados: 46
+2026-05-21 20:12:46,902 - INFO - 
+================================================================================
+2026-05-21 20:12:46,903 - INFO - RESUMEN DE IMPORTACIÓN CRD1
+2026-05-21 20:12:46,904 - INFO - ================================================================================
+2026-05-21 20:12:46,904 - INFO - Archivo procesado:          CRD1.xlsx
+2026-05-21 20:12:46,904 - INFO - Total registros en Excel:   93349
+2026-05-21 20:12:46,904 - INFO - Nuevos insertados:          93300
+2026-05-21 20:12:46,904 - INFO - Actualizados:               46
+2026-05-21 20:12:46,904 - INFO - Errores:                    3
+2026-05-21 20:12:46,904 - INFO - Procesados exitosamente:    93346
+2026-05-21 20:12:46,906 - INFO - Tasa de éxito:              100.00%
+2026-05-21 20:12:46,906 - INFO - Tiempo total:               21623.35 segundos
+2026-05-21 20:12:46,906 - INFO - Velocidad:                  4.32 registros/segundo
+2026-05-21 20:12:46,906 - INFO - 
+Archivos de log generados:
+2026-05-21 20:12:46,906 - INFO -   - Log general:    importacion_CRD1_20260521_141223.log
+2026-05-21 20:12:46,906 - INFO -   - Log de errores: errores_CRD1_20260521_141223.log
+2026-05-21 20:12:46,906 - INFO - ================================================================================
+2026-05-21 20:12:46,907 - WARNING - 
+⚠️  Se encontraron 3 errores
+2026-05-21 20:12:46,907 - WARNING - Revisa errores_CRD1_20260521_141223.log para detalles completos
+2026-05-21 20:12:46,907 - WARNING - 
+Primeros errores:
+2026-05-21 20:12:46,908 - WARNING -   1. Fila 73585 | CardCode: B891300529, Address: MARGARITAS, AdresType: S | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIRAMA.dbo.IntegracionSAP_CRD1', column 'Street'. Truncated value: 'CL  8   17    80 BG 1 Parque Empresarial Margaritas de Montana, Mosquera,\t\t\tMOSQUERA\t\t\t\t10/08/2021\t\t'. (2628) (SQLParamData); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-05-21 20:12:46,910 - WARNING -   2. Fila 76907 | CardCode: B19488267, Address: SERFELSA, AdresType: B | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIRAMA.dbo.IntegracionSAP_CRD1', column 'Street'. Truncated value: '500 METROS ADELANTE DEL PEAJE VIA FUNZA ,COSTADONORTE PARQUE INDUSTRIAL  DE OCCIDENTE\t\t25\tBOGOTA\t\t\t\t'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-05-21 20:12:46,910 - WARNING -   3. Fila 92805 | CardCode: B901836760, Address: serfelsa, AdresType: B | Error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'QUIRAMA.dbo.IntegracionSAP_CRD1', column 'Street'. Truncated value: '500 METROS ADELANTE DEL PEAJE VIA FUNZA ,COSTADONORTE PARQUE INDUSTRIAL  DE OCCIDENTE\t\t25\tBOGOTA\t\t\t\t'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-05-21 20:12:47,044 - INFO - ✓ Conexión cerrada
