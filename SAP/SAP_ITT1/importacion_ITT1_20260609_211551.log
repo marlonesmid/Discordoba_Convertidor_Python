@@ -1,0 +1,149 @@
+2026-06-09 21:15:51,019 - INFO - ================================================================================
+2026-06-09 21:15:51,020 - INFO - INICIANDO IMPORTACION  -->  IntegracionSAP_ITT1
+2026-06-09 21:15:51,020 - INFO - ================================================================================
+2026-06-09 21:15:51,021 - INFO - Buscando Excel en: C:\GitHub\Discordoba\Discordoba_Convertidor_Python\SAP\SAP_ITT1
+2026-06-09 21:15:51,021 - INFO - Archivo encontrado: ITT1.xlsx
+2026-06-09 21:15:51,022 - INFO - Leyendo: C:\GitHub\Discordoba\Discordoba_Convertidor_Python\SAP\SAP_ITT1\ITT1.xlsx
+2026-06-09 21:15:53,024 - INFO - Registros leidos  : 6127
+2026-06-09 21:15:53,024 - INFO - Columnas en Excel : Orden de Producción (Padre), Número de Componente, Orden Visual, Código Artículo, Cantidad, Almacén, Precio, Moneda, Lista de Precios, Precio Original, Moneda Original, Método de Emisión, Unidad de Medida, Comentario, Instancia Log, Tipo Objeto, Centro Costo 1, Centro Costo 2, Centro Costo 3, Centro Costo 4, Centro Costo 5, Insumo Principal, Proyecto, Tipo, Código WIP, Cantidad Adicional, Texto Línea, ID Etapa, Nro Doc Base (UDF), Tipo Obj Base (UDF)
+2026-06-09 21:15:53,026 - INFO - Columnas mapeadas: 30/30
+2026-06-09 21:15:53,027 - INFO - Conectando a SQL Server...
+2026-06-09 21:15:53,899 - INFO - Conexion establecida
+2026-06-09 21:15:53,982 - INFO - SQL UPDATE: UPDATE [IntegracionSAP_ITT1] SET [ChildNum] = ?, [VisOrder] = ?, [Quantity] = ?, [Warehouse] = ?, [Price] = ?, [Currency] = ?, [PriceList] = ?, [OrigPrice] = ?, [OrigCurr] = ?, [IssueMthd] = ?, [Uom] = ?, [Comment] = ?, [LogInstanc] = ?, [Object] = ?, [OcrCode] = ?, [OcrCode2] = ?, [OcrCode3] = ?, [OcrCode4] = ?, [OcrCode5] = ?, [PrncpInput] = ?, [Project] = ?, [Type] = ?, [WipActCode] = ?, [AddQuantit] = ?, [LineText] = ?, [StageId] = ?, [U_DocNumBase] = ?, [U_ObjType] = ? WHERE [Father] = ? AND [Code] = ?
+2026-06-09 21:15:53,982 - INFO - SQL INSERT: INSERT INTO [IntegracionSAP_ITT1] ([Father], [ChildNum], [VisOrder], [Code], [Quantity], [Warehouse], [Price], [Currency], [PriceList], [OrigPrice], [OrigCurr], [IssueMthd], [Uom], [Comment], [LogInstanc], [Object], [OcrCode], [OcrCode2], [OcrCode3], [OcrCode4], [OcrCode5], [PrncpInput], [Project], [Type], [WipActCode], [AddQuantit], [LineText], [StageId], [U_DocNumBase], [U_ObjType]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-06-09 21:15:53,983 - INFO - Procesando 6127 filas (commit cada 50)...
+2026-06-09 21:16:04,071 - INFO - Progreso: 50/6127 (0.8%) | INS: 0 | UPD: 50
+2026-06-09 21:16:14,151 - INFO - Progreso: 100/6127 (1.6%) | INS: 0 | UPD: 100
+2026-06-09 21:16:24,194 - INFO - Progreso: 150/6127 (2.4%) | INS: 0 | UPD: 150
+2026-06-09 21:16:34,188 - INFO - Progreso: 200/6127 (3.3%) | INS: 0 | UPD: 200
+2026-06-09 21:16:44,171 - INFO - Progreso: 250/6127 (4.1%) | INS: 0 | UPD: 250
+2026-06-09 21:16:54,335 - INFO - Progreso: 300/6127 (4.9%) | INS: 0 | UPD: 300
+2026-06-09 21:17:04,446 - INFO - Progreso: 350/6127 (5.7%) | INS: 0 | UPD: 350
+2026-06-09 21:17:14,469 - INFO - Progreso: 400/6127 (6.5%) | INS: 0 | UPD: 400
+2026-06-09 21:17:24,462 - INFO - Progreso: 450/6127 (7.3%) | INS: 50 | UPD: 400
+2026-06-09 21:17:34,496 - INFO - Progreso: 500/6127 (8.2%) | INS: 100 | UPD: 400
+2026-06-09 21:17:44,497 - INFO - Progreso: 550/6127 (9.0%) | INS: 150 | UPD: 400
+2026-06-09 21:17:54,443 - INFO - Progreso: 600/6127 (9.8%) | INS: 200 | UPD: 400
+2026-06-09 21:18:04,447 - INFO - Progreso: 650/6127 (10.6%) | INS: 250 | UPD: 400
+2026-06-09 21:18:14,464 - INFO - Progreso: 700/6127 (11.4%) | INS: 279 | UPD: 421
+2026-06-09 21:18:24,477 - INFO - Progreso: 750/6127 (12.2%) | INS: 329 | UPD: 421
+2026-06-09 21:18:34,451 - INFO - Progreso: 800/6127 (13.1%) | INS: 379 | UPD: 421
+2026-06-09 21:18:44,429 - INFO - Progreso: 850/6127 (13.9%) | INS: 429 | UPD: 421
+2026-06-09 21:18:54,396 - INFO - Progreso: 900/6127 (14.7%) | INS: 479 | UPD: 421
+2026-06-09 21:19:04,393 - INFO - Progreso: 950/6127 (15.5%) | INS: 529 | UPD: 421
+2026-06-09 21:19:14,390 - INFO - Progreso: 1000/6127 (16.3%) | INS: 579 | UPD: 421
+2026-06-09 21:19:24,391 - INFO - Progreso: 1050/6127 (17.1%) | INS: 629 | UPD: 421
+2026-06-09 21:19:34,375 - INFO - Progreso: 1100/6127 (18.0%) | INS: 679 | UPD: 421
+2026-06-09 21:19:44,357 - INFO - Progreso: 1150/6127 (18.8%) | INS: 729 | UPD: 421
+2026-06-09 21:19:54,317 - INFO - Progreso: 1200/6127 (19.6%) | INS: 767 | UPD: 433
+2026-06-09 21:20:04,311 - INFO - Progreso: 1250/6127 (20.4%) | INS: 805 | UPD: 445
+2026-06-09 21:20:14,245 - INFO - Progreso: 1300/6127 (21.2%) | INS: 855 | UPD: 445
+2026-06-09 21:20:24,175 - INFO - Progreso: 1350/6127 (22.0%) | INS: 905 | UPD: 445
+2026-06-09 21:20:34,140 - INFO - Progreso: 1400/6127 (22.8%) | INS: 955 | UPD: 445
+2026-06-09 21:20:44,115 - INFO - Progreso: 1450/6127 (23.7%) | INS: 1005 | UPD: 445
+2026-06-09 21:20:54,123 - INFO - Progreso: 1500/6127 (24.5%) | INS: 1055 | UPD: 445
+2026-06-09 21:21:04,071 - INFO - Progreso: 1550/6127 (25.3%) | INS: 1105 | UPD: 445
+2026-06-09 21:21:14,028 - INFO - Progreso: 1600/6127 (26.1%) | INS: 1155 | UPD: 445
+2026-06-09 21:21:23,998 - INFO - Progreso: 1650/6127 (26.9%) | INS: 1191 | UPD: 459
+2026-06-09 21:21:33,984 - INFO - Progreso: 1700/6127 (27.7%) | INS: 1241 | UPD: 459
+2026-06-09 21:21:43,973 - INFO - Progreso: 1750/6127 (28.6%) | INS: 1291 | UPD: 459
+2026-06-09 21:21:53,953 - INFO - Progreso: 1800/6127 (29.4%) | INS: 1341 | UPD: 459
+2026-06-09 21:22:03,932 - INFO - Progreso: 1850/6127 (30.2%) | INS: 1391 | UPD: 459
+2026-06-09 21:22:13,937 - INFO - Progreso: 1900/6127 (31.0%) | INS: 1441 | UPD: 459
+2026-06-09 21:22:23,918 - INFO - Progreso: 1950/6127 (31.8%) | INS: 1491 | UPD: 459
+2026-06-09 21:22:33,958 - INFO - Progreso: 2000/6127 (32.6%) | INS: 1541 | UPD: 459
+2026-06-09 21:22:43,926 - INFO - Progreso: 2050/6127 (33.5%) | INS: 1591 | UPD: 459
+2026-06-09 21:22:53,973 - INFO - Progreso: 2100/6127 (34.3%) | INS: 1641 | UPD: 459
+2026-06-09 21:23:03,935 - INFO - Progreso: 2150/6127 (35.1%) | INS: 1691 | UPD: 459
+2026-06-09 21:23:13,914 - INFO - Progreso: 2200/6127 (35.9%) | INS: 1741 | UPD: 459
+2026-06-09 21:23:23,948 - INFO - Progreso: 2250/6127 (36.7%) | INS: 1767 | UPD: 483
+2026-06-09 21:23:33,997 - INFO - Progreso: 2300/6127 (37.5%) | INS: 1803 | UPD: 497
+2026-06-09 21:23:44,006 - INFO - Progreso: 2350/6127 (38.4%) | INS: 1853 | UPD: 497
+2026-06-09 21:23:54,016 - INFO - Progreso: 2400/6127 (39.2%) | INS: 1903 | UPD: 497
+2026-06-09 21:24:04,105 - INFO - Progreso: 2450/6127 (40.0%) | INS: 1951 | UPD: 499
+2026-06-09 21:24:14,193 - INFO - Progreso: 2500/6127 (40.8%) | INS: 2001 | UPD: 499
+2026-06-09 21:24:24,308 - INFO - Progreso: 2550/6127 (41.6%) | INS: 2021 | UPD: 529
+2026-06-09 21:24:34,349 - INFO - Progreso: 2600/6127 (42.4%) | INS: 2071 | UPD: 529
+2026-06-09 21:24:44,406 - INFO - Progreso: 2650/6127 (43.3%) | INS: 2121 | UPD: 529
+2026-06-09 21:24:54,396 - INFO - Progreso: 2700/6127 (44.1%) | INS: 2171 | UPD: 529
+2026-06-09 21:25:04,373 - INFO - Progreso: 2750/6127 (44.9%) | INS: 2221 | UPD: 529
+2026-06-09 21:25:14,371 - INFO - Progreso: 2800/6127 (45.7%) | INS: 2271 | UPD: 529
+2026-06-09 21:25:24,351 - INFO - Progreso: 2850/6127 (46.5%) | INS: 2321 | UPD: 529
+2026-06-09 21:25:34,309 - INFO - Progreso: 2900/6127 (47.3%) | INS: 2371 | UPD: 529
+2026-06-09 21:25:44,260 - INFO - Progreso: 2950/6127 (48.1%) | INS: 2419 | UPD: 531
+2026-06-09 21:25:54,228 - INFO - Progreso: 3000/6127 (49.0%) | INS: 2460 | UPD: 540
+2026-06-09 21:26:04,194 - INFO - Progreso: 3050/6127 (49.8%) | INS: 2504 | UPD: 546
+2026-06-09 21:26:14,238 - INFO - Progreso: 3100/6127 (50.6%) | INS: 2504 | UPD: 596
+2026-06-09 21:26:24,285 - INFO - Progreso: 3150/6127 (51.4%) | INS: 2504 | UPD: 646
+2026-06-09 21:26:34,330 - INFO - Progreso: 3200/6127 (52.2%) | INS: 2504 | UPD: 696
+2026-06-09 21:26:44,433 - INFO - Progreso: 3250/6127 (53.0%) | INS: 2504 | UPD: 746
+2026-06-09 21:26:54,593 - INFO - Progreso: 3300/6127 (53.9%) | INS: 2504 | UPD: 796
+2026-06-09 21:27:04,663 - INFO - Progreso: 3350/6127 (54.7%) | INS: 2504 | UPD: 846
+2026-06-09 21:27:14,696 - INFO - Progreso: 3400/6127 (55.5%) | INS: 2504 | UPD: 896
+2026-06-09 21:27:24,750 - INFO - Progreso: 3450/6127 (56.3%) | INS: 2505 | UPD: 945
+2026-06-09 21:27:34,797 - INFO - Progreso: 3500/6127 (57.1%) | INS: 2505 | UPD: 995
+2026-06-09 21:27:44,864 - INFO - Progreso: 3550/6127 (57.9%) | INS: 2505 | UPD: 1045
+2026-06-09 21:27:54,902 - INFO - Progreso: 3600/6127 (58.8%) | INS: 2506 | UPD: 1094
+2026-06-09 21:28:04,920 - INFO - Progreso: 3650/6127 (59.6%) | INS: 2506 | UPD: 1144
+2026-06-09 21:28:14,969 - INFO - Progreso: 3700/6127 (60.4%) | INS: 2506 | UPD: 1194
+2026-06-09 21:28:24,991 - INFO - Progreso: 3750/6127 (61.2%) | INS: 2513 | UPD: 1237
+2026-06-09 21:28:34,973 - INFO - Progreso: 3800/6127 (62.0%) | INS: 2541 | UPD: 1259
+2026-06-09 21:28:45,019 - INFO - Progreso: 3850/6127 (62.8%) | INS: 2542 | UPD: 1308
+2026-06-09 21:28:55,062 - INFO - Progreso: 3900/6127 (63.7%) | INS: 2548 | UPD: 1352
+2026-06-09 21:29:05,113 - INFO - Progreso: 3950/6127 (64.5%) | INS: 2555 | UPD: 1395
+2026-06-09 21:29:15,103 - INFO - Progreso: 4000/6127 (65.3%) | INS: 2603 | UPD: 1397
+2026-06-09 21:29:25,084 - INFO - Progreso: 4050/6127 (66.1%) | INS: 2653 | UPD: 1397
+2026-06-09 21:29:35,031 - INFO - Progreso: 4100/6127 (66.9%) | INS: 2703 | UPD: 1397
+2026-06-09 21:29:44,986 - INFO - Progreso: 4150/6127 (67.7%) | INS: 2753 | UPD: 1397
+2026-06-09 21:29:54,960 - INFO - Progreso: 4200/6127 (68.5%) | INS: 2803 | UPD: 1397
+2026-06-09 21:30:04,953 - INFO - Progreso: 4250/6127 (69.4%) | INS: 2853 | UPD: 1397
+2026-06-09 21:30:14,945 - INFO - Progreso: 4300/6127 (70.2%) | INS: 2903 | UPD: 1397
+2026-06-09 21:30:24,953 - INFO - Progreso: 4350/6127 (71.0%) | INS: 2951 | UPD: 1399
+2026-06-09 21:30:34,985 - INFO - Progreso: 4400/6127 (71.8%) | INS: 3001 | UPD: 1399
+2026-06-09 21:30:44,991 - INFO - Progreso: 4450/6127 (72.6%) | INS: 3050 | UPD: 1400
+2026-06-09 21:30:54,954 - INFO - Progreso: 4500/6127 (73.4%) | INS: 3100 | UPD: 1400
+2026-06-09 21:31:05,206 - INFO - Progreso: 4550/6127 (74.3%) | INS: 3150 | UPD: 1400
+2026-06-09 21:31:15,179 - INFO - Progreso: 4600/6127 (75.1%) | INS: 3200 | UPD: 1400
+2026-06-09 21:31:25,124 - INFO - Progreso: 4650/6127 (75.9%) | INS: 3250 | UPD: 1400
+2026-06-09 21:31:35,088 - INFO - Progreso: 4700/6127 (76.7%) | INS: 3300 | UPD: 1400
+2026-06-09 21:31:45,054 - INFO - Progreso: 4750/6127 (77.5%) | INS: 3350 | UPD: 1400
+2026-06-09 21:31:55,021 - INFO - Progreso: 4800/6127 (78.3%) | INS: 3400 | UPD: 1400
+2026-06-09 21:32:05,006 - INFO - Progreso: 4850/6127 (79.2%) | INS: 3450 | UPD: 1400
+2026-06-09 21:32:14,969 - INFO - Progreso: 4900/6127 (80.0%) | INS: 3500 | UPD: 1400
+2026-06-09 21:32:24,961 - INFO - Progreso: 4950/6127 (80.8%) | INS: 3550 | UPD: 1400
+2026-06-09 21:32:34,990 - INFO - Progreso: 5000/6127 (81.6%) | INS: 3600 | UPD: 1400
+2026-06-09 21:32:44,952 - INFO - Progreso: 5050/6127 (82.4%) | INS: 3650 | UPD: 1400
+2026-06-09 21:32:55,008 - INFO - Progreso: 5100/6127 (83.2%) | INS: 3700 | UPD: 1400
+2026-06-09 21:33:05,152 - INFO - Progreso: 5150/6127 (84.1%) | INS: 3750 | UPD: 1400
+2026-06-09 21:33:15,191 - INFO - Progreso: 5200/6127 (84.9%) | INS: 3800 | UPD: 1400
+2026-06-09 21:33:25,178 - INFO - Progreso: 5250/6127 (85.7%) | INS: 3850 | UPD: 1400
+2026-06-09 21:33:35,157 - INFO - Progreso: 5300/6127 (86.5%) | INS: 3900 | UPD: 1400
+2026-06-09 21:33:45,158 - INFO - Progreso: 5350/6127 (87.3%) | INS: 3950 | UPD: 1400
+2026-06-09 21:33:55,173 - INFO - Progreso: 5400/6127 (88.1%) | INS: 4000 | UPD: 1400
+2026-06-09 21:34:05,164 - INFO - Progreso: 5450/6127 (89.0%) | INS: 4050 | UPD: 1400
+2026-06-09 21:34:15,157 - INFO - Progreso: 5500/6127 (89.8%) | INS: 4100 | UPD: 1400
+2026-06-09 21:34:25,135 - INFO - Progreso: 5550/6127 (90.6%) | INS: 4150 | UPD: 1400
+2026-06-09 21:34:35,106 - INFO - Progreso: 5600/6127 (91.4%) | INS: 4200 | UPD: 1400
+2026-06-09 21:34:45,104 - INFO - Progreso: 5650/6127 (92.2%) | INS: 4250 | UPD: 1400
+2026-06-09 21:34:55,137 - INFO - Progreso: 5700/6127 (93.0%) | INS: 4300 | UPD: 1400
+2026-06-09 21:35:05,673 - INFO - Progreso: 5750/6127 (93.8%) | INS: 4350 | UPD: 1400
+2026-06-09 21:35:15,715 - INFO - Progreso: 5800/6127 (94.7%) | INS: 4400 | UPD: 1400
+2026-06-09 21:35:25,838 - INFO - Progreso: 5850/6127 (95.5%) | INS: 4450 | UPD: 1400
+2026-06-09 21:35:35,811 - INFO - Progreso: 5900/6127 (96.3%) | INS: 4500 | UPD: 1400
+2026-06-09 21:35:46,310 - INFO - Progreso: 5950/6127 (97.1%) | INS: 4550 | UPD: 1400
+2026-06-09 21:35:56,479 - INFO - Progreso: 6000/6127 (97.9%) | INS: 4600 | UPD: 1400
+2026-06-09 21:36:06,710 - INFO - Progreso: 6050/6127 (98.7%) | INS: 4650 | UPD: 1400
+2026-06-09 21:36:16,956 - INFO - Progreso: 6100/6127 (99.6%) | INS: 4700 | UPD: 1400
+2026-06-09 21:36:22,719 - INFO - 
+================================================================================
+2026-06-09 21:36:22,720 - INFO - RESUMEN
+2026-06-09 21:36:22,720 - INFO - ================================================================================
+2026-06-09 21:36:22,720 - INFO - Total en Excel : 6127
+2026-06-09 21:36:22,721 - INFO - Insertados     : 4727
+2026-06-09 21:36:22,721 - INFO - Actualizados   : 1400
+2026-06-09 21:36:22,721 - INFO - Errores        : 0
+2026-06-09 21:36:22,721 - INFO - Exito          : 100.00%
+2026-06-09 21:36:22,721 - INFO - Duracion       : 1231.70 s  (5.0 reg/s)
+2026-06-09 21:36:22,721 - INFO - Log errores    : errores_ITT1_20260609_211551.log
+2026-06-09 21:36:22,722 - INFO - ================================================================================
+2026-06-09 21:36:22,722 - INFO - Sin errores
